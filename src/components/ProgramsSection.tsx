@@ -5,38 +5,48 @@ import { ArrowRight } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
 
 const ProgramsSection = () => {
-  const { t } = useLanguage();
+  const { t, language } = useLanguage();
   
   const programs = [
     {
       title: t('program.food'),
-      description: 'Sustainable agriculture initiatives to ensure lasting food security for vulnerable communities.',
+      description: language === 'en' 
+        ? 'Sustainable agriculture initiatives to ensure lasting food security for vulnerable communities.' 
+        : 'ዘላቒ ናይ ሕርሻ ተበግሶታት ንተጋለጽቲ ማሕበረሰባት ዘላቒ ውሕስነት ምግቢ ንምርግጋጽ።',
       image: 'https://images.unsplash.com/photo-1464454709131-ffd692591ee5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=876&q=80',
-      link: '/programs/food-security'
+      link: '/programs#food-security'
     },
     {
       title: t('program.water'),
-      description: 'Providing access to clean water through well construction and water purification systems.',
+      description: language === 'en'
+        ? 'Providing access to clean water through well construction and water purification systems.'
+        : 'ብምህናጽ ዒላታትን ሲስተማት ምጽራይ ማይን ንጽሩይ ማይ መእተዊ ምቕራብ።',
       image: 'https://images.unsplash.com/photo-1581314484893-364020df9d49?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=876&q=80',
-      link: '/programs/clean-water'
+      link: '/programs#clean-water'
     },
     {
       title: t('program.education'),
-      description: 'Building schools, training teachers, and providing educational materials for children.',
+      description: language === 'en'
+        ? 'Building schools, training teachers, and providing educational materials for children.'
+        : 'ቤት ትምህርቲ ምህናጽ፣ መምህራን ምስልጣን፣ ከምኡውን ንህጻናት ናይ ትምህርቲ ንዋት ምቕራብ።',
       image: 'https://images.unsplash.com/photo-1520052205864-92d242b3a76b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80',
-      link: '/programs/education'
+      link: '/programs#education'
     },
     {
       title: t('program.healthcare'),
-      description: 'Establishing healthcare clinics and training local healthcare professionals.',
+      description: language === 'en'
+        ? 'Establishing healthcare clinics and training local healthcare professionals.'
+        : 'ናይ ሕክምና ክሊኒካታት ምትካልን ናይ ከባቢ ሰራሕተኛታት ሕክምና ምስልጣንን።',
       image: 'https://images.unsplash.com/photo-1576091160550-2173dba999ef?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80',
-      link: '/programs/healthcare'
+      link: '/programs#healthcare'
     },
     {
       title: t('program.economic'),
-      description: 'Microfinance loans and business training to foster economic independence.',
+      description: language === 'en'
+        ? 'Microfinance loans and business training to foster economic independence.'
+        : 'ምክዓብ ቁጠባዊ ናጽነት ንምድጋፍ ላዑላዊ ልቓሕን ናይ ንግዲ ስልጠናን።',
       image: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80',
-      link: '/programs/economic-empowerment'
+      link: '/programs#economic-empowerment'
     }
   ];
 
@@ -50,7 +60,7 @@ const ProgramsSection = () => {
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {programs.map((program, index) => (
-            <Link to={program.link} key={index} className="program-card group">
+            <Link to={program.link} key={index} className="program-card group bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow">
               <div className="aspect-w-16 aspect-h-9 w-full">
                 <img 
                   src={program.image} 
@@ -62,7 +72,7 @@ const ProgramsSection = () => {
                 <h3 className="text-xl font-semibold text-tigray-dark mb-2">{program.title}</h3>
                 <p className="text-tigray-dark/70 mb-4">{program.description}</p>
                 <div className="flex items-center text-tigray-terracotta font-medium group-hover:translate-x-1 transition-transform">
-                  Learn More <ArrowRight className="ml-2 h-4 w-4" />
+                  {language === 'en' ? 'Learn More' : 'ዝያዳ ኣንብብ'} <ArrowRight className="ml-2 h-4 w-4" />
                 </div>
               </div>
             </Link>

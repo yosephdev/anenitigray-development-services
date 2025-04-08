@@ -72,7 +72,7 @@ const Impact = () => {
               </h2>
               <p className="text-tigray-dark/80 max-w-2xl mx-auto">
                 {language === 'en' 
-                  ? 'Measuring our progress and commitment to Tigray's sustainable development' 
+                  ? 'Measuring our progress and commitment to Tigray\'s sustainable development' 
                   : 'ንቀጻሊ ምዕባለ ትግራይ ዘለና መለክዒ ዕቤትን ቃልን'}
               </p>
             </div>
