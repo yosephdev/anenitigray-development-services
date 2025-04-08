@@ -4,7 +4,7 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import ProgramsSection from '../components/ProgramsSection';
 import { useLanguage } from '../contexts/LanguageContext';
-import { Helmet } from 'react-helmet';
+import { Helmet } from 'react-helmet-async';
 
 const Programs = () => {
   const { t, language } = useLanguage();

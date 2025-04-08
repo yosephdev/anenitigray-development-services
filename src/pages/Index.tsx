@@ -8,7 +8,7 @@ import StoriesSection from '../components/StoriesSection';
 import DonationSection from '../components/DonationSection';
 import Footer from '../components/Footer';
 import { useLanguage } from '../contexts/LanguageContext';
-import { Helmet } from 'react-helmet';
+import { Helmet } from 'react-helmet-async';
 
 const Index = () => {
   const { language } = useLanguage();
