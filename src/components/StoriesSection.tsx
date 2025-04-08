@@ -21,7 +21,8 @@ const StoriesSection = () => {
       image: 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80',
       quote: language === 'en' ? 
         '"The microfinance loan helped me start my small business. Now I can provide for my family and send my children to school."' : 
-        '"እቲ ምክዕባል ልቓሕ ንናይ ንኡስ ንግዲ ንኽጅምር ሓጊዙኒ። ሕጂ ንስድራይ ክኣሊ ከምኡ\\'ውን ደቀይ ናብ ቤት ትምህርቲ ክሰዶም ይኽእል።"',
+        // Changed to use double quotes for outer string to avoid escaping issues with the Tigrinya text
+        "\"እቲ ምክዕባል ልቓሕ ንናይ ንኡስ ንግዲ ንኽጅምር ሓጊዙኒ። ሕጂ ንስድራይ ክኣሊ ከምኡ'ውን ደቀይ ናብ ቤት ትምህርቲ ክሰዶም ይኽእል።\"",
       program: language === 'en' ? 'Economic Empowerment' : 'ቁጠባዊ ምብርታዕ'
     },
     {
