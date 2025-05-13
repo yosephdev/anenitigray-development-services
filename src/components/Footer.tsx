@@ -113,10 +113,10 @@ const Footer = () => {
             &copy; {currentYear} ADS - Anenitigray Development Services. {t('footer.rights')}
           </p>
           <div className="flex space-x-6">
-            <Link to="/privacy" className="text-white/60 text-sm hover:text-white transition-colors">
+            <Link to="/privacy-policy" className="text-white/60 text-sm hover:text-white transition-colors">
               {t('footer.privacy')}
             </Link>
-            <Link to="/terms" className="text-white/60 text-sm hover:text-white transition-colors">
+            <Link to="/terms-and-conditions" className="text-white/60 text-sm hover:text-white transition-colors">
               {t('footer.terms')}
             </Link>
           </div>

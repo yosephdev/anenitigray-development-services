@@ -10,9 +10,9 @@ export const translations: Record<Language, Record<string, string>> = {
     'news': 'News & Updates',
     'contact': 'Contact',
     'donate': 'Donate Now',
-    'footer.rights': 'All Rights Reserved',
+    'footer.rights': 'All Rights Reserved.',
     'footer.privacy': 'Privacy Policy',
-    'footer.terms': 'Terms of Service',
+    'footer.terms': 'Terms and Conditions',
 
     // Hero Section (Homepage)
     'hero.title': 'Building Sustainable Futures in Tigray',
@@ -113,9 +113,9 @@ export const translations: Record<Language, Record<string, string>> = {
     'news': 'ዜናን ሓበሬታን',
     'contact': 'ርክብ',
     'donate': 'ሕጂ ወፍዩ',
-    'footer.rights': ' 2024 ኣነኒትግራይ ልምዓት ኣገልግሎታት። ኩሉ መሰል ዝተሓለወ እዩ',
     'footer.privacy': 'ፖሊሲ ብሕታዊነት',
-    'footer.terms': 'ውዕሊ ኣገልግሎት',
+    'footer.terms': 'ውዕላት ኣገልግሎት',
+    'footer.rights': 'ኩሉ መሰል ዝተሓለወ እዩ።',
 
     // Hero Section (Homepage)
     'hero.title': 'ዘላቒ መጻኢ ኣብ ትግራይ ምህናጽ',
