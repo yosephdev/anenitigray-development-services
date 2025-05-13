@@ -44,11 +44,11 @@ const Footer = () => {
             <ul className="space-y-4">
               <li className="flex items-start">
                 <MapPin className="h-5 w-5 mr-3 text-tigray-terracotta flex-shrink-0" />
-                <span className="text-white/80">Mekelle, Tigray, Ethiopia</span>
+                <span className="text-white/80">Hadnet Sub city, Mekelle, Tigray, Ethiopia</span>
               </li>
               <li className="flex items-center">
                 <Phone className="h-5 w-5 mr-3 text-tigray-terracotta flex-shrink-0" />
-                <span className="text-white/80">+251 93 702 2100</span>
+                <span className="text-white/80">+251 93 702 2100 / +251-931329055</span>
               </li>
               <li className="flex items-center">
                 <Mail className="h-5 w-5 mr-3 text-tigray-terracotta flex-shrink-0" />

@@ -15,7 +15,7 @@ const Contact = () => {
       icon: <MapPin className="h-6 w-6 text-tigray-terracotta" />,
       title: language === 'en' ? 'Visit Us' : 'ብኽብረትኩም ዑደትና',
       details: language === 'en' 
-        ? 'Mekelle, Tigray, Ethiopia' 
+        ? 'Hadnet Sub city, Mekele, Tigray, Ethiopia' 
         : 'ጎደና ሙሰ፣ መቐለ፣ ትግራይ፣ ኢትዮጵያ'
     },
     {
@@ -145,7 +145,7 @@ const Contact = () => {
                 
                 <div className="mt-8 rounded-lg overflow-hidden h-64">
                   <iframe 
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62197.92488851917!2d39.44657371840105!3d13.496690602046752!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x166ae01975519959%3A0xaca910cfce48dbd5!2sMekelle!5e0!3m2!1sen!2set!4v1650987070288!5m2!1sen!2set" 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3879.82201585157!2d39.4683125!3d13.4850625!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x166afdd18eebd4bf%3A0x2de6c65c2df41f49!2sAnenitigray%20Development%20Services%20(ADS)!5e0!3m2!1sen!2sse!4v1747155275869!5m2!1sen!2sse" 
                     width="100%" 
                     height="100%" 
                     style={{ border: 0 }} 
