@@ -14,12 +14,12 @@ const About = () => {
       <div className="flex-grow">
         <div className="relative py-24 bg-tigray-dark">
           <div className="absolute inset-0 bg-cover bg-center opacity-20" style={{ 
-            backgroundImage: "url('https://images.unsplash.com/photo-1488330890490-c291ecf62571?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80')"
+            backgroundImage: "url('/images/ADS-14.jpg')" // TODO: Replace with relevant image (e.g., Tigray landscape, community meeting)
           }}></div>
           <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h1 className="text-4xl font-bold text-white mb-4">About ADS</h1>
             <p className="text-xl text-white/90 max-w-3xl mx-auto">
-              We are committed to sustainable development and community empowerment in Tigray.
+              Anenitigray Development Services (ADS) is a young Non-Governmental Organization (NGO) committed to fostering sustainable development and providing humanitarian support in Tigray through community-driven initiatives.
             </p>
           </div>
         </div>
@@ -29,30 +29,30 @@ const About = () => {
             <div>
               <div className="h-1 w-20 bg-tigray-terracotta mb-6"></div>
               <h2 className="text-3xl font-bold text-tigray-dark mb-6">Our Mission</h2>
-              <p className="text-tigray-dark/80 mb-6">
-                ADS is dedicated to empowering communities in Tigray through sustainable development initiatives. Our focus areas include education, healthcare, economic empowerment, and food security. We believe in building lasting solutions that help communities thrive independently.
+              <p className="text-lg text-tigray-dark/80 mb-6">
+                {t('about.mission.paragraph1')}
               </p>
-              <p className="text-tigray-dark/80 mb-6">
-                Our approach emphasizes community participation, local leadership, and sustainable practices. By working closely with community members, we ensure that our programs address real needs and create lasting positive change.
+              <p className="text-lg text-tigray-dark/80 mb-6">
+                {t('about.mission.paragraph2')}
               </p>
               <div className="flex flex-col sm:flex-row gap-4 mt-8">
-                <div className="bg-tigray-light p-4 rounded-lg flex-1">
-                  <h3 className="font-semibold text-lg mb-2">Established</h3>
-                  <p className="text-4xl font-bold text-tigray-terracotta">2010</p>
+                <div className="bg-white p-6 rounded-lg shadow-md">
+                  <dt className="text-2xl font-bold text-tigray-terracotta">{t('about.stat.established.value')}</dt>
+                  <dd className="mt-1 text-md text-tigray-dark/80">{t('about.stat.established.title')}</dd>
                 </div>
-                <div className="bg-tigray-light p-4 rounded-lg flex-1">
-                  <h3 className="font-semibold text-lg mb-2">Communities Served</h3>
-                  <p className="text-4xl font-bold text-tigray-terracotta">120+</p>
+                <div className="bg-white p-6 rounded-lg shadow-md">
+                  <dt className="text-2xl font-bold text-tigray-terracotta">{t('about.stat.communities.value')}</dt>
+                  <dd className="mt-1 text-md text-tigray-dark/80">{t('about.stat.communities.title')}</dd>
                 </div>
-                <div className="bg-tigray-light p-4 rounded-lg flex-1">
-                  <h3 className="font-semibold text-lg mb-2">Team Members</h3>
-                  <p className="text-4xl font-bold text-tigray-terracotta">45</p>
+                <div className="bg-white p-6 rounded-lg shadow-md">
+                  <dt className="text-2xl font-bold text-tigray-terracotta">{t('about.stat.team.value')}</dt>
+                  <dd className="mt-1 text-md text-tigray-dark/80">{t('about.stat.team.title')}</dd>
                 </div>
               </div>
             </div>
             <div className="relative">
               <img 
-                src="https://images.unsplash.com/photo-1569025690938-a00729c9e1f9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80" 
+                src="/images/ads-04.jpg" // TODO: Replace with relevant photo (e.g., ADS team or beneficiaries) 
                 alt="Team members working in Tigray"
                 className="rounded-lg shadow-lg w-full h-auto"
               />

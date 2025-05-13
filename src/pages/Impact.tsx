@@ -10,32 +10,32 @@ const Impact = () => {
 
   const impactStats = [
     { 
-      number: '10,000+', 
-      label: language === 'en' ? 'Families Supported' : 'ዝተሓገዛ ስድራቤታት',
+      number: '3,132', 
+      label: language === 'en' ? 'Lives Supported' : 'ዝተደገፉ ህይወት', // Corresponds to impact.stat.lives
       description: language === 'en' 
-        ? 'Through our comprehensive support programs, we have helped over 10,000 families achieve greater stability and self-sufficiency.'
-        : 'ኣብ መደባት ሓገዝና፡ ልዕሊ 10,000 ስድራቤታት ንዝበለጸ ርግኣትን ውሕስነትን ክበጽሓ ሓጊዝና።'
+        ? 'The total number of individuals who benefited from ADS programs and interventions during 2022.'
+        : '' // Tigrinya translation needed
     },
     { 
-      number: '25', 
-      label: language === 'en' ? 'Schools Built' : 'ዝተሃነጻ ቤት ትምህርቲ',
+      number: '861', 
+      label: language === 'en' ? 'IDPs Assisted' : 'ዝተሓገዙ ውሽጣዊ ተመዛበልቲ', // Corresponds to impact.stat.idps
       description: language === 'en' 
-        ? 'We have constructed 25 schools across the Tigray region, providing educational opportunities for thousands of children.'
-        : 'ኣብ መላእ ትግራይ 25 ኣብያተ ትምህርቲ ሃኒጽና፣ ንኣሽሓት ህጻናት ናይ ትምህርቲ ዕድል ኣመቻቺና።'
+        ? 'Number of Internally Displaced Persons who received essential aid and support from ADS in 2022.'
+        : '' // Tigrinya translation needed
     },
     { 
-      number: '50', 
-      label: language === 'en' ? 'Clean Water Wells' : 'ጽሩይ ማይ ዒላታት',
+      number: '1,196', 
+      label: language === 'en' ? 'Children Reached' : 'ዝተበጽሑ ህጻናት', // Corresponds to impact.stat.children
       description: language === 'en'
-        ? 'Our clean water initiatives have established 50 wells, bringing safe drinking water to communities and reducing waterborne illnesses.'
-        : 'ተበግሶታት ጽሩይ ማይና 50 ዒላታት ጽሩይ ማይ ኣቕሚጠን፣ ንማሕበረሰብ ውሑስ ማይ ብምቕራብ ብማይ ዝመጹ ሕማማት ከነጉድል ክኢልና።'
+        ? 'Number of children who received support through ADS initiatives, including education and child protection programs in 2022.'
+        : '' // Tigrinya translation needed
     },
     { 
-      number: '15', 
-      label: language === 'en' ? 'Healthcare Clinics' : 'ናይ ጥዕና ክሊኒካት',
+      number: '684', 
+      label: language === 'en' ? 'Women Supported' : 'ዝተደገፋ ደቂ ኣንስትዮ', // Corresponds to impact.stat.women
       description: language === 'en'
-        ? 'We have established 15 healthcare clinics providing essential medical services, vaccinations, and maternal care.'
-        : 'ኣገደስቲ ሕክምናዊ ኣገልግሎታት፣ ክታበታትን ናይ ኣደ ክንክንን ዝህባ 15 ክሊኒካት ጥዕና ኣቚምና።'
+        ? 'Number of women empowered through ADS programs, including economic support and healthcare services in 2022.'
+        : '' // Tigrinya translation needed
     }
   ];
 
@@ -52,7 +52,7 @@ const Impact = () => {
       <div className="flex-grow">
         <div className="relative py-24 bg-tigray-dark">
           <div className="absolute inset-0 bg-cover bg-center opacity-20" style={{ 
-            backgroundImage: "url('https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80')"
+            backgroundImage: "url('/images/ADS-14.jpg')"
           }}></div>
           <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h1 className="text-4xl font-bold text-white mb-4">{language === 'en' ? 'Our Impact' : 'ውጽኢታትና'}</h1>

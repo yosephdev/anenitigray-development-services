@@ -17,7 +17,7 @@ const Index = () => {
     <div className="min-h-screen flex flex-col">
       <Helmet>
         <html lang={language} />
-        <title>ADS - Association for Development in Tigray</title>
+        <title>ADS - Anenitigray Development Services</title>
         <meta name="description" content="ADS is an NGO empowering Tigray through sustainable development in education, healthcare, economic empowerment, and food security." />
       </Helmet>
       <Navbar />

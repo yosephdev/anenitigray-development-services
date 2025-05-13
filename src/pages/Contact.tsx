@@ -15,18 +15,18 @@ const Contact = () => {
       icon: <MapPin className="h-6 w-6 text-tigray-terracotta" />,
       title: language === 'en' ? 'Visit Us' : 'ብኽብረትኩም ዑደትና',
       details: language === 'en' 
-        ? '123 Development Street, Mekelle, Tigray, Ethiopia' 
-        : '123 ጎደና ልምዓት፣ መቐለ፣ ትግራይ፣ ኢትዮጵያ'
+        ? 'Mekelle, Tigray, Ethiopia' 
+        : 'ጎደና ሙሰ፣ መቐለ፣ ትግራይ፣ ኢትዮጵያ'
     },
     {
       icon: <Mail className="h-6 w-6 text-tigray-terracotta" />,
       title: language === 'en' ? 'Email Us' : 'ኢመይል ግበሩልና',
-      details: 'info@ads-tigray.org'
+      details: 'contact@anenitigray.org'
     },
     {
       icon: <Phone className="h-6 w-6 text-tigray-terracotta" />,
       title: language === 'en' ? 'Call Us' : 'ደውሉልና',
-      details: '+251 912 345 678'
+      details: '+251 93 702 2100'
     },
     {
       icon: <Clock className="h-6 w-6 text-tigray-terracotta" />,
@@ -42,7 +42,7 @@ const Contact = () => {
       <Helmet>
         <html lang={language} />
         <title>{t('contact')} - ADS</title>
-        <meta name="description" content="Contact the Association for Development in Tigray. We'd love to hear from you!" />
+        <meta name="description" content="Get in touch with Anenitigray Development Services (ADS). Find our contact details including address, phone, email, and office hours in Mekelle, Tigray." />
       </Helmet>
       
       <Navbar />
@@ -50,7 +50,7 @@ const Contact = () => {
       <div className="flex-grow">
         <div className="relative py-24 bg-tigray-dark">
           <div className="absolute inset-0 bg-cover bg-center opacity-20" style={{ 
-            backgroundImage: "url('https://images.unsplash.com/photo-1596524430615-b46475ddff6e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80')"
+            backgroundImage: "url('/images/home-banner-01.jpg')" // TODO: Replace with a relevant image of Tigray or ADS activities
           }}></div>
           <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h1 className="text-4xl font-bold text-white mb-4">{t('contact')}</h1>

@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
 import { Button } from './ui/button';
-import LanguageSwitcher from './LanguageSwitcher';
+// import LanguageSwitcher from './LanguageSwitcher';
 import { useLanguage } from '../contexts/LanguageContext';
 
 const Navbar = () => {
@@ -35,9 +35,9 @@ const Navbar = () => {
                 <Link to="/impact" className="font-medium text-tigray-dark hover:text-tigray-terracotta px-3 py-2 transition-colors">
                   {t('impact')}
                 </Link>
-                <Link to="/news" className="font-medium text-tigray-dark hover:text-tigray-terracotta px-3 py-2 transition-colors">
+                {/* <Link to="/news" className="font-medium text-tigray-dark hover:text-tigray-terracotta px-3 py-2 transition-colors">
                   {t('news')}
-                </Link>
+                </Link> */}
                 <Link to="/contact" className="font-medium text-tigray-dark hover:text-tigray-terracotta px-3 py-2 transition-colors">
                   {t('contact')}
                 </Link>
@@ -45,7 +45,7 @@ const Navbar = () => {
             </div>
           </div>
           <div className="hidden md:flex items-center space-x-4">
-            <LanguageSwitcher />
+            {/* <LanguageSwitcher /> */}
             <Link to="/donate">
               <Button className="bg-tigray-terracotta hover:bg-opacity-90">
                 {t('donate')}
@@ -53,7 +53,7 @@ const Navbar = () => {
             </Link>
           </div>
           <div className="md:hidden flex items-center">
-            <LanguageSwitcher />
+            {/* <LanguageSwitcher /> */}
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
               className="inline-flex items-center justify-center p-2 ml-3 rounded-md text-tigray-dark hover:bg-tigray-sand focus:outline-none"

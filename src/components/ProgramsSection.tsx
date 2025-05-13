@@ -9,44 +9,28 @@ const ProgramsSection = () => {
   
   const programs = [
     {
-      title: t('program.food'),
-      description: language === 'en' 
-        ? 'Sustainable agriculture initiatives to ensure lasting food security for vulnerable communities.' 
-        : 'ዘላቒ ናይ ሕርሻ ተበግሶታት ንተጋለጽቲ ማሕበረሰባት ዘላቒ ውሕስነት ምግቢ ንምርግጋጽ።',
-      image: 'https://images.unsplash.com/photo-1464454709131-ffd692591ee5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=876&q=80',
-      link: '/programs#food-security'
+      title: t('childcare.title'),
+      description: t('childcare.desc'),
+      image: '/images/ADS-CFS.jpg',
+      link: '/programs#childcare'
     },
     {
-      title: t('program.water'),
-      description: language === 'en'
-        ? 'Providing access to clean water through well construction and water purification systems.'
-        : 'ብምህናጽ ዒላታትን ሲስተማት ምጽራይ ማይን ንጽሩይ ማይ መእተዊ ምቕራብ።',
-      image: 'https://images.unsplash.com/photo-1581314484893-364020df9d49?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=876&q=80',
-      link: '/programs#clean-water'
+      title: t('asset.title'),
+      description: t('asset.desc'),
+      image: '/images/ADS-10.jpg',
+      link: '/programs#asset'
     },
     {
-      title: t('program.education'),
-      description: language === 'en'
-        ? 'Building schools, training teachers, and providing educational materials for children.'
-        : 'ቤት ትምህርቲ ምህናጽ፣ መምህራን ምስልጣን፣ ከምኡውን ንህጻናት ናይ ትምህርቲ ንዋት ምቕራብ።',
-      image: 'https://images.unsplash.com/photo-1520052205864-92d242b3a76b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80',
-      link: '/programs#education'
+      title: t('relief.title'),
+      description: t('relief.desc'),
+      image: '/images/ADS-1(1).jpg',
+      link: '/programs#relief'
     },
     {
-      title: t('program.healthcare'),
-      description: language === 'en'
-        ? 'Establishing healthcare clinics and training local healthcare professionals.'
-        : 'ናይ ሕክምና ክሊኒካታት ምትካልን ናይ ከባቢ ሰራሕተኛታት ሕክምና ምስልጣንን።',
-      image: 'https://images.unsplash.com/photo-1576091160550-2173dba999ef?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80',
-      link: '/programs#healthcare'
-    },
-    {
-      title: t('program.economic'),
-      description: language === 'en'
-        ? 'Microfinance loans and business training to foster economic independence.'
-        : 'ምክዓብ ቁጠባዊ ናጽነት ንምድጋፍ ላዑላዊ ልቓሕን ናይ ንግዲ ስልጠናን።',
-      image: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80',
-      link: '/programs#economic-empowerment'
+      title: t('capacity.title'),
+      description: t('capacity.desc'),
+      image: '/images/ADS-15(1).jpg',
+      link: '/programs#capacity-building' // Note: id in Programs.tsx is 'capacity-building'
     }
   ];
 

@@ -6,10 +6,10 @@ const ImpactStats = () => {
   const { t } = useLanguage();
 
   const stats = [
-    { label: t('impact.families'), count: '5,000+', icon: '🏠' },
-    { label: t('impact.schools'), count: '23', icon: '🏫' },
-    { label: t('impact.wells'), count: '47', icon: '💧' },
-    { label: t('impact.healthcare'), count: '12', icon: '🏥' },
+    { label: t('impact.stat.lives'), count: '3,132', icon: '👥' }, // Updated from Families Supported
+    { label: t('impact.stat.idps'), count: '861', icon: '🚶' },    // Updated from Schools Built
+    { label: t('impact.stat.children'), count: '1,196', icon: '🧒' }, // Updated from Clean Water Wells
+    { label: t('impact.stat.women'), count: '684', icon: '👩' },    // Updated from Healthcare Clinics
   ];
 
   return (

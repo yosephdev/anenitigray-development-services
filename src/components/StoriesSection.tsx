@@ -6,35 +6,34 @@ const StoriesSection = () => {
   const { t, language } = useLanguage();
 
   const stories = [
-    {
-      name: 'Alemtsehay Tewolde',
-      location: language === 'en' ? 'Mekelle, Tigray' : 'መቐለ፣ ትግራይ',
-      image: 'https://images.unsplash.com/photo-1613205085584-bcbef193dc4d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80',
-      quote: language === 'en' ? 
-        '"Thanks to the clean water well built in our village, my children no longer get sick from waterborne diseases. This has changed our lives."' : 
-        '"ኣብ ዓድና ብምኽንያት ዝተሰርሐ ናይ ጽሩይ ማይ ዒላ፡ ደቀይ ብማይ ዝመጹ ሕማማት ኣይሓሙን ኣለዉ። እዚ ኣብ ሂወትና ለውጢ ፈጢሩ።"',
-      program: language === 'en' ? 'Clean Water Program' : 'መደብ ጽሩይ ማይ'
-    },
-    {
-      name: 'Gebre Hagos',
-      location: language === 'en' ? 'Adwa, Tigray' : 'ዓድዋ፣ ትግራይ',
-      image: 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80',
-      quote: language === 'en' ? 
-        '"The microfinance loan helped me start my small business. Now I can provide for my family and send my children to school."' : 
-        // Using template literals to avoid escaping issues with the Tigrinya text
-        `"እቲ ምክዕባል ልቓሕ ንናይ ንኡስ ንግዲ ንኽጅምር ሓጊዙኒ። ሕጂ ንስድራይ ክኣሊ ከምኡ'ውን ደቀይ ናብ ቤት ትምህርቲ ክሰዶም ይኽእል።"`,
-      program: language === 'en' ? 'Economic Empowerment' : 'ቁጠባዊ ምብርታዕ'
-    },
-    {
-      name: 'Selam Berhe',
-      location: language === 'en' ? 'Shire, Tigray' : 'ሽረ፣ ትግራይ',
-      image: 'https://images.unsplash.com/photo-1540331547168-8b63109225b7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=719&q=80',
-      quote: language === 'en' ? 
-        '"The new school in our community has given our children hope for a better future through education."' : 
-        '"እታ ሓዳስ ኣብ ማሕበረሰብና ዝተሃነጸት ቤት ትምህርቲ፡ ንደቅና ብመገዲ ትምህርቲ ንዝበለጸ መጻኢ ተስፋ ሂባቶም።"',
-      program: language === 'en' ? 'Education Program' : 'መደብ ትምህርቲ'
-    }
-  ];
+  {
+    name: 'Abrehet Kahsay', // Representing a mother from Integrated Child Care
+    location: language === 'en' ? 'Mekelle, Tigray' : 'መቐለ፣ ትግራይ',
+    image: '/images/ADS-CFS(1).jpg', // Used CFS image, often related to child support
+    quote: language === 'en' ?
+      '"The support ADS provided for my child, including nutritious meals and a safe space to play and learn, has brought so much joy and stability back to our lives after the conflict."' :
+      `"ኤድኤስ ንደቀይ ዝሃቦም ደገፍ፡ ማለት እቲ ምቁር መግቢን ውሑስ ናይ መጻወቲን መምሃሪ ቦታን፡ ድሕሪ እቲ ኩናት ብዙሕ ሓጎስን ምርግጋእን ኣብ ሂወትና ኣምጺኡ።"`,
+    program: language === 'en' ? 'Integrated Child Care' : 'ኩለመዳይ ናይ ህጻናት ክንክን'
+  },
+  {
+    name: 'Teacher Berhane Woldu', // Representing a teacher from ASSET program
+    location: language === 'en' ? 'Mekelle, Tigray' : 'መቐለ፣ ትግራይ', // Atse-Yohannes Primary School
+    image: '/images/ADS-12.jpg', // Generic community/support image
+    quote: language === 'en' ?
+      '"Receiving daily meals and training through the ASSET program has been a lifeline. It allows us to focus on teaching and supporting our students effectively."' :
+      `"ብመደብ ኣሴት መዓልታዊ ምግቢን ስልጠናን ምርካብና ከም ህይወት ኣድሕን ኮይኑና። እዚ ንትምህርትና ኣድሂብና ንተማሃሮና ብግቡእ ክንድግፍ ኣኽኢሉና።"`,
+    program: language === 'en' ? 'Teacher Support (ASSET)' : 'ደገፍ መምህራን (ኣሴት)'
+  },
+  {
+    name: 'Fatima Ali', // Representing an IDP from Rapid Relief Support
+    location: language === 'en' ? 'Adwa, Tigray' : 'ዓድዋ፣ ትግራይ',
+    image: '/images/ADS-7.jpg', // Could represent relief distribution
+    quote: language === 'en' ?
+      '"When we were displaced and had nothing, ADS provided us with essential food and non-food items. It was a critical help during our most difficult time."' :
+      `"ምስተመዛበልና ዋላ ሓንቲ ኣብ ዘይነበረና፡ ኤድኤስ ኣገደስቲ መግቢን ዘይመግቢ ኣቅሑትን ሂቡና። ኣብቲ ኣዝዩ ከቢድ ግዜና ወሳኒ ሓገዝ እዩ ነይሩ።"`,
+    program: language === 'en' ? 'Rapid Relief Support' : 'ቀጥታዊ ናይ ድንገተኛ ረድኤት'
+  }
+];
 
   return (
     <div className="py-16 bg-tigray-light">
