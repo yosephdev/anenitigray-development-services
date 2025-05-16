@@ -16,7 +16,7 @@ export const translations: Record<Language, Record<string, string>> = {
 
     // Hero Section (Homepage)
     'hero.title': 'Building Sustainable Futures in Tigray',
-    'hero.subtitle': 'ADS is dedicated to creating development opportunities and providing humanitarian aid to vulnerable communities in Tigray. In 2022, we supported 3,132 lives.',
+    'hero.subtitle': 'ADS is dedicated to creating development opportunities and providing humanitarian aid to vulnerable communities in Tigray.',
     'hero.cta': 'Support Our Mission',
 
     // Impact Snippets (Homepage/About)
