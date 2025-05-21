@@ -9,7 +9,7 @@ const StoriesSection = () => {
   {
     name: 'Abrehet Kahsay', // Representing a mother from Integrated Child Care
     location: language === 'en' ? 'Mekelle, Tigray' : 'መቐለ፣ ትግራይ',
-    image: '/images/ADS-CFS(1).jpg', // Used CFS image, often related to child support
+    image: '/images/ADS-CFS.jpg', // Used CFS image, often related to child support
     quote: language === 'en' ?
       '"The support ADS provided for my child, including nutritious meals and a safe space to play and learn, has brought so much joy and stability back to our lives after the conflict."' :
       `"ኤድኤስ ንደቀይ ዝሃቦም ደገፍ፡ ማለት እቲ ምቁር መግቢን ውሑስ ናይ መጻወቲን መምሃሪ ቦታን፡ ድሕሪ እቲ ኩናት ብዙሕ ሓጎስን ምርግጋእን ኣብ ሂወትና ኣምጺኡ።"`,
