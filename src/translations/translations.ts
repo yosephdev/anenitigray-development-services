@@ -102,7 +102,41 @@ export const translations: Record<Language, Record<string, string>> = {
     'stories.subtitle': 'Read about the real difference ADS is making in the lives of people in Tigray.',
 
     // Partners Section Title (For potential future section)
-    'partners.title': 'Our Partners & Supporters'
+    'partners.title': 'Our Partners & Supporters',
+
+    // Volunteer Page
+    'volunteer.title': 'Volunteer With Us',
+    'volunteer.hero.title': 'Make a Difference in Tigray',
+    'volunteer.hero.subtitle': 'Join our team of dedicated volunteers and contribute your skills to support our mission.',
+    'volunteer.opportunities.title': 'Volunteer Opportunities',
+    'volunteer.opportunities.description': 'We offer various volunteer positions that match different skills and interests. Whether you can contribute a few hours a week or join us for a longer commitment, your help is invaluable.',
+    'volunteer.types.community.title': 'Community Support',
+    'volunteer.types.community.description': 'Work directly with local communities to implement our programs and provide essential services.',
+    'volunteer.types.professional.title': 'Professional Services',
+    'volunteer.types.professional.description': 'Leverage your professional expertise in areas like healthcare, education, or project management.',
+    'volunteer.apply.title': 'Ready to Volunteer?',
+    'volunteer.apply.description': 'Join our team and make a lasting impact in Tigray. Fill out our volunteer application form to get started.',
+    'volunteer.apply.button': 'Apply Now',
+
+    // Legacy Giving Page
+    'legacy.title': 'Leave a Lasting Legacy',
+    'legacy.hero.title': 'Create a Lasting Impact',
+    'legacy.hero.subtitle': 'Include ADS in your estate planning and continue supporting our mission for generations to come.',
+    'legacy.bequests.title': 'Bequests',
+    'legacy.bequests.description': 'A gift in your will is one of the most powerful ways to support our work. You can leave a specific amount, a percentage of your estate, or the residue after providing for your loved ones.',
+    'legacy.trusts.title': 'Charitable Trusts',
+    'legacy.trusts.description': 'Establish a trust that provides income to you or your loved ones during your lifetime, with the remainder supporting our mission.',
+    'legacy.insurance.title': 'Life Insurance',
+    'legacy.insurance.description': 'Name ADS as a beneficiary of your life insurance policy to make a significant future gift at a relatively low cost to you today.',
+    'legacy.consultation': 'We recommend consulting with your financial advisor to determine the best giving option for your situation.',
+    'legacy.contact_button': 'Contact Us for More Information',
+    'legacy.faq.title': 'Frequently Asked Questions',
+    'legacy.faq.q1.question': 'How do I include ADS in my will?',
+    'legacy.faq.q1.answer': 'You can include ADS in your will by adding a bequest. We recommend working with an attorney to ensure your wishes are properly documented.',
+    'legacy.faq.q2.question': 'What information should I provide to my attorney?',
+    'legacy.faq.q2.answer': 'Our legal name is Anenitigray Development Services (ADS) and we are registered in Ethiopia. Please contact us for our registration details.',
+    'legacy.faq.q3.question': 'Can I specify how my gift will be used?',
+    'legacy.faq.q3.answer': 'Yes, you can designate your gift to support specific programs or areas of greatest need. We would be happy to discuss options with you.'
   },
   ti: {
     // Navbar & Footer
@@ -206,6 +240,34 @@ export const translations: Record<Language, Record<string, string>> = {
     'stories.subtitle': 'ኤዲኤስ ኣብ ህይወት ሰባት ትግራይ ዝገብሮ ዘሎ ሓቀኛ ፍልልይ ኣንብቡ።',
 
     // Partners Section Title (For potential future section)
-    'partners.title': 'መሻርኽትናን ደገፍትናን'
+    'partners.title': 'መሻርኽትናን ደገፍትናን',
+
+    // Volunteer Page
+    // Volunteer Page (Tigrinya)
+    'volunteer.title': 'ምስና ተሳቲፍኩም',
+    'volunteer.hero.title': 'ከም ተሳቲፍኩም ፍልይታ ግበሩ',
+    'volunteer.hero.subtitle': 'ኣብ ጋንታ ዝተወፈዩ ተሳቲፍኩም ብምርኣይ ኣብ ትግራይ ንማሕበረሰባት ንምድጋፍ ክሕግዙ ዝኽእሉ ክእለቶም ኣለዎም።',
+    'volunteer.opportunities.title': 'ዕድላት ተሳቲፍኩም',
+    'volunteer.opportunities.description': 'ንዝተፈላለዩ ክእለታትን መጠናዊታትን ዝሰማማዕ ዝተፈላለዩ ዕድላት ተሳቲፍኩም ንህብር። ሰሙን ንሒደት ሰዓታት ወይ ዝያዳ ዋና ግደ ክትወስዱ እንተ ደልኩም፡ ኣብዚ ኣብ ኣካፊ ኣለና።',
+    'volunteer.types.community.title': 'ተሳቲፍኩም ማሕበረሰብ',
+    'volunteer.types.community.description': 'ብቀጥታ ምስ ማሕበረሰብ ስራሕ፣ ኣብ ከባቢያዊ መደባት ሓጋዚ ብምዃን፣ ከምኡውን ኣብ ኣፍልጦ ኣገዳሲ ስራሓት ሓገዝ።',
+    'volunteer.types.professional.title': 'ሞያዊ ተሳቲፍኩም',
+    'volunteer.types.professional.description': 'ኣብ ከም ጥዕና፣ ትምህርቲ፣ ወይ ምምሕዳር ዝኣመሰሉ ናይ ሞያ ብዕልቂትካ ንራእይና ንምድጋፍ ተጠቃም።',
+    'volunteer.apply.title': 'ምስና ክትሳተፉ ድሉው ኢኹም?',
+    'volunteer.apply.description': 'ኣብ ትግራይ ዘላቒ ጽልዋ ንምግባር ንዝተወፈዩ ተሳቲፍኩም ጋንታና ተተሓሓዝ። ንኽትጅምሩ ቅጥዒ ተሳቲፍኩም ቅጥዒና መሊሱ።',
+    'volunteer.apply.button': 'ኣብ ሕጂ ተመዝገቡ',
+
+    // Legacy Giving Page (Tigrinya)
+    'legacy.title': 'ምህባር ዕርከን',
+    'legacy.hero.title': 'ዘላቒ ዕርከን ግበሩ',
+    'legacy.hero.subtitle': 'ብመሰረት ዝተዳለወ ህብረት ንመጻኢ ትግራይ ደገፍ ኣቢልኩም ንዘለኣለም ዝኸውን ጽልዋ ኣምጽኡ።',
+    'legacy.bequests.title': 'ኣብ ስንክልናኹም ዘለኩም ስጕም',
+    'legacy.bequests.description': 'ኣብ ስንክልናኹም ዘለኩም ስጕም ንኽትድግፉ ዝኽእሉ ክእለቶም ኣለዎም። ኣብ ዝተወሰነ መጠን፣ በጸማ ሓበሬታኹም ወይ ድማ ዝተረፈ ካብ ዝተወሰነ መጠን ኤዲኤስ ክትውህቡ ትኽእሉ ኢኹም።',
+    'legacy.trusts.title': 'ውሁዳዊ ተስፋ ስርዓታት',
+    'legacy.trusts.description': 'ውሁዳዊ ተስፋ ስርዓት ንህይወትኩም ኣታዊ ክኸውን ከሎ ድማ ንትሕዝቶና ክትድግፉ ይኽእሉ ኢኹም። ድሕሪ ሞትኩም ድማ እቲ ዝተረፈ ንብረት ናብ ኣብ ትግራይ ዘሎ ስራሕና ይኸይድ።',
+    'legacy.insurance.title': 'ዝሕደት ስነ-ጥዕና',
+    'legacy.insurance.description': 'ኤዲኤስ ከም ተቐባልነት ዘለዎ ሰብ ብምውጋድ ኣብዚ እዋን ብዝያዳ ቅኑዕ ዘይኮነስ ኣብ መጨረሻ ዝዓቢ ህያብ ንኸትገብሩ ኣብ ዝኾነ ዓይነት ስነ-ጥዕና ሕርሻ ወይ መደብ ኣነ-ኤዲኤስ ከም ተቀባልነት ዘለዎ ገዛእ ልብኻ ግበሩ።',
+    'legacy.consultation': 'ንኩነታትኩም ዝተመቅበለ ምርጫ ንኽትውስኹ'
+
   }
 };

@@ -16,6 +16,9 @@ import NotFound from "./pages/NotFound";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import TermsAndConditions from './pages/TermsAndConditions';
 import { LanguageProvider } from "./contexts/LanguageContext";
+import Volunteer from "./pages/Volunteer";
+import LegacyGiving from "./pages/LegacyGiving";
+
 
 const queryClient = new QueryClient();
 
@@ -39,6 +42,8 @@ const App = () => (
           <Route path="/terms-and-conditions" element={<TermsAndConditions />} /> {/* Added route */}
               {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
               <Route path="*" element={<NotFound />} />
+              <Route path="/volunteer" element={<Volunteer />} />
+              <Route path="/legacy-giving" element={<LegacyGiving />} />
             </Routes>
           </BrowserRouter>
         </TooltipProvider>

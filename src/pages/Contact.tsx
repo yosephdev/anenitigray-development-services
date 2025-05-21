@@ -21,7 +21,7 @@ const Contact = () => {
     {
       icon: <Mail className="h-6 w-6 text-tigray-terracotta" />,
       title: language === 'en' ? 'Email Us' : 'ኢመይል ግበሩልና',
-      details: 'contact@anenitigray.org'
+      details: 'kbrom@anenitigray.org'
     },
     {
       icon: <Phone className="h-6 w-6 text-tigray-terracotta" />,
