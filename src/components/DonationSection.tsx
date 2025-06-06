@@ -1,5 +1,5 @@
 
-import React, { useState } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { Button } from './ui/button';
 import { useLanguage } from '../contexts/LanguageContext';
 
@@ -8,6 +8,8 @@ const DonationSection = () => {
   const [donationType, setDonationType] = useState<'monthly' | 'onetime'>('monthly');
   const [amount, setAmount] = useState<number | null>(50);
   const [customAmount, setCustomAmount] = useState<string>('');
+  const [paypalLoaded, setPaypalLoaded] = useState(false);
+  const paypalButtonRef = useRef<HTMLDivElement>(null);
 
   const handleAmountClick = (value: number) => {
     setAmount(value);
@@ -36,6 +38,89 @@ const DonationSection = () => {
       return 'Contributes to building a clean water well';
     }
   };
+  
+  const getFinalAmount = () => {
+    return amount || (customAmount ? Number(customAmount) : 50);
+  };
+  
+  // Load PayPal script
+  useEffect(() => {
+    // Add PayPal Script
+    const script = document.createElement('script');
+    // Use a placeholder client ID - replace with your actual PayPal client ID
+    const clientId = 'sb'; // 'sb' is PayPal's sandbox test client ID
+    script.src = `https://www.paypal.com/sdk/js?client-id=${clientId}&currency=USD&intent=capture${donationType === 'monthly' ? '&vault=true' : ''}`;
+    script.async = true;
+    script.onload = () => setPaypalLoaded(true);
+    document.body.appendChild(script);
+    
+    return () => {
+      // Clean up
+      if (document.body.contains(script)) {
+        document.body.removeChild(script);
+      }
+    };
+  }, [donationType]);
+  
+  // Initialize PayPal buttons when script is loaded
+  useEffect(() => {
+    if (paypalLoaded && paypalButtonRef.current) {
+      // Clear any existing buttons
+      paypalButtonRef.current.innerHTML = '';
+      
+      // @ts-ignore - PayPal is loaded via script
+      window.paypal.Buttons({
+        style: {
+          color: 'gold',
+          shape: 'rect',
+          label: 'pay',
+          height: 50
+        },
+        
+        createOrder: (data: any, actions: any) => {
+          const finalAmount = getFinalAmount();
+          
+          if (donationType === 'onetime') {
+            return actions.order.create({
+              purchase_units: [{
+                amount: {
+                  value: finalAmount.toString(),
+                  currency_code: 'USD'
+                },
+                description: 'Donation to Tigray Impact'
+              }]
+            });
+          } else {
+            // For subscription/monthly donations
+            // Use a placeholder plan ID - replace with your actual PayPal plan ID
+            const planId = 'P-PLACEHOLDER';
+            return actions.subscription.create({
+              plan_id: planId,
+              custom_id: `donation_${finalAmount}`
+            });
+          }
+        },
+        
+        onApprove: (data: any, actions: any) => {
+          if (donationType === 'onetime') {
+            return actions.order.capture().then(function(details: any) {
+              alert('Transaction completed! Thank you for your donation.');
+              // Here you would typically send the transaction details to your server
+            });
+          } else {
+            // Subscription was approved
+            alert('Subscription activated! Thank you for your monthly support.');
+            // Here you would typically send the subscription details to your server
+          }
+        },
+        
+        onError: (err: any) => {
+          console.error('PayPal Error:', err);
+          alert('There was an error processing your payment. Please try again.');
+        }
+      }).render(paypalButtonRef.current);
+    }
+  }, [paypalLoaded, amount, customAmount, donationType]);
 
   return (
     <div className="py-16 bg-white">
@@ -118,9 +203,18 @@ const DonationSection = () => {
                 </div>
               </div>
               
-              <Button className="w-full bg-tigray-terracotta hover:bg-opacity-90 py-6 text-lg">
-                {t('donate.button')}
-              </Button>
+              {/* PayPal Button Container */}
+              <div ref={paypalButtonRef} className="w-full mb-4"></div>
+              
+              {/* Fallback button in case PayPal doesn't load */}
+              {!paypalLoaded && (
+                <Button 
+                  className="w-full bg-tigray-terracotta hover:bg-opacity-90 py-6 text-lg"
+                  onClick={() => alert(`Processing ${donationType} donation of ${getFinalAmount()}`)}
+                >
+                  {t('donate.button')}
+                </Button>
+              )}
               
               <p className="text-xs text-center mt-4 text-tigray-dark/60">
                 Your donation is tax-deductible. You will receive a receipt by email.

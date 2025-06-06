@@ -10,7 +10,7 @@ import { Button } from '../components/ui/button';
 const Contact = () => {
   const { t, language } = useLanguage();
 
-  const contactInfo = [
+const contactInfo = [
     {
       icon: <MapPin className="h-6 w-6 text-tigray-terracotta" />,
       title: language === 'en' ? 'Visit Us' : 'ብኽብረትኩም ዑደትና',
@@ -21,7 +21,7 @@ const Contact = () => {
     {
       icon: <Mail className="h-6 w-6 text-tigray-terracotta" />,
       title: language === 'en' ? 'Email Us' : 'ኢመይል ግበሩልና',
-      details: 'kbrom@anenitigray.org'
+      details: 'contact@anenitigray.org'
     },
     {
       icon: <Phone className="h-6 w-6 text-tigray-terracotta" />,
