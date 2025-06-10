@@ -3,33 +3,33 @@ import React from 'react';
 import { useLanguage } from '../contexts/LanguageContext';
 
 const ImpactStats = () => {
-  const { t } = useLanguage();
+    const { t } = useLanguage();
 
-  const stats = [
-    { label: t('impact.stat.lives'), count: '3,132', icon: '👥' }, // Updated from Families Supported
-    { label: t('impact.stat.idps'), count: '861', icon: '🚶' },    // Updated from Schools Built
-    { label: t('impact.stat.children'), count: '1,196', icon: '🧒' }, // Updated from Clean Water Wells
-    { label: t('impact.stat.women'), count: '684', icon: '👩' },    // Updated from Healthcare Clinics
-  ];
+    const stats = [
+        { label: t('impact.stat.lives'), count: '11,741', icon: '👥' }, // Updated from Families Supported
+        { label: t('impact.stat.idps'), count: '3, 861', icon: '🚶' },    // Updated from Schools Built
+        { label: t('impact.stat.children'), count: '4,196', icon: '🧒' }, // Updated from Clean Water Wells
+        { label: t('impact.stat.women'), count: '3, 684', icon: '👩' },    // Updated from Healthcare Clinics
+    ];
 
-  return (
-    <div className="bg-tigray-light py-16">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-10">
-          {stats.map((stat, index) => (
-            <div 
-              key={index} 
-              className="bg-white p-6 rounded-lg shadow-md text-center transform transition-transform duration-500 hover:-translate-y-1"
-            >
-              <div className="text-3xl mb-2">{stat.icon}</div>
-              <div className="impact-number animate-fade-in">{stat.count}</div>
-              <div className="text-tigray-dark font-medium mt-2">{stat.label}</div>
+    return (
+        <div className="bg-tigray-light py-16">
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-10">
+                    {stats.map((stat, index) => (
+                        <div
+                            key={index}
+                            className="bg-white p-6 rounded-lg shadow-md text-center transform transition-transform duration-500 hover:-translate-y-1"
+                        >
+                            <div className="text-3xl mb-2">{stat.icon}</div>
+                            <div className="impact-number animate-fade-in">{stat.count}</div>
+                            <div className="text-tigray-dark font-medium mt-2">{stat.label}</div>
+                        </div>
+                    ))}
+                </div>
             </div>
-          ))}
         </div>
-      </div>
-    </div>
-  );
+    );
 };
 
 export default ImpactStats;

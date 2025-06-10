@@ -10,28 +10,28 @@ const Impact = () => {
 
     const impactStats = [
         {
-            number: '3,132',
+            number: '11, 741',
             label: language === 'en' ? 'Lives Supported' : 'ዝተደገፉ ህይወት', // Corresponds to impact.stat.lives
             description: language === 'en'
                 ? 'The total number of individuals who benefited from ADS programs and interventions during 2025.'
                 : '' // Tigrinya translation needed
         },
         {
-            number: '861',
+            number: '3861',
             label: language === 'en' ? 'IDPs Assisted' : 'ዝተሓገዙ ውሽጣዊ ተመዛበልቲ', // Corresponds to impact.stat.idps
             description: language === 'en'
                 ? 'Number of Internally Displaced Persons who received essential aid and support from ADS in 2025.'
                 : '' // Tigrinya translation needed
         },
         {
-            number: '1,196',
+            number: '4,196',
             label: language === 'en' ? 'Children Reached' : 'ዝተበጽሑ ህጻናት', // Corresponds to impact.stat.children
             description: language === 'en'
                 ? 'Number of children who received support through ADS initiatives, including education and child protection programs in 2025.'
                 : '' // Tigrinya translation needed
         },
         {
-            number: '684',
+            number: '3, 684',
             label: language === 'en' ? 'Women Supported' : 'ዝተደገፋ ደቂ ኣንስትዮ', // Corresponds to impact.stat.women
             description: language === 'en'
                 ? 'Number of women empowered through ADS programs, including economic support and healthcare services in 2025.'

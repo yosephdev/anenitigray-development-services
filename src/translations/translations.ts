@@ -21,7 +21,7 @@ export const translations: Record<Language, Record<string, string>> = {
 
         // Impact Snippets (Homepage/About)
         'impact.stat.lives': 'Lives Supported (2025)',
-        'impact.stat.lives.number': '3,132',
+        'impact.stat.lives.number': '11,741',
         'impact.stat.idps': 'IDPs Assisted',
         'impact.stat.idps.number': '861',
         'impact.stat.children': 'Children Reached',
@@ -53,9 +53,9 @@ export const translations: Record<Language, Record<string, string>> = {
         'about.stat.established.title': 'Established',
         'about.stat.established.value': '2021',
         'about.stat.communities.title': 'Beneficiaries Reached (2025)',
-        'about.stat.communities.value': '3,132 Individuals',
+        'about.stat.communities.value': '11, 741 Individuals',
         'about.stat.team.title': 'Team Members',
-        'about.stat.team.value': '45',
+        'about.stat.team.value': '15',
         'about.vision.title': 'Our Vision',
         'about.vision.text': 'To ensure that no one in Tigray is deprived of development opportunities due to poverty.',
         'about.values.title': 'Our Core Values',
@@ -153,7 +153,7 @@ export const translations: Record<Language, Record<string, string>> = {
 
         // Hero Section (Homepage)
         'hero.title': 'ዘላቒ መጻኢ ኣብ ትግራይ ምህናጽ',
-        'hero.subtitle': 'ኤዲኤስ ንተኣፊኖም ማሕበረሰባት ትግራይ ዕድላት ልምዓት ንምፍጣርን ሰብኣዊ ሓገዝ ንምሃብን ዝተወፈየ እዩ። ኣብ 2025 ን 3,132 ህይወት ደጊፍና።',
+        'hero.subtitle': 'ኤዲኤስ ንተኣፊኖም ማሕበረሰባት ትግራይ ዕድላት ልምዓት ንምፍጣርን ሰብኣዊ ሓገዝ ንምሃብን ዝተወፈየ እዩ። ኣብ 2025 ን 11,741 ህይወት ደጊፍና።',
         'hero.cta': 'ተልእኾና ደግፉ',
 
         // Impact Snippets (Homepage/About)
@@ -193,7 +193,7 @@ export const translations: Record<Language, Record<string, string>> = {
         'about.stat.communities.title': 'ዝተገብረሉ ዘሎ ቦታወቕ',
         'about.stat.communities.value': '120+',
         'about.stat.team.title': 'ኣባላት መርከብ',
-        'about.stat.team.value': '45',
+        'about.stat.team.value': '15',
         'about.vision.title': 'ራእይና',
         'about.vision.text': 'ኣብ ትግራይ ዝኾነ ሰብ ብድኽነት ምኽንያት ካብ ዕድላት ልምዓት ከምዘይግለል ምውሓስ።',
         'about.values.title': 'ዋና ዋና ክብርታትና',
