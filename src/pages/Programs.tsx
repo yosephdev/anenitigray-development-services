@@ -1,5 +1,7 @@
 
 import React from 'react';
+import { Link } from 'react-router-dom';
+import { ArrowRight } from 'lucide-react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import ProgramsSection from '../components/ProgramsSection';
@@ -14,26 +16,30 @@ const Programs = () => {
       id: 'childcare',
       titleKey: 'childcare.title',
       descriptionKey: 'childcare.desc',
-      outcomeKey: 'childcare.outcome', // Added outcome
-      image: '/images/ADS-CFS.jpg' // Existing image related to Child Protection
+      outcomeKey: 'childcare.outcome',
+      image: '/images/ADS-CFS.jpg',
+      detailLink: '/programs/integrated-child-care'
     },
     {
       id: 'asset',
       titleKey: 'asset.title',
       descriptionKey: 'asset.desc',
-      image: '/images/ADS-10.jpg' // Existing education-related image
+      image: '/images/ADS-10.jpg',
+      detailLink: '/programs/asset-program'
     },
     {
       id: 'relief',
       titleKey: 'relief.title',
       descriptionKey: 'relief.desc',
-      image: '/images/ADS-1(1).jpg' // Existing distribution image
+      image: '/images/ADS-1(1).jpg',
+      detailLink: '/programs/rapid-relief'
     },
     {
       id: 'capacity-building',
       titleKey: 'capacity.title',
       descriptionKey: 'capacity.desc',
-      image: '/images/ADS-15(1).jpg' // Existing training/empowerment image
+      image: '/images/ADS-15(1).jpg',
+      detailLink: '/programs/capacity-building'
     }
   ];
 
@@ -81,7 +87,7 @@ const Programs = () => {
                       {program.outcomeKey && (
                         <p className="text-tigray-dark/70 text-md italic mb-6">{t(program.outcomeKey)}</p>
                       )}
-                      <div className="flex flex-wrap gap-3">
+                      <div className="flex flex-wrap gap-3 mb-6">
                         <span className="text-sm bg-tigray-terracotta/10 text-tigray-terracotta px-3 py-1 rounded-full">
                           {t('detail.sustainable')}
                         </span>
@@ -92,6 +98,13 @@ const Programs = () => {
                           {t('detail.impact')}
                         </span>
                       </div>
+                      <Link 
+                        to={program.detailLink}
+                        className="inline-flex items-center px-6 py-3 bg-tigray-terracotta text-white font-medium rounded-lg hover:bg-tigray-terracotta/90 transition-colors group"
+                      >
+                        {language === 'en' ? 'Learn More' : 'ዝያዳ ኣንብብ'}
+                        <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
+                      </Link>
                     </div>
                   </div>
                 </div>

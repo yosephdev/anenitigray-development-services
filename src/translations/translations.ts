@@ -15,8 +15,8 @@ export const translations: Record<Language, Record<string, string>> = {
         'footer.terms': 'Terms and Conditions',
 
         // Hero Section (Homepage)
-        'hero.title': 'Building Sustainable Futures in Tigray',
-        'hero.subtitle': 'ADS is dedicated to creating development opportunities and providing humanitarian aid to vulnerable communities in Tigray.',
+        'hero.title': 'Emergency Response in Tigray',
+        'hero.subtitle': 'With 9 million people requiring urgent food aid and famine conditions spreading, ADS provides life-saving support to the most vulnerable families in Tigray. Your donation is a direct defense against hunger.',
         'hero.cta': 'Support Our Mission',
 
         // Impact Snippets (Homepage/About)
@@ -98,8 +98,8 @@ export const translations: Record<Language, Record<string, string>> = {
         'donate.button': 'Donate Now',
 
         // Stories Section (If applicable)
-        'stories.title': 'Impact Stories',
-        'stories.subtitle': 'Read about the real difference ADS is making in the lives of people in Tigray.',
+        'stories.title': 'Life-Saving Impact in Action',
+        'stories.subtitle': 'Real stories from the humanitarian crisis in Tigray, showing how ADS provides critical support to families facing extreme challenges.',
 
         // Partners Section Title (For potential future section)
         'partners.title': 'Our Partners & Supporters',

@@ -12,25 +12,25 @@ const ProgramsSection = () => {
       title: t('childcare.title'),
       description: t('childcare.desc'),
       image: '/images/ADS-CFS.jpg',
-      link: '/programs#childcare'
+      link: '/programs/integrated-child-care'
     },
     {
       title: t('asset.title'),
       description: t('asset.desc'),
       image: '/images/ADS-10.jpg',
-      link: '/programs#asset'
+      link: '/programs/asset-program'
     },
     {
       title: t('relief.title'),
       description: t('relief.desc'),
       image: '/images/ADS-1(1).jpg',
-      link: '/programs#relief'
+      link: '/programs/rapid-relief'
     },
     {
       title: t('capacity.title'),
       description: t('capacity.desc'),
       image: '/images/ADS-15(1).jpg',
-      link: '/programs#capacity-building' // Note: id in Programs.tsx is 'capacity-building'
+      link: '/programs/capacity-building'
     }
   ];
 

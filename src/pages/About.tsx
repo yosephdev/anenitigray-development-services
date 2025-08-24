@@ -98,6 +98,50 @@ const About = () => {
             </div>
           </div>
         </div>
+
+        {/* Understanding Tigray Section */}
+        <div className="bg-blue-50 py-16">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="max-w-4xl mx-auto text-center">
+              <div className="h-1 w-20 bg-blue-600 mx-auto mb-6"></div>
+              <h2 className="text-3xl font-bold text-tigray-dark mb-6">Understanding Tigray's Rich Heritage</h2>
+              <p className="text-lg text-tigray-dark/80 mb-8">
+                To truly appreciate the importance of our humanitarian work, it's essential to understand Tigray's remarkable history, 
+                culture, and the context of the current crisis. Our partner Ternafit has created the world's most comprehensive 
+                resource on this historic region.
+              </p>
+              
+              <div className="bg-white p-8 rounded-lg shadow-lg border-l-4 border-blue-600">
+                <div className="flex items-center justify-center mb-4">
+                  <div className="h-16 w-16 bg-blue-600 rounded-full flex items-center justify-center mr-4">
+                    <span className="text-white text-2xl">📚</span>
+                  </div>
+                  <div className="text-left">
+                    <h3 className="text-xl font-semibold text-tigray-dark">Tigray Knowledge Base</h3>
+                    <p className="text-blue-600 font-medium">The World's Most Comprehensive Resource on Tigray</p>
+                  </div>
+                </div>
+                
+                <p className="text-tigray-dark/70 mb-6">
+                  From ancient civilizations to modern challenges, this multimedia-rich knowledge base covers every aspect of Tigray. 
+                  Built for students, journalists, researchers, policymakers, and anyone seeking authoritative information about this historic region.
+                </p>
+                
+                <a 
+                  href="https://tigray.ternafit.org" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="inline-flex items-center bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors font-medium"
+                >
+                  Explore Tigray's Heritage
+                  <svg className="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
       
       <Footer />

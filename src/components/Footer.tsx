@@ -36,6 +36,23 @@ const Footer = () => {
                                 <Linkedin size={20} />
                             </a>
                         </div>
+                            {/* Partner Logos for Trust */}
+                            <div className="flex flex-wrap items-center gap-4 mt-4">
+                                <span className="text-xs text-white/70 mr-2">Trusted Implementing Partner of:</span>
+                                <a href="https://tdrfund.org" target="_blank" rel="noopener noreferrer" className="bg-tigray-terracotta text-white px-2 py-1 rounded text-xs font-semibold">
+                                    TDRF
+                                </a>
+                                <a href="https://acsot.org" target="_blank" rel="noopener noreferrer" className="bg-tigray-sand text-tigray-dark px-2 py-1 rounded text-xs font-semibold">
+                                    ACSOT
+                                </a>
+                                <a href="https://ternafit.org" target="_blank" rel="noopener noreferrer" className="bg-green-600 text-white px-2 py-1 rounded text-xs font-semibold">
+                                    Ternafit
+                                </a>
+                                <a href="https://tigray.ternafit.org" target="_blank" rel="noopener noreferrer" className="bg-blue-600 text-white px-2 py-1 rounded text-xs font-semibold">
+                                    Tigray
+                                </a>
+                            </div>
+                            <p className="text-xs text-white/60 mt-2">Our digital presence is proudly developed and managed by Ternafit.org, an award-winning community support initiative. <a href="https://tigray.ternafit.org" target="_blank" rel="noopener noreferrer" className="text-white/80 hover:text-white underline">Learn about Tigray's rich history and culture</a>.</p>
                     </div>
 
                     {/* Contact */}
@@ -75,6 +92,19 @@ const Footer = () => {
                                 <Link to="/impact" className="text-white/80 hover:text-tigray-terracotta transition-colors">
                                     Our Impact
                                 </Link>
+                            </li>
+                            <li>
+                                <a 
+                                  href="https://tigray.ternafit.org" 
+                                  target="_blank" 
+                                  rel="noopener noreferrer" 
+                                  className="text-white/80 hover:text-tigray-terracotta transition-colors flex items-center"
+                                >
+                                    Tigray Resources
+                                    <svg className="w-3 h-3 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                                    </svg>
+                                </a>
                             </li>
                             {/* <li>
                 <Link to="/news" className="text-white/80 hover:text-tigray-terracotta transition-colors">

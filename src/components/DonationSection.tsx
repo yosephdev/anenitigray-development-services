@@ -44,17 +44,38 @@ const DonationSection = () => {
               {t('donate.title')}
             </h2>
             <p className="text-tigray-dark/80 mb-8 text-lg">
-              Your support helps us build sustainable solutions for communities in Tigray. Every donation makes a difference, whether it's providing clean water, education, healthcare, or food security.
+              With crop production at just 10% of pre-war levels and 9 million people requiring urgent food aid, your support provides life-saving assistance to families facing extreme hunger. Every donation directly reaches those who need it most.
             </p>
             
+            <div className="bg-red-50 p-6 rounded-lg border-l-4 border-red-500 mb-6">
+              <p className="font-semibold text-red-800 mb-2">URGENT: Famine Conditions Spreading</p>
+              <p className="text-red-700 text-sm">
+                International bodies warn of "dire conditions" with widespread malnutrition. ADS is on the front lines providing critical nutrition and emergency relief.
+              </p>
+            </div>
+            
             <div className="bg-tigray-light p-6 rounded-lg border-l-4 border-tigray-terracotta mb-6">
-              <p className="font-semibold text-tigray-dark">Your Impact</p>
+              <p className="font-semibold text-tigray-dark mb-2">Your Impact</p>
               <div className="text-tigray-dark/80 space-y-2">
-                <p>$25: {getDonationImpact(25)}</p>
-                <p>$50: {getDonationImpact(50)}</p>
-                <p>$100: {getDonationImpact(100)}</p>
-                <p>$250+: {getDonationImpact(250)}</p>
+                <p><strong>$25:</strong> {getDonationImpact(25)}</p>
+                <p><strong>$50:</strong> {getDonationImpact(50)}</p>
+                <p><strong>$100:</strong> {getDonationImpact(100)}</p>
+                <p><strong>$250+:</strong> {getDonationImpact(250)}</p>
               </div>
+            </div>
+
+            {/* Major Donor Section */}
+            <div className="bg-yellow-50 p-6 rounded-lg border-l-4 border-yellow-500 mb-6">
+              <p className="font-semibold text-yellow-800 mb-2">Major Donors & Corporate Partners</p>
+              <p className="text-yellow-700 text-sm mb-3">
+                Ready to fund entire programs? Sponsor a Child-Friendly Space, fund the ASSET program, or support emergency relief for multiple families.
+              </p>
+              <a 
+                href="mailto:contact@anenitigray.org?subject=Major%20Donor%20Partnership%20Inquiry" 
+                className="inline-block bg-yellow-600 text-white px-4 py-2 rounded text-sm hover:bg-yellow-700 transition-colors"
+              >
+                Contact Us for Partnership Opportunities
+              </a>
             </div>
             
             <div className="flex flex-wrap gap-4 items-center">
@@ -77,8 +98,6 @@ const DonationSection = () => {
                 <iframe 
                   src="https://donorbox.org/embed/support-ads-tigray?" 
                   name="donorbox" 
-                  allowPaymentRequest="allowpaymentrequest" 
-                  seamless="seamless" 
                   frameBorder="0" 
                   scrolling="no" 
                   height="900px" 

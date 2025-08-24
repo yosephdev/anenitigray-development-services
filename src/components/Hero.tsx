@@ -30,12 +30,12 @@ const Hero = () => {
           </p>
           <div className="flex flex-wrap gap-4">
             <Link to="/donate">
-              <Button size="lg" className="bg-tigray-terracotta hover:bg-opacity-90 text-white">
+              <Button size="lg" className="bg-tigray-terracotta hover:bg-tigray-terracotta/90 text-white font-semibold border-0">
                 {t('donate')}
               </Button>
             </Link>
             <Link to="/programs">
-              <Button size="lg" variant="outline" className="bg-transparent border-white text-white hover:bg-white/10">
+              <Button size="lg" variant="outline" className="border-2 border-white text-white hover:bg-white hover:text-tigray-dark font-semibold bg-transparent">
                 {t('hero.cta')}
               </Button>
             </Link>

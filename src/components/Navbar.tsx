@@ -35,9 +35,17 @@ const Navbar = () => {
                 <Link to="/impact" className="font-medium text-tigray-dark hover:text-tigray-terracotta px-3 py-2 transition-colors">
                   {t('impact')}
                 </Link>
-                {/* <Link to="/news" className="font-medium text-tigray-dark hover:text-tigray-terracotta px-3 py-2 transition-colors">
-                  {t('news')}
-                </Link> */}
+                <a 
+                  href="https://tigray.ternafit.org" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="font-medium text-tigray-dark hover:text-tigray-terracotta px-3 py-2 transition-colors flex items-center"
+                >
+                  Resources
+                  <svg className="w-3 h-3 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                  </svg>
+                </a>
                 <Link to="/contact" className="font-medium text-tigray-dark hover:text-tigray-terracotta px-3 py-2 transition-colors">
                   {t('contact')}
                 </Link>
@@ -47,7 +55,7 @@ const Navbar = () => {
           <div className="hidden md:flex items-center space-x-4">
             {/* <LanguageSwitcher /> */}
             <Link to="/donate">
-              <Button className="bg-tigray-terracotta hover:bg-opacity-90">
+              <Button className="bg-tigray-terracotta hover:bg-tigray-terracotta/90 text-white font-semibold border-0">
                 {t('donate')}
               </Button>
             </Link>
@@ -80,6 +88,17 @@ const Navbar = () => {
             <Link to="/impact" className="block font-medium text-tigray-dark hover:text-tigray-terracotta px-3 py-2 transition-colors">
               {t('impact')}
             </Link>
+            <a 
+              href="https://tigray.ternafit.org" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="block font-medium text-tigray-dark hover:text-tigray-terracotta px-3 py-2 transition-colors flex items-center"
+            >
+              Resources
+              <svg className="w-3 h-3 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+              </svg>
+            </a>
             <Link to="/news" className="block font-medium text-tigray-dark hover:text-tigray-terracotta px-3 py-2 transition-colors">
               {t('news')}
             </Link>
@@ -87,7 +106,7 @@ const Navbar = () => {
               {t('contact')}
             </Link>
             <Link to="/donate" className="block">
-              <Button className="w-full bg-tigray-terracotta hover:bg-opacity-90 mt-2">
+              <Button className="w-full bg-tigray-terracotta hover:bg-tigray-terracotta/90 text-white font-semibold border-0 mt-2">
                 {t('donate')}
               </Button>
             </Link>

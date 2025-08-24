@@ -8,6 +8,10 @@ import { HelmetProvider } from "react-helmet-async";
 import Index from "./pages/Index";
 import About from "./pages/About";
 import Programs from "./pages/Programs";
+import IntegratedChildCare from "./pages/IntegratedChildCare";
+import AssetProgram from "./pages/AssetProgram";
+import RapidRelief from "./pages/RapidRelief";
+import CapacityBuilding from "./pages/CapacityBuilding";
 import Impact from "./pages/Impact";
 import News from "./pages/News";
 import Contact from "./pages/Contact";
@@ -39,7 +43,22 @@ const App = () => (
               <Route path="/contact" element={<Contact />} />
               <Route path="/donate" element={<Donate />} />
               <Route path="/privacy-policy" element={<PrivacyPolicy />} />
-          <Route path="/terms-and-conditions" element={<TermsAndConditions />} /> {/* Added route */}
+                      <Route path="/" element={<Index />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/programs" element={<Programs />} />
+            <Route path="/programs/integrated-child-care" element={<IntegratedChildCare />} />
+            <Route path="/programs/asset-program" element={<AssetProgram />} />
+            <Route path="/programs/rapid-relief" element={<RapidRelief />} />
+            <Route path="/programs/capacity-building" element={<CapacityBuilding />} />
+            <Route path="/impact" element={<Impact />} />
+            <Route path="/news" element={<News />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/donate" element={<Donate />} />
+            <Route path="/volunteer" element={<Volunteer />} />
+            <Route path="/legacy-giving" element={<LegacyGiving />} />
+            <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+            <Route path="/terms-and-conditions" element={<TermsAndConditions />} />
+            <Route path="*" element={<NotFound />} />
               {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
               <Route path="*" element={<NotFound />} />
               <Route path="/volunteer" element={<Volunteer />} />

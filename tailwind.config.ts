@@ -66,6 +66,13 @@ export default {
 					ring: 'hsl(var(--sidebar-ring))'
 				},
 				// ADS NGO Custom Colors
+				'tigray-terracotta': '#C45E40',
+				'tigray-ochre': '#DBAE58',
+				'tigray-green': '#4F6F52',
+				'tigray-brown': '#8B5A2B',
+				'tigray-sand': '#E7D7C1',
+				'tigray-light': '#FDF5E6',
+				'tigray-dark': '#2C2C2C',
 				tigray: {
 					terracotta: '#C45E40',
 					ochre: '#DBAE58',
