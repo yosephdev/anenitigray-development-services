@@ -9,15 +9,32 @@ const Hero = () => {
 
   return (
     <div className="relative h-[70vh] overflow-hidden">
+      {/* Video Background */}
+      <video 
+        className="absolute inset-0 w-full h-full object-cover hero-video"
+        autoPlay 
+        muted 
+        loop 
+        playsInline
+        preload="metadata"
+        aria-label="Tigray Emergency Response Video Background"
+        poster="/images/home-banner-01.jpg"
+      >
+        <source src="/images/Tigray_Emergency_Response_Video_Creation.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+      
+      {/* Fallback background for mobile/unsupported browsers */}
       <div 
-        className="absolute inset-0 bg-cover bg-center" 
+        className="absolute inset-0 bg-cover bg-center md:hidden"
         style={{ 
-          backgroundImage: "url('/images/home-banner-01.jpg')", // TODO: Replace with a relevant image of Tigray or ADS activities
+          backgroundImage: "url('/images/home-banner-01.jpg')",
           backgroundPosition: "center 30%"
         }}
-      >
-        <div className="absolute inset-0 bg-gradient-to-r from-tigray-dark/80 to-tigray-dark/50"></div>
-      </div>
+      ></div>
+      
+      {/* Dark overlay for text readability */}
+      <div className="absolute inset-0 bg-gradient-to-r from-tigray-dark/80 to-tigray-dark/50"></div>
 
       <div className="relative h-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col justify-center items-start">
         <div className="max-w-2xl animate-slide-in">

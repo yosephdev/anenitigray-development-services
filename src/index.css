@@ -124,3 +124,32 @@
   content: "▼";
   @apply absolute right-2 top-1/2 transform -translate-y-1/2 text-xs pointer-events-none text-tigray-brown;
 }
+
+/* Hero Video Styling */
+.hero-video {
+  z-index: -1;
+}
+
+/* Respect user's motion preferences */
+@media (prefers-reduced-motion: reduce) {
+  .hero-video {
+    animation-play-state: paused !important;
+  }
+}
+
+/* Ensure video doesn't autoplay on mobile to save data */
+@media (max-width: 768px) {
+  .hero-video {
+    display: none;
+  }
+}
+
+/* Mobile fallback with poster image */
+@media (max-width: 768px) {
+  .hero-video + div {
+    display: block;
+    background-image: url('/images/home-banner-01.jpg');
+    background-size: cover;
+    background-position: center 30%;
+  }
+}
