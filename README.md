@@ -43,3 +43,4 @@ This project is licensed under the MIT License.
 ## Contact
 
 For questions or support, please contact [info@ternafit.org](mailto:info@ternafit.org).
+# ADS Website - Updated tis 26 aug 2025 10:25:21 CEST
