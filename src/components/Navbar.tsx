@@ -17,8 +17,13 @@ const Navbar = () => {
           <div className="flex items-center">
             <Link to="/" className="flex-shrink-0">
               <div className="flex items-center">
-                <span className="h-8 w-8 rounded-full bg-tigray-terracotta flex items-center justify-center text-white font-bold">A</span>
-                <span className="ml-2 text-xl font-bold text-tigray-dark">ADS</span>
+                <div className="h-10 w-10 rounded-lg bg-gradient-to-br from-tigray-terracotta to-tigray-brown flex items-center justify-center shadow-md">
+                  <span className="text-white font-bold text-lg">A</span>
+                </div>
+                <div className="ml-3 flex flex-col">
+                  <span className="text-xl font-bold text-tigray-dark leading-tight">ADS</span>
+                  <span className="text-xs text-tigray-dark/70 leading-tight">Anenitigray Development</span>
+                </div>
               </div>
             </Link>
             <div className="hidden md:block">

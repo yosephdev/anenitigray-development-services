@@ -16,8 +16,13 @@ const Footer = () => {
                     {/* Logo and About */}
                     <div>
                         <Link to="/" className="flex items-center mb-6">
-                            <span className="h-8 w-8 rounded-full bg-tigray-terracotta flex items-center justify-center text-white font-bold">A</span>
-                            <span className="ml-2 text-xl font-bold text-white">ADS</span>
+                            <div className="h-10 w-10 rounded-lg bg-gradient-to-br from-tigray-terracotta to-tigray-brown flex items-center justify-center shadow-md">
+                                <span className="text-white font-bold text-lg">A</span>
+                            </div>
+                            <div className="ml-3 flex flex-col">
+                                <span className="text-xl font-bold text-white leading-tight">ADS</span>
+                                <span className="text-xs text-white/70 leading-tight">Anenitigray Development</span>
+                            </div>
                         </Link>
                         <p className="text-white/80 mb-6">
                             Empowering Tigray through sustainable development initiatives in education, healthcare, economic empowerment, and food security.

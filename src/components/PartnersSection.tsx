@@ -17,72 +17,95 @@ const PartnersSection = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 items-center">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 items-stretch">
           {/* TDRF Partnership */}
-          <div className="bg-white p-8 rounded-lg shadow-sm text-center">
-            <div className="mb-4">
-              <div className="h-16 w-16 mx-auto bg-tigray-terracotta rounded-full flex items-center justify-center">
-                <span className="text-white font-bold text-xl">TDRF</span>
+          <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow text-center border border-tigray-sand/20">
+            <div className="mb-6">
+              <div className="h-20 w-20 mx-auto bg-gradient-to-br from-tigray-terracotta to-tigray-brown rounded-xl flex items-center justify-center shadow-md">
+                <span className="text-white font-bold text-lg">TDRF</span>
               </div>
             </div>
-            <h3 className="text-lg font-semibold text-tigray-dark mb-2">
-              Tigray Disaster Relief Fund (TDRF)
+            <h3 className="text-lg font-semibold text-tigray-dark mb-3">
+              Tigray Disaster Relief Fund
             </h3>
+            <div className="mb-3">
+              <span className="inline-block bg-tigray-terracotta/10 text-tigray-terracotta px-3 py-1 rounded-full text-xs font-semibold">
+                Trusted Implementing Partner
+              </span>
+            </div>
             <p className="text-tigray-dark/70 text-sm">
-              <strong>Trusted Implementing Partner</strong> - TDRF is an established international 501(c)(3) organization founded by diaspora professionals channeling funds to verified local partners like ADS.
+              International 501(c)(3) organization founded by diaspora professionals channeling funds to verified local partners.
             </p>
           </div>
 
           {/* ACSOT Partnership */}
-          <div className="bg-white p-8 rounded-lg shadow-sm text-center">
-            <div className="mb-4">
-              <div className="h-16 w-16 mx-auto bg-tigray-sand rounded-full flex items-center justify-center">
+          <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow text-center border border-tigray-sand/20">
+            <div className="mb-6">
+              <div className="h-20 w-20 mx-auto bg-gradient-to-br from-tigray-ochre to-tigray-sand rounded-xl flex items-center justify-center shadow-md">
                 <span className="text-tigray-dark font-bold text-sm">ACSOT</span>
               </div>
             </div>
-            <h3 className="text-lg font-semibold text-tigray-dark mb-2">
-              Alliance of Civil Society Organizations of Tigray (ACSOT)
+            <h3 className="text-lg font-semibold text-tigray-dark mb-3">
+              Alliance of Civil Society Organizations of Tigray
             </h3>
+            <div className="mb-3">
+              <span className="inline-block bg-tigray-ochre/20 text-tigray-brown px-3 py-1 rounded-full text-xs font-semibold">
+                Member Organization
+              </span>
+            </div>
             <p className="text-tigray-dark/70 text-sm">
-              <strong>Member Organization</strong> - Part of a consortium of 124 local and national CSOs focusing on coordination, capacity building, and advocacy.
+              Consortium of 124 local and national CSOs focusing on coordination, capacity building, and advocacy.
             </p>
           </div>
 
           {/* Ternafit Partnership */}
-          <div className="bg-white p-8 rounded-lg shadow-sm text-center">
-            <div className="mb-4">
-              <div className="h-16 w-16 mx-auto bg-green-600 rounded-full flex items-center justify-center">
-                <span className="text-white font-bold text-sm">TF</span>
+          <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow text-center border border-tigray-sand/20">
+            <div className="mb-6">
+              <div className="h-20 w-20 mx-auto bg-gradient-to-br from-green-600 to-green-700 rounded-xl flex items-center justify-center shadow-md">
+                <span className="text-white font-bold text-lg">TF</span>
               </div>
             </div>
-            <h3 className="text-lg font-semibold text-tigray-dark mb-2">
+            <h3 className="text-lg font-semibold text-tigray-dark mb-3">
               Ternafit.org
             </h3>
-            <p className="text-tigray-dark/70 text-sm">
-              <strong>Digital Partner</strong> - Winner of "Best Tigrean Community Support Initiative 2025" award from Acquisition International, providing expert digital strategy and web development.
+            <div className="mb-3">
+              <span className="inline-block bg-green-100 text-green-700 px-3 py-1 rounded-full text-xs font-semibold">
+                Digital Partner
+              </span>
+            </div>
+            <p className="text-tigray-dark/70 text-sm mb-3">
+              Award-winning digital strategy partner providing expert web development and community support initiatives.
             </p>
+            <div className="text-xs text-green-600 font-medium">
+              🏆 Best Tigrean Community Support Initiative 2025
+            </div>
           </div>
 
           {/* Tigray Knowledge Resource */}
-          <div className="bg-white p-8 rounded-lg shadow-sm text-center">
-            <div className="mb-4">
-              <div className="h-16 w-16 mx-auto bg-blue-600 rounded-full flex items-center justify-center">
-                <span className="text-white font-bold text-sm">📚</span>
+          <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow text-center border border-tigray-sand/20">
+            <div className="mb-6">
+              <div className="h-20 w-20 mx-auto bg-gradient-to-br from-blue-600 to-blue-700 rounded-xl flex items-center justify-center shadow-md">
+                <span className="text-white text-2xl">📚</span>
               </div>
             </div>
-            <h3 className="text-lg font-semibold text-tigray-dark mb-2">
+            <h3 className="text-lg font-semibold text-tigray-dark mb-3">
               <a href="https://tigray.ternafit.org" target="_blank" rel="noopener noreferrer" className="hover:text-tigray-terracotta transition-colors">
                 Tigray Knowledge Base
               </a>
             </h3>
-            <p className="text-tigray-dark/70 text-sm">
-              <strong>Educational Resource</strong> - The world's most comprehensive multimedia resource on Tigray's history, culture, and current situation. Essential for understanding the context of our humanitarian work.
+            <div className="mb-3">
+              <span className="inline-block bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-xs font-semibold">
+                Educational Resource
+              </span>
+            </div>
+            <p className="text-tigray-dark/70 text-sm mb-4">
+              World's most comprehensive multimedia resource on Tigray's history, culture, and current situation.
             </p>
             <a 
               href="https://tigray.ternafit.org" 
               target="_blank" 
               rel="noopener noreferrer" 
-              className="inline-block mt-3 bg-blue-600 text-white px-4 py-2 rounded text-sm hover:bg-blue-700 transition-colors"
+              className="inline-flex items-center bg-blue-600 text-white px-4 py-2 rounded-lg text-sm hover:bg-blue-700 transition-colors font-medium"
             >
               Explore Tigray →
             </a>

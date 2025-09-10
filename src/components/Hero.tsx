@@ -37,14 +37,47 @@ const Hero = () => {
       <div className="absolute inset-0 bg-gradient-to-r from-tigray-dark/80 to-tigray-dark/50"></div>
 
       <div className="relative h-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col justify-center items-start">
-        <div className="max-w-2xl animate-slide-in">
-          <div className="h-1 w-20 bg-tigray-terracotta mb-6"></div>
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4">
+        <div className="max-w-3xl animate-slide-in">
+          {/* ADS Branding Badge */}
+          <div className="flex items-center mb-6">
+            <div className="h-12 w-12 rounded-xl bg-gradient-to-br from-tigray-terracotta to-tigray-brown flex items-center justify-center shadow-lg mr-4">
+              <span className="text-white font-bold text-xl">A</span>
+            </div>
+            <div className="flex flex-col">
+              <span className="text-2xl font-bold text-white leading-tight">ADS</span>
+              <span className="text-sm text-white/80 leading-tight">Anenitigray Development Services</span>
+            </div>
+          </div>
+          
+          <div className="h-1 w-24 bg-tigray-terracotta mb-6"></div>
+          
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
             {t('hero.title')}
           </h1>
-          <p className="text-xl text-white/90 mb-8">
-            {t('hero.subtitle')}
-          </p>
+          
+          {/* Enhanced Subtitle with Story */}
+          <div className="mb-8 space-y-4">
+            <p className="text-2xl text-white/95 font-medium">
+              {t('hero.subtitle')}
+            </p>
+            <p className="text-lg text-white/85 max-w-2xl">
+              Born from the community we serve, ADS delivers life-saving humanitarian aid with unmatched local trust and efficiency. 
+              Every donation reaches families in need through our verified partnership network.
+            </p>
+          </div>
+          
+          {/* Credibility Indicators */}
+          <div className="flex flex-wrap items-center gap-4 mb-8">
+            <div className="bg-white/20 backdrop-blur-sm rounded-lg px-4 py-2">
+              <span className="text-white text-sm font-medium">✓ TDRF Trusted Partner</span>
+            </div>
+            <div className="bg-white/20 backdrop-blur-sm rounded-lg px-4 py-2">
+              <span className="text-white text-sm font-medium">✓ ACSOT Member</span>
+            </div>
+            <div className="bg-white/20 backdrop-blur-sm rounded-lg px-4 py-2">
+              <span className="text-white text-sm font-medium">✓ Local Implementation</span>
+            </div>
+          </div>
           <div className="flex flex-wrap gap-4">
             <Link to="/donate">
               <Button size="lg" className="bg-tigray-terracotta hover:bg-tigray-terracotta/90 text-white font-semibold border-0">
