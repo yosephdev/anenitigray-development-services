@@ -17,12 +17,14 @@ const Navbar = () => {
           <div className="flex items-center">
             <Link to="/" className="flex-shrink-0">
               <div className="flex items-center">
-                <div className="h-10 w-10 rounded-lg bg-gradient-to-br from-tigray-terracotta to-tigray-brown flex items-center justify-center shadow-md">
-                  <span className="text-white font-bold text-lg">A</span>
-                </div>
+                <img 
+                  src="/images/logos/AneniTigray-Development-Services-logo.png" 
+                  alt="ADS Logo"
+                  className="h-12 w-auto object-contain"
+                />
                 <div className="ml-3 flex flex-col">
-                  <span className="text-xl font-bold text-tigray-dark leading-tight">ADS</span>
-                  <span className="text-xs text-tigray-dark/70 leading-tight">Anenitigray Development</span>
+                  <span className="text-xl font-bold text-tigray-dark leading-tight">Anenitigray</span>
+                  <span className="text-xs text-tigray-dark/70 leading-tight">Development Services</span>
                 </div>
               </div>
             </Link>

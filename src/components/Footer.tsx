@@ -16,12 +16,14 @@ const Footer = () => {
                     {/* Logo and About */}
                     <div>
                         <Link to="/" className="flex items-center mb-6">
-                            <div className="h-10 w-10 rounded-lg bg-gradient-to-br from-tigray-terracotta to-tigray-brown flex items-center justify-center shadow-md">
-                                <span className="text-white font-bold text-lg">A</span>
-                            </div>
-                            <div className="ml-3 flex flex-col">
-                                <span className="text-xl font-bold text-white leading-tight">ADS</span>
-                                <span className="text-xs text-white/70 leading-tight">Anenitigray Development</span>
+                            <img 
+                              src="/images/logos/AneniTigray-Development-Services-logo.png" 
+                              alt="ADS Logo"
+                              className="h-10 w-auto object-contain mr-3"
+                            />
+                            <div className="flex flex-col">
+                                <span className="text-xl font-bold text-white leading-tight">Anenitigray</span>
+                                <span className="text-xs text-white/70 leading-tight">Development Services</span>
                             </div>
                         </Link>
                         <p className="text-white/80 mb-6">
@@ -42,20 +44,58 @@ const Footer = () => {
                             </a>
                         </div>
                             {/* Partner Logos for Trust */}
-                            <div className="flex flex-wrap items-center gap-4 mt-4">
-                                <span className="text-xs text-white/70 mr-2">Trusted Implementing Partner of:</span>
-                                <a href="https://tdrfund.org" target="_blank" rel="noopener noreferrer" className="bg-tigray-terracotta text-white px-2 py-1 rounded text-xs font-semibold">
-                                    TDRF
-                                </a>
-                                <a href="https://acsot.org" target="_blank" rel="noopener noreferrer" className="bg-tigray-sand text-tigray-dark px-2 py-1 rounded text-xs font-semibold">
-                                    ACSOT
-                                </a>
-                                <a href="https://ternafit.org" target="_blank" rel="noopener noreferrer" className="bg-green-600 text-white px-2 py-1 rounded text-xs font-semibold">
-                                    Ternafit
-                                </a>
-                                <a href="https://tigray.ternafit.org" target="_blank" rel="noopener noreferrer" className="bg-blue-600 text-white px-2 py-1 rounded text-xs font-semibold">
-                                    Tigray
-                                </a>
+                            <div className="mt-6">
+                                <span className="text-xs text-white/70 block mb-3">Trusted Partners:</span>
+                                <div className="flex flex-wrap items-center gap-3">
+                                    <a 
+                                        href="https://tdrfund.org" 
+                                        target="_blank" 
+                                        rel="noopener noreferrer"
+                                        className="bg-white p-2 rounded-md hover:shadow-md transition-shadow"
+                                    >
+                                        <img 
+                                            src="/images/logos/Tigray-Disaster-Relief-Fund-preview.png" 
+                                            alt="TDRF" 
+                                            className="h-6 w-auto object-contain"
+                                        />
+                                    </a>
+                                    <a 
+                                        href="https://acsot.org" 
+                                        target="_blank" 
+                                        rel="noopener noreferrer"
+                                        className="bg-white p-2 rounded-md hover:shadow-md transition-shadow"
+                                    >
+                                        <img 
+                                            src="/images/logos/acsot-logo-preview.png" 
+                                            alt="ACSOT" 
+                                            className="h-6 w-auto object-contain"
+                                        />
+                                    </a>
+                                    <a 
+                                        href="https://ternafit.org" 
+                                        target="_blank" 
+                                        rel="noopener noreferrer"
+                                        className="bg-white p-2 rounded-md hover:shadow-md transition-shadow"
+                                    >
+                                        <img 
+                                            src="/images/logos/ternafit-logo-nobg.png" 
+                                            alt="Ternafit" 
+                                            className="h-6 w-auto object-contain"
+                                        />
+                                    </a>
+                                    <a 
+                                        href="https://tigray.ternafit.org" 
+                                        target="_blank" 
+                                        rel="noopener noreferrer"
+                                        className="bg-white p-2 rounded-md hover:shadow-md transition-shadow"
+                                    >
+                                        <img 
+                                            src="/images/logos/tigray-knowledge-base.png" 
+                                            alt="Tigray Knowledge Base" 
+                                            className="h-6 w-auto object-contain"
+                                        />
+                                    </a>
+                                </div>
                             </div>
                             <p className="text-xs text-white/60 mt-2">Our digital presence is proudly developed and managed by Ternafit.org, an award-winning community support initiative. <a href="https://tigray.ternafit.org" target="_blank" rel="noopener noreferrer" className="text-white/80 hover:text-white underline">Learn about Tigray's rich history and culture</a>.</p>
                     </div>

@@ -3,6 +3,7 @@ import React from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import DonationSection from '../components/DonationSection';
+import BrandedHeader from '../components/BrandedHeader';
 import { useLanguage } from '../contexts/LanguageContext';
 
 const Donate = () => {
@@ -13,17 +14,12 @@ const Donate = () => {
       <Navbar />
       
       <div className="flex-grow">
-        <div className="relative py-24 bg-tigray-dark">
-          <div className="absolute inset-0 bg-cover bg-center opacity-20" style={{ 
-            backgroundImage: "url('/images/ADS-18.jpg')"
-          }}></div>
-          <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h1 className="text-4xl font-bold text-white mb-4">Donate</h1>
-            <p className="text-xl text-white/90 max-w-3xl mx-auto">
-              Your donation helps us create lasting change in Tigray communities.
-            </p>
-          </div>
-        </div>
+        <BrandedHeader 
+          title="Donate"
+          subtitle="Your donation helps us create lasting change in Tigray communities."
+          backgroundImage="/images/ADS-18.jpg"
+          showLogo={true}
+        />
 
         <DonationSection />
         

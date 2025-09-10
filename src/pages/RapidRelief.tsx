@@ -30,7 +30,7 @@ const RapidRelief = () => {
             <div className="max-w-4xl mx-auto text-center">
               <h2 className="text-3xl font-bold text-red-800 mb-6">The Immense Scale of Displacement</h2>
               <p className="text-lg text-red-700 mb-8">
-                The conflict in Tigray has created a massive displacement crisis, with approximately 1 million people 
+                The conflict in Tigray has created a massive displacement crisis, with approximately 100,000 people 
                 still unable to return home. These Internally Displaced Persons (IDPs)—mostly women, children, 
                 and individuals with disabilities—are living in temporary sites, having fled with nothing.
               </p>
@@ -38,7 +38,7 @@ const RapidRelief = () => {
               <div className="bg-white p-8 rounded-lg shadow-lg border-l-4 border-red-500">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div>
-                    <div className="text-4xl font-bold text-red-600 mb-2">1M+</div>
+                    <div className="text-4xl font-bold text-red-600 mb-2">100K+</div>
                     <div className="text-red-700">People still displaced</div>
                   </div>
                   <div>

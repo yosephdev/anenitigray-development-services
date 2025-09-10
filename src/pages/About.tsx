@@ -2,6 +2,7 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
+import OrganizationShowcase from '../components/OrganizationShowcase';
 import { useLanguage } from '../contexts/LanguageContext';
 
 const About = () => {
@@ -113,8 +114,12 @@ const About = () => {
               
               <div className="bg-white p-8 rounded-lg shadow-lg border-l-4 border-blue-600">
                 <div className="flex items-center justify-center mb-4">
-                  <div className="h-16 w-16 bg-blue-600 rounded-full flex items-center justify-center mr-4">
-                    <span className="text-white text-2xl">📚</span>
+                  <div className="h-16 w-16 bg-white rounded-full flex items-center justify-center mr-4 border border-blue-200">
+                    <img 
+                      src="/images/logos/logo-tigray-knowledge-base.svg" 
+                      alt="Tigray Knowledge Base Logo"
+                      className="h-12 w-12 object-contain"
+                    />
                   </div>
                   <div className="text-left">
                     <h3 className="text-xl font-semibold text-tigray-dark">Tigray Knowledge Base</h3>
@@ -142,6 +147,8 @@ const About = () => {
             </div>
           </div>
         </div>
+
+        <OrganizationShowcase />
       </div>
       
       <Footer />

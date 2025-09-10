@@ -77,6 +77,55 @@ const DonationSection = () => {
                 Contact Us for Partnership Opportunities
               </a>
             </div>
+
+            <div className="bg-green-50 p-6 rounded-lg border-l-4 border-green-500 mb-6">
+              <p className="text-green-800 font-semibold mb-2">Verified Trusted Partner</p>
+              <p className="text-green-700 text-sm mb-4">
+                ADS is a verified implementing partner working within the formal humanitarian response architecture. 
+                Your donation reaches communities through trusted, established networks.
+              </p>
+              <div className="flex items-center gap-4">
+                <span className="text-xs text-green-700 font-medium">Trusted by:</span>
+                <div className="flex items-center gap-3">
+                  <a 
+                    href="https://tdrfund.org" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="bg-white p-1 rounded border hover:shadow-md transition-shadow"
+                  >
+                    <img 
+                      src="/images/logos/Tigray-Disaster-Relief-Fund-preview.png" 
+                      alt="TDRF" 
+                      className="h-4 w-auto object-contain"
+                    />
+                  </a>
+                  <a 
+                    href="https://acsot.org" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="bg-white p-1 rounded border hover:shadow-md transition-shadow"
+                  >
+                    <img 
+                      src="/images/logos/acsot-logo-preview.png" 
+                      alt="ACSOT" 
+                      className="h-4 w-auto object-contain"
+                    />
+                  </a>
+                  <a 
+                    href="https://tigray.ternafit.org" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="bg-white p-1 rounded border hover:shadow-md transition-shadow"
+                  >
+                    <img 
+                      src="/images/logos/logo-tigray-knowledge-base.svg" 
+                      alt="Tigray Knowledge Base" 
+                      className="h-4 w-auto object-contain"
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
             
             <div className="flex flex-wrap gap-4 items-center">
               <img src="https://www.paypalobjects.com/webstatic/mktg/logo/pp_cc_mark_37x23.jpg" alt="PayPal" className="h-8" />

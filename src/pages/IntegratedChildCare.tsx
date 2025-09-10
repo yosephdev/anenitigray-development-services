@@ -31,12 +31,12 @@ const IntegratedChildCare = () => {
               <h2 className="text-3xl font-bold text-red-800 mb-6">A Generation at Risk</h2>
               <p className="text-lg text-red-700 mb-8">
                 The conflict in Tigray has left a devastating mark on its youngest and most vulnerable residents. 
-                An estimated 1 million people remain internally displaced, living in dire conditions with limited access to basic services.
+                An estimated 100,000 people remain internally displaced, living in dire conditions with limited access to basic services.
               </p>
               
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                 <div className="bg-white p-6 rounded-lg border-l-4 border-red-500">
-                  <div className="text-2xl font-bold text-red-600">1M+</div>
+                  <div className="text-2xl font-bold text-red-600">100K+</div>
                   <div className="text-sm text-red-700">People internally displaced</div>
                 </div>
                 <div className="bg-white p-6 rounded-lg border-l-4 border-red-500">

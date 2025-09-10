@@ -35,12 +35,12 @@ const StoriesSection = () => {
     location: language === 'en' ? 'IDP Camp, Mekelle' : 'ናይ ተመዛበልቲ ካምፕ፣ መቐለ',
     image: '/images/ADS-7.jpg', // Could represent relief distribution
     quote: language === 'en' ?
-      '"When we fled our village with nothing, ADS gave us dignity. The food items and non-food items helped us survive until we could rebuild. We are one of millions displaced, but we felt seen."' :
-      `"ካብ ዓድና ዋላ ሓንቲ ብዘይሒዝና ምስ ሃደምና፡ ኤድኤስ ክብረትና ሂቡና። እቶም ናይ መግቢን ዘይመግቢ ኣቅሑትን ክሳብ ንውድኣት ክንመልስ ክንቅይር ሓገዙና። ካብ ሚልዮናት ተመዛበልቲ ሓደ ኢና፡ ግን ዝተራእናዮ ስምዒት ነበረና።"`,
+      '"When we fled our village with nothing, ADS gave us dignity. The food items and non-food items helped us survive until we could rebuild. We are one of thousands displaced, but we felt seen."' :
+      `"ካብ ዓድና ዋላ ሓንቲ ብዘይሒዝና ምስ ሃደምና፡ ኤድኤስ ክብረትና ሂቡና። እቶም ናይ መግቢን ዘይመግቢ ኣቅሑትን ክሳብ ንውድኣት ክንመልስ ክንቅይር ሓገዙና። ካብ ኣሽሓት ተመዛበልቲ ሓደ ኢና፡ ግን ዝተራእናዮ ስምዒት ነበረና።"`,
     program: language === 'en' ? 'Rapid Relief Support' : 'ቀጥታዊ ናይ ድንገተኛ ረድኤት',
     context: language === 'en' ? 
-      'Tigray hosts the highest number of conflict-induced IDPs in Ethiopia. With 1 million people still displaced and living in dire conditions, our relief support provides essential dignity and survival items.' :
-      'ትግራይ ኣብ ኢትዮጵያ ዝለዓለ ቑጽሪ ብኩናት ተመዛበልቲ ትጸንሕ። 1 ሚልዮን ሰባት ገና ተመዛቢሎም ኣብ ከቢድ ኩነታት ክነብሩ እንከለዉ፡ ናይ ድንገተኛ ረድኤት ደገፍና ኣገደስቲ ክብረትን ምህላው ኣቅሑትን ይህብ።'
+      'Tigray hosts the highest number of conflict-induced IDPs in Ethiopia. With 100,000 people still displaced and living in dire conditions, our relief support provides essential dignity and survival items.' :
+      'ትግራይ ኣብ ኢትዮጵያ ዝለዓለ ቑጽሪ ብኩናት ተመዛበልቲ ትጸንሕ። 100,000 ሰባት ገና ተመዛቢሎም ኣብ ከቢድ ኩነታት ክነብሩ እንከለዉ፡ ናይ ድንገተኛ ረድኤት ደገፍና ኣገደስቲ ክብረትን ምህላው ኣቅሑትን ይህብ።'
   }
 ];
 

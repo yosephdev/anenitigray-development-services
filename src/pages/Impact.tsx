@@ -2,6 +2,7 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
+import ImageShowcase from '../components/ImageShowcase';
 import { useLanguage } from '../contexts/LanguageContext';
 import { Helmet } from 'react-helmet-async';
 
@@ -123,6 +124,48 @@ const Impact = () => {
                                 </div>
                             ))}
                         </div>
+                    </div>
+                </div>
+
+                {/* Visual Impact Gallery */}
+                <div className="bg-gray-50 py-16">
+                    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                        <ImageShowcase 
+                            title="Our Impact in Action"
+                            description="See the real difference we're making in Tigray communities through our various programs and initiatives."
+                            images={[
+                                {
+                                    src: "/images/ADS-1.jpg",
+                                    alt: "Community outreach program",
+                                    caption: "Community outreach and engagement"
+                                },
+                                {
+                                    src: "/images/ADS-15.jpg",
+                                    alt: "Educational support program",
+                                    caption: "Educational support and capacity building"
+                                },
+                                {
+                                    src: "/images/ADS-16.jpg",
+                                    alt: "Healthcare initiatives",
+                                    caption: "Healthcare and wellness programs"
+                                },
+                                {
+                                    src: "/images/ADS-17.jpg",
+                                    alt: "Food security program",
+                                    caption: "Food security and nutrition support"
+                                },
+                                {
+                                    src: "/images/ADS-18.jpg",
+                                    alt: "Economic empowerment",
+                                    caption: "Economic empowerment initiatives"
+                                },
+                                {
+                                    src: "/images/ADS-CFS.jpg",
+                                    alt: "Child-Friendly Space",
+                                    caption: "Child-Friendly Space program"
+                                }
+                            ]}
+                        />
                     </div>
                 </div>
             </div>

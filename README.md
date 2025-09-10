@@ -1,10 +1,10 @@
-# Ternafit.org Website
+# Ternafit Website
 
-This repository contains the source code for the official website of [Ternafit.org](https://ternafit.org), an organization dedicated to promoting fitness, wellness, and healthy living through community-driven initiatives and resources.
+This repository contains the source code for the official website of [Ternafit](https://ternafit.org), an organization dedicated to promoting fitness, wellness, and healthy living through community-driven initiatives and resources.
 
 ## Features
 
-- Informative pages about Ternafit.org's mission and programs
+- Informative pages about Ternafit's mission and programs
 - Event listings and registration
 - Blog and news updates
 - Contact and support information

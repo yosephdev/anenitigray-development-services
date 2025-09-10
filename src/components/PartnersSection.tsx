@@ -21,12 +21,28 @@ const PartnersSection = () => {
           {/* TDRF Partnership */}
           <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow text-center border border-tigray-sand/20">
             <div className="mb-6">
-              <div className="h-20 w-20 mx-auto bg-gradient-to-br from-tigray-terracotta to-tigray-brown rounded-xl flex items-center justify-center shadow-md">
-                <span className="text-white font-bold text-lg">TDRF</span>
-              </div>
+              <a 
+                href="https://tdrfund.org" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="block h-20 w-20 mx-auto bg-white rounded-xl flex items-center justify-center shadow-md overflow-hidden hover:shadow-lg transition-shadow"
+              >
+                <img 
+                  src="/images/logos/Tigray-Disaster-Relief-Fund-preview.png" 
+                  alt="Tigray Disaster Relief Fund Logo"
+                  className="h-16 w-16 object-contain"
+                />
+              </a>
             </div>
             <h3 className="text-lg font-semibold text-tigray-dark mb-3">
-              Tigray Disaster Relief Fund
+              <a 
+                href="https://tdrfund.org" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="hover:text-tigray-terracotta transition-colors"
+              >
+                Tigray Disaster Relief Fund
+              </a>
             </h3>
             <div className="mb-3">
               <span className="inline-block bg-tigray-terracotta/10 text-tigray-terracotta px-3 py-1 rounded-full text-xs font-semibold">
@@ -41,12 +57,28 @@ const PartnersSection = () => {
           {/* ACSOT Partnership */}
           <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow text-center border border-tigray-sand/20">
             <div className="mb-6">
-              <div className="h-20 w-20 mx-auto bg-gradient-to-br from-tigray-ochre to-tigray-sand rounded-xl flex items-center justify-center shadow-md">
-                <span className="text-tigray-dark font-bold text-sm">ACSOT</span>
-              </div>
+              <a 
+                href="https://acsot.org" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="block h-20 w-20 mx-auto bg-white rounded-xl flex items-center justify-center shadow-md overflow-hidden hover:shadow-lg transition-shadow"
+              >
+                <img 
+                  src="/images/logos/acsot-logo-preview.png" 
+                  alt="Alliance of Civil Society Organizations of Tigray Logo"
+                  className="h-16 w-16 object-contain"
+                />
+              </a>
             </div>
             <h3 className="text-lg font-semibold text-tigray-dark mb-3">
-              Alliance of Civil Society Organizations of Tigray
+              <a 
+                href="https://acsot.org" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="hover:text-tigray-terracotta transition-colors"
+              >
+                Alliance of Civil Society Organizations of Tigray
+              </a>
             </h3>
             <div className="mb-3">
               <span className="inline-block bg-tigray-ochre/20 text-tigray-brown px-3 py-1 rounded-full text-xs font-semibold">
@@ -61,12 +93,28 @@ const PartnersSection = () => {
           {/* Ternafit Partnership */}
           <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow text-center border border-tigray-sand/20">
             <div className="mb-6">
-              <div className="h-20 w-20 mx-auto bg-gradient-to-br from-green-600 to-green-700 rounded-xl flex items-center justify-center shadow-md">
-                <span className="text-white font-bold text-lg">TF</span>
-              </div>
+              <a 
+                href="https://ternafit.org" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="block h-20 w-20 mx-auto bg-white rounded-xl flex items-center justify-center shadow-md overflow-hidden hover:shadow-lg transition-shadow"
+              >
+                <img 
+                  src="/images/logos/ternafit-logo-nobg.png" 
+                  alt="Ternafit.org Logo"
+                  className="h-16 w-16 object-contain"
+                />
+              </a>
             </div>
             <h3 className="text-lg font-semibold text-tigray-dark mb-3">
-              Ternafit.org
+              <a 
+                href="https://ternafit.org" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="hover:text-tigray-terracotta transition-colors"
+              >
+                Ternafit.org
+              </a>
             </h3>
             <div className="mb-3">
               <span className="inline-block bg-green-100 text-green-700 px-3 py-1 rounded-full text-xs font-semibold">
@@ -84,8 +132,12 @@ const PartnersSection = () => {
           {/* Tigray Knowledge Resource */}
           <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow text-center border border-tigray-sand/20">
             <div className="mb-6">
-              <div className="h-20 w-20 mx-auto bg-gradient-to-br from-blue-600 to-blue-700 rounded-xl flex items-center justify-center shadow-md">
-                <span className="text-white text-2xl">📚</span>
+              <div className="h-20 w-20 mx-auto bg-white rounded-xl flex items-center justify-center shadow-md overflow-hidden">
+                <img 
+                  src="/images/logos/tigray-knowledge-base.png" 
+                  alt="Tigray Knowledge Base Logo"
+                  className="h-16 w-16 object-contain"
+                />
               </div>
             </div>
             <h3 className="text-lg font-semibold text-tigray-dark mb-3">
@@ -119,6 +171,21 @@ const PartnersSection = () => {
             Unlike large international NGOs, ADS is a hyper-local, efficient organization with unparalleled community trust built on shared experience. 
             Your donation doesn't get absorbed by international overhead—it provides essential support today, administered by neighbors who understand the context intimately.
           </p>
+        </div>
+
+        {/* Partnership Network Showcase */}
+        <div className="mt-12 text-center">
+          <h3 className="text-2xl font-bold text-tigray-dark mb-6">Our Partnership Network</h3>
+          <div className="bg-white p-8 rounded-xl shadow-lg">
+            <img 
+              src="/images/logos/ads-partners-preview.png" 
+              alt="ADS Partnership Network Overview"
+              className="w-full max-w-4xl mx-auto h-auto object-contain rounded-lg"
+            />
+            <p className="text-tigray-dark/70 text-sm mt-4">
+              ADS collaborates with trusted partners to maximize impact and ensure effective program delivery across Tigray.
+            </p>
+          </div>
         </div>
       </div>
     </div>

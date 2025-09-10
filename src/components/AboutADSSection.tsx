@@ -40,7 +40,7 @@ const AboutADSSection = () => {
                 </div>
                 <div>
                   <h4 className="font-semibold text-tigray-dark mb-1">Community Born</h4>
-                  <p className="text-sm text-tigray-dark/70">Founded by diaspora who experienced the same challenges</p>
+                  <p className="text-sm text-tigray-dark/70">Founded by Tigreans who experienced the same challenges</p>
                 </div>
               </div>
               
@@ -110,7 +110,7 @@ const AboutADSSection = () => {
               <h4 className="text-lg font-semibold text-tigray-dark mb-4 text-center">Our Local Impact</h4>
               <div className="grid grid-cols-3 gap-4 text-center">
                 <div>
-                  <div className="text-2xl font-bold text-tigray-terracotta">1M+</div>
+                  <div className="text-2xl font-bold text-tigray-terracotta">100K+</div>
                   <div className="text-sm text-tigray-dark/70">People Served</div>
                 </div>
                 <div>
@@ -122,6 +122,19 @@ const AboutADSSection = () => {
                   <div className="text-sm text-tigray-dark/70">Community Trust</div>
                 </div>
               </div>
+            </div>
+
+            {/* Partnership Network Preview */}
+            <div className="bg-white p-6 rounded-xl shadow-lg">
+              <h4 className="text-lg font-semibold text-tigray-dark mb-4 text-center">Trusted Partnership Network</h4>
+              <img 
+                src="/images/logos/ads-partners-preview.png" 
+                alt="ADS Partnership Network"
+                className="w-full h-auto object-contain rounded-lg"
+              />
+              <p className="text-xs text-tigray-dark/60 text-center mt-2">
+                Working with verified partners to maximize impact
+              </p>
             </div>
           </div>
         </div>
