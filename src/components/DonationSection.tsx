@@ -118,7 +118,7 @@ const DonationSection = () => {
                     className="bg-white p-1 rounded border hover:shadow-md transition-shadow"
                   >
                     <img 
-                      src="/images/logos/logo-tigray-knowledge-base.svg" 
+                      src="/images/logos/tigray-knowledge-base.png" 
                       alt="Tigray Knowledge Base" 
                       className="h-4 w-auto object-contain"
                     />
