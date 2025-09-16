@@ -289,6 +289,108 @@ const CapacityBuilding = () => {
           </div>
         </div>
 
+        {/* Recent Training Highlight */}
+        <div className="py-16 bg-gradient-to-r from-blue-50 to-green-50">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="text-center mb-12">
+              <div className="h-1 w-20 bg-tigray-terracotta mx-auto mb-6"></div>
+              <h2 className="text-3xl md:text-4xl font-bold text-tigray-dark mb-4">
+                Latest Training Initiative
+              </h2>
+              <p className="text-tigray-dark/80 max-w-3xl mx-auto text-lg">
+                September 2025: Leadership in Crisis Training for CSO Leaders
+              </p>
+            </div>
+
+            <div className="bg-white rounded-2xl p-8 shadow-xl">
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+                {/* Content */}
+                <div>
+                  <div className="flex items-center gap-4 mb-6">
+                    <div className="h-12 w-12 bg-blue-600 rounded-xl flex items-center justify-center">
+                      <Award className="h-6 w-6 text-white" />
+                    </div>
+                    <div>
+                      <h3 className="text-2xl font-bold text-tigray-dark">Leadership in Crisis Training</h3>
+                      <p className="text-tigray-dark/70">20 CSO Leaders • Mekelle, Tigray</p>
+                    </div>
+                  </div>
+                  
+                  <p className="text-tigray-dark/80 mb-6 leading-relaxed">
+                    In partnership with TDRF and ACSOT, we successfully hosted comprehensive leadership 
+                    training focusing on crisis management, organizational resilience, and post-conflict 
+                    recovery strategies for civil society organizations across Tigray.
+                  </p>
+
+                  <div className="grid grid-cols-2 gap-4 mb-6">
+                    <div className="bg-blue-50 p-4 rounded-lg">
+                      <div className="text-2xl font-bold text-blue-600">20</div>
+                      <div className="text-sm text-blue-700">CSO Leaders Trained</div>
+                    </div>
+                    <div className="bg-green-50 p-4 rounded-lg">
+                      <div className="text-2xl font-bold text-green-600">3</div>
+                      <div className="text-sm text-green-700">Partner Organizations</div>
+                    </div>
+                  </div>
+
+                  <div className="text-sm text-tigray-dark/70">
+                    <p><strong>Facilitated by:</strong> Merho Training and Consultancy Services</p>
+                    <p><strong>Supported by:</strong> TDRF & ACSOT</p>
+                  </div>
+                </div>
+
+                {/* Media */}
+                <div className="space-y-4">
+                  {/* Training Video */}
+                  <div className="relative bg-gray-900 rounded-xl overflow-hidden">
+                    <video 
+                      controls 
+                      poster="/images/PHOTO-2025-09-15-17-43-54.jpg"
+                      className="w-full h-48 object-cover"
+                    >
+                      <source src="/images/VIDEO-2025-09-15-17-43-56.mp4" type="video/mp4" />
+                      Your browser does not support the video tag.
+                    </video>
+                  </div>
+                  
+                  {/* Training Photos */}
+                  <div className="grid grid-cols-2 gap-2">
+                    <img 
+                      src="/images/PHOTO-2025-09-15-17-43-57.jpg" 
+                      alt="Training session"
+                      className="w-full h-24 object-cover rounded-lg"
+                    />
+                    <img 
+                      src="/images/PHOTO-2025-09-15-17-43-58.jpg" 
+                      alt="CSO leaders collaboration"
+                      className="w-full h-24 object-cover rounded-lg"
+                    />
+                  </div>
+                </div>
+              </div>
+
+              {/* Training Impact */}
+              <div className="mt-8 grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div className="text-center p-4 bg-blue-50 rounded-xl">
+                  <Users className="h-8 w-8 text-blue-600 mx-auto mb-2" />
+                  <h4 className="font-semibold text-tigray-dark">Leadership Development</h4>
+                  <p className="text-sm text-tigray-dark/70">Strengthening leadership capacities for crisis response</p>
+                </div>
+                <div className="text-center p-4 bg-green-50 rounded-xl">
+                  <Target className="h-8 w-8 text-green-600 mx-auto mb-2" />
+                  <h4 className="font-semibold text-tigray-dark">Crisis Management</h4>
+                  <p className="text-sm text-tigray-dark/70">Building resilient organizational structures</p>
+                </div>
+                <div className="text-center p-4 bg-tigray-terracotta/10 rounded-xl">
+                  <Award className="h-8 w-8 text-tigray-terracotta mx-auto mb-2" />
+                  <h4 className="font-semibold text-tigray-dark">Partnership Model</h4>
+                  <p className="text-sm text-tigray-dark/70">Collaborative approach for maximum impact</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
         {/* Call to Action */}
         <div className="py-16 bg-tigray-dark">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
