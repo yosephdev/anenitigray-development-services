@@ -391,6 +391,61 @@ const CapacityBuilding = () => {
           </div>
         </div>
 
+        {/* Upcoming Training: AI & Digital Literacy */}
+        <div className="py-16 bg-gradient-to-r from-blue-100 to-green-100">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="text-center mb-12">
+              <div className="h-1 w-20 bg-blue-600 mx-auto mb-6"></div>
+              <h2 className="text-3xl md:text-4xl font-bold text-tigray-dark mb-4">
+                Upcoming Training: AI & Digital Literacy
+              </h2>
+              <p className="text-tigray-dark/80 max-w-3xl mx-auto text-lg">
+                <strong>Date:</strong> September 29, 2025<br/>
+                <strong>Organized by:</strong> Ternafit & ADS<br/>
+                <strong>Location:</strong> Google Meet (<a href="https://meet.google.com/bfv-gwny-jic" target="_blank" rel="noopener noreferrer" className="text-blue-700 underline">Join Meeting</a>)
+              </p>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+              {/* Images */}
+              <div className="space-y-4">
+                <img src="/images/AI & Digital Literacy Training Promo.png" alt="AI & Digital Literacy Training Poster" className="w-full rounded-xl shadow-lg" />
+                <img src="/images/google_meet_qr.png" alt="Google Meet QR Code" className="w-40 mx-auto rounded-lg border border-gray-300" />
+                <img src="/images/AI & Digital Literacy Certificate.png" alt="Certificate Template" className="w-full rounded-xl shadow-md" />
+              </div>
+              {/* Content */}
+              <div>
+                <div className="bg-white rounded-xl p-6 shadow-md">
+                  <h3 className="text-xl font-bold text-tigray-dark mb-4">AI & Digital Literacy Training – September 29, 2025</h3>
+                  <p className="text-tigray-dark/80 mb-4">
+                    <strong>Join our upcoming AI & Digital Literacy Training!</strong> <br/>
+                    Organized by Ternafit and ADS, this online event will equip participants with essential skills in artificial intelligence and digital tools to thrive in today's fast-changing digital landscape.
+                  </p>
+                  <ul className="list-disc pl-5 text-tigray-dark/80 mb-4">
+                    <li><strong>Date:</strong> September 29, 2025</li>
+                    <li><strong>Platform:</strong> Google Meet</li>
+                    <li><strong>Meeting Link:</strong> <a href="https://meet.google.com/bfv-gwny-jic" target="_blank" rel="noopener noreferrer" className="text-blue-700 underline">https://meet.google.com/bfv-gwny-jic</a></li>
+                    <li><strong>Access:</strong> Scan the QR code below for quick entry</li>
+                  </ul>
+                  <p className="text-tigray-dark/80 mb-4">
+                    <strong>Highlights:</strong><br/>
+                    • Practical sessions on AI and digital tools<br/>
+                    • Certificate of Completion for all participants<br/>
+                    • Open to all interested community members
+                  </p>
+                  <p className="text-tigray-dark/80 mb-4">
+                    <strong>Resources:</strong> Download the training poster and certificate template below.
+                  </p>
+                  <p className="text-tigray-dark/80 mb-2">
+                    For questions or special arrangements, please contact: <br/>
+                    <strong>Yoseph Berhane</strong>, Ternafit
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
         {/* Call to Action */}
         <div className="py-16 bg-tigray-dark">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
