@@ -32,8 +32,8 @@ This website is the digital hub for ADS, featuring:
 Clone the repository and install dependencies:
 
 ```bash
-git clone https://github.com/yosephdev/tigray-impact-ai-web
-cd tigray-impact-ai-web
+git clone https://github.com/yosephdev/anenitigray-development-services
+cd anenitigray-development-services
 npm install
 ```
 
