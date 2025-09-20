@@ -78,22 +78,6 @@ The app will be available at [http://localhost:8080](http://localhost:8080).
 
 ---
 
-## 🔎 Audit & Inspection
-
-- **Navigation:** All main pages (Home, About, Programs, Impact, News, Contact, Donate, Privacy Policy, Terms) are accessible via Navbar and Footer.
-- **Links:** All external and internal links are working and use `rel="noopener noreferrer"` for security.
-- **Images:** All images (logos, event photos, certificates, posters) have descriptive `alt` text and load correctly.
-- **404 Handling:** NotFound page is present for invalid routes.
-- **SEO:** Each page uses `<Helmet>` for meta tags and descriptions.
-- **Accessibility:** Color contrast, alt text, and keyboard navigation are implemented.
-- **Responsive:** Layout adapts to mobile, tablet, and desktop.
-- **Language Support:** English and Tigrinya translations available via LanguageSwitcher.
-- **Assets:** Favicon, robots.txt, and vercel.json for deployment are present.
-- **Contact Info:** Address, email, and social media links are up-to-date.
-- **Partner Section:** Logos and links for Ternafit, ACSOT, TDRF, and Tigray Knowledge Base are correct.
-- **Training Content:** Recent and upcoming ADS training events (Leadership in Crisis, AI & Digital Literacy) are showcased with video, images, QR code, and certificate template.
-- **No broken links, missing images, or build errors detected.**
-
 ---
 
 ## 🤝 Contributing
@@ -111,7 +95,7 @@ This project is licensed under the MIT License. See [LICENSE](LICENSE) for detai
 ## 📬 Contact
 
 - General inquiries: [info@ternafit.org](mailto:info@ternafit.org)
-- ADS Website: [ads-tigray.org](https://ads-tigray.org)
+- ADS Website: [anenitigray.org](https://anenitigray.org)
 - Ternafit: [ternafit.org](https://ternafit.org)
 
 ---
