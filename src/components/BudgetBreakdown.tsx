@@ -25,10 +25,10 @@ const BudgetBreakdownComponent: React.FC = () => {
   return (
     <div className="bg-white rounded-xl shadow-lg p-6 md:p-8">
       <h2 className="text-2xl md:text-3xl font-bold text-tigray-dark mb-6">
-        Project Budget Breakdown
+        Operational Budget Overview
       </h2>
       <p className="text-tigray-dark/70 mb-8">
-        Total Budget: <span className="text-2xl font-bold text-energy-green">€30,000</span>
+        Projected Annual Budget: <span className="text-2xl font-bold text-energy-green">Self-Funded</span>
       </p>
 
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">

@@ -29,9 +29,15 @@ const Footer = () => {
                         </Link>
                         <div className="mb-4 space-y-2">
                             <YouthLeadershipBadge size="sm" />
-                            <p className="text-white/80 text-sm">
-                                A youth-led NGO empowering Tigray through clean energy social enterprise.
+                            <p className="text-white/80 text-sm font-medium">
+                                ADS provides comprehensive impact through:
                             </p>
+                            <ul className="text-white/70 text-sm space-y-1">
+                                <li>• Leadership Training & Capacity Building</li>
+                                <li>• Youth-Led Solar Social Enterprise</li>
+                                <li>• Community Development Services</li>
+                                <li>• Emergency Relief Programs</li>
+                            </ul>
                         </div>
                         <div className="flex space-x-4">
                             <a href="https://facebook.com/adsfordevelopment" className="text-white/70 hover:text-solar-yellow transition-colors" target="_blank" rel="noopener noreferrer">
@@ -74,6 +80,11 @@ const Footer = () => {
                             <li>
                                 <Link to="/about-ads" className="text-white/80 hover:text-solar-yellow transition-colors">
                                     About ADS
+                                </Link>
+                            </li>
+                            <li>
+                                <Link to="/programs" className="text-white/80 hover:text-solar-yellow transition-colors">
+                                    Our Programs
                                 </Link>
                             </li>
                             <li>
@@ -122,11 +133,11 @@ const Footer = () => {
                             </li>
                         </ul>
 
-                        {/* Grant Information */}
+                        {/* Mission Statement */}
                         <div className="bg-youth-blue/20 border border-youth-blue/30 rounded-lg p-3">
-                            <p className="text-xs font-semibold text-white mb-1">Funded by</p>
-                            <p className="text-xs text-white/90">AU-EU Youth Lab Entrepreneurship Grant</p>
-                            <p className="text-xs text-white/70 mt-1">€30,000 • 12 months</p>
+                            <p className="text-xs font-semibold text-white mb-1">Our Focus</p>
+                            <p className="text-xs text-white/90">Youth Employment + Clean Energy</p>
+                            <p className="text-xs text-white/70 mt-1">Building Sustainable Futures</p>
                         </div>
                     </div>
                 </div>

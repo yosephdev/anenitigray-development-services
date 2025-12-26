@@ -129,12 +129,12 @@ export const impactMetrics: ImpactMetric[] = [
     description: 'Annual carbon emissions prevented'
   },
   {
-    label: 'Project Investment',
-    value: '30,000',
-    unit: 'EUR',
+    label: 'Profit Reinvestment',
+    value: '100',
+    unit: '%',
     icon: 'DollarSign',
     trend: 'stable',
-    description: 'EU grant funding for social enterprise'
+    description: 'All profits support ADS programs and youth employment'
   },
   {
     label: 'Training Hours',

@@ -19,8 +19,8 @@ const Project = () => {
   return (
     <div className="min-h-screen flex flex-col">
       <Helmet>
-        <title>Our Project - Youth-Led Solar Social Enterprise | ADS</title>
-        <meta name="description" content="Learn about our EU-funded solar social enterprise project creating youth employment and clean energy access in Tigray." />
+        <title>Our Proposed Project - Youth-Led Solar Social Enterprise | ADS</title>
+        <meta name="description" content="Learn about our proposed youth-led solar social enterprise that aims to create employment and clean energy access in Tigray through sustainable business practices." />
       </Helmet>
       
       <Navbar />
@@ -28,11 +28,14 @@ const Project = () => {
       {/* Hero Section */}
       <div className="bg-gradient-to-br from-youth-blue/20 via-solar-yellow/20 to-energy-green/20 py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="inline-block bg-youth-blue text-white px-4 py-2 rounded-full text-sm font-semibold mb-4">
+            Proposed Project • Seeking Funding
+          </div>
           <h1 className="text-4xl md:text-5xl font-bold text-tigray-dark mb-6">
             Youth-Led Solar Social Enterprise Project
           </h1>
           <p className="text-xl text-tigray-dark/80 max-w-3xl">
-            A comprehensive 12-month initiative to create sustainable youth employment through 
+            Our vision for a comprehensive 12-month initiative to create sustainable youth employment through 
             solar energy distribution in Mekelle, Tigray.
           </p>
         </div>
@@ -63,11 +66,11 @@ const Project = () => {
                   </p>
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold text-tigray-dark mb-4">Our Solution</h3>
+                  <h3 className="text-xl font-bold text-tigray-dark mb-4">Our Proposed Solution</h3>
                   <p className="text-tigray-dark/70 leading-relaxed">
-                    We're addressing both challenges simultaneously through a social enterprise 
+                    We aim to address both challenges simultaneously through a social enterprise 
                     model: training and employing 20-25 young people in solar energy distribution, 
-                    while bringing clean, affordable electricity to 500+ households. This creates 
+                    while bringing clean, affordable electricity to 500+ households. This will create 
                     a sustainable cycle of employment, energy access, and community development.
                   </p>
                 </div>
@@ -76,19 +79,19 @@ const Project = () => {
               <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
                 <div className="text-center p-4 bg-youth-blue/10 rounded-lg">
                   <p className="text-3xl font-bold text-youth-blue mb-1">20-25</p>
-                  <p className="text-sm text-tigray-dark/70">Youth Employed</p>
+                  <p className="text-sm text-tigray-dark/70">Youth to Employ</p>
                 </div>
                 <div className="text-center p-4 bg-solar-yellow/10 rounded-lg">
                   <p className="text-3xl font-bold text-solar-dark mb-1">500+</p>
-                  <p className="text-sm text-tigray-dark/70">Households Reached</p>
+                  <p className="text-sm text-tigray-dark/70">Target Households</p>
                 </div>
                 <div className="text-center p-4 bg-energy-green/10 rounded-lg">
                   <p className="text-3xl font-bold text-energy-green mb-1">€30K</p>
-                  <p className="text-sm text-tigray-dark/70">Project Budget</p>
+                  <p className="text-sm text-tigray-dark/70">Funding Needed</p>
                 </div>
                 <div className="text-center p-4 bg-tigray-terracotta/10 rounded-lg">
                   <p className="text-3xl font-bold text-tigray-terracotta mb-1">12</p>
-                  <p className="text-sm text-tigray-dark/70">Months Duration</p>
+                  <p className="text-sm text-tigray-dark/70">Months Planned</p>
                 </div>
               </div>
             </div>
@@ -197,8 +200,8 @@ const Project = () => {
             <div className="bg-white rounded-xl shadow-lg p-8 md:p-12 border border-gray-100">
               <p className="text-lg text-tigray-dark/80 mb-6 leading-relaxed">
                 This project is designed for long-term sustainability beyond the initial 12-month 
-                funding period. Dungo Energy Solutions operates as a revenue-generating social 
-                enterprise, ensuring continued operations and impact.
+                funding period. Dungo Energy Solutions will operate as a revenue-generating social 
+                enterprise, ensuring continued operations and impact after the grant period.
               </p>
               <div className="grid md:grid-cols-2 gap-6">
                 <div className="bg-solar-yellow/10 rounded-lg p-6">
@@ -225,9 +228,9 @@ const Project = () => {
 
           {/* CTA */}
           <section className="text-center bg-gradient-to-r from-youth-blue to-youth-purple rounded-2xl p-12 text-white">
-            <h2 className="text-3xl font-bold mb-4">Support Our Project</h2>
+            <h2 className="text-3xl font-bold mb-4">Help Us Launch This Project</h2>
             <p className="text-xl mb-8 max-w-2xl mx-auto">
-              Join us in creating sustainable youth employment and clean energy access in Tigray.
+              Join us in making this vision a reality. We're seeking partners and funders to help create sustainable youth employment and clean energy access in Tigray.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <a 

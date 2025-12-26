@@ -11,7 +11,9 @@ const ProjectTimelineComponent: React.FC<ProjectTimelineProps> = ({
   compact = false,
   highlightMonth 
 }) => {
-  const currentMonth = highlightMonth || new Date().getMonth() + 1;
+  // Project starts January 2026 - all months are upcoming/planned
+  const projectStarted = false;
+  const currentMonth = 0; // No months completed yet
 
   return (
     <div className="bg-white rounded-xl shadow-lg p-6 md:p-8">
@@ -19,10 +21,10 @@ const ProjectTimelineComponent: React.FC<ProjectTimelineProps> = ({
         <Calendar className="text-youth-blue" size={32} />
         <div>
           <h2 className="text-2xl md:text-3xl font-bold text-tigray-dark">
-            12-Month Project Timeline
+            Proposed 12-Month Project Timeline
           </h2>
           <p className="text-tigray-dark/70">
-            From planning to sustainable operation
+            Planned implementation starting January 2026
           </p>
         </div>
       </div>
@@ -120,19 +122,15 @@ const ProjectTimelineComponent: React.FC<ProjectTimelineProps> = ({
       {/* Timeline Summary */}
       <div className="mt-8 pt-6 border-t border-gray-200 grid grid-cols-3 gap-4 text-center">
         <div>
-          <p className="text-2xl font-bold text-energy-green">
-            {projectTimeline.filter((_, i) => i < currentMonth - 1).length}
-          </p>
+          <p className="text-2xl font-bold text-gray-400">0</p>
           <p className="text-sm text-tigray-dark/70">Completed</p>
         </div>
         <div>
-          <p className="text-2xl font-bold text-solar-yellow">1</p>
+          <p className="text-2xl font-bold text-gray-400">0</p>
           <p className="text-sm text-tigray-dark/70">In Progress</p>
         </div>
         <div>
-          <p className="text-2xl font-bold text-gray-400">
-            {projectTimeline.length - currentMonth}
-          </p>
+          <p className="text-2xl font-bold text-youth-blue">12</p>
           <p className="text-sm text-tigray-dark/70">Upcoming</p>
         </div>
       </div>

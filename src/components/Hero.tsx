@@ -37,8 +37,8 @@ const Hero = () => {
 
             {/* Subtitle */}
             <p className="text-xl text-white/90 leading-relaxed">
-              Empowering 20-25 young people through solar energy entrepreneurship, 
-              bringing clean electricity to 500+ households in Mekelle, Tigray.
+              Proposed project to empower 20-25 young people through solar energy entrepreneurship, 
+              bringing clean electricity to 500+ households in Mekelle, Tigray. Launching January 2026.
             </p>
 
             {/* Key Stats */}
@@ -48,21 +48,21 @@ const Hero = () => {
                   <Users className="text-solar-yellow" size={28} />
                 </div>
                 <p className="text-2xl font-bold text-white">20-25</p>
-                <p className="text-sm text-white/80">Youth Employed</p>
+                <p className="text-sm text-white/80">Youth to Employ</p>
               </div>
               <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 text-center">
                 <div className="flex justify-center mb-2">
                   <Sun className="text-solar-yellow" size={28} />
                 </div>
                 <p className="text-2xl font-bold text-white">500+</p>
-                <p className="text-sm text-white/80">Households</p>
+                <p className="text-sm text-white/80">Target Households</p>
               </div>
               <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 text-center">
                 <div className="flex justify-center mb-2">
                   <Zap className="text-solar-yellow" size={28} />
                 </div>
-                <p className="text-2xl font-bold text-white">€30K</p>
-                <p className="text-sm text-white/80">EU Grant</p>
+                <p className="text-2xl font-bold text-white">100%</p>
+                <p className="text-sm text-white/80">Self-Sustaining</p>
               </div>
             </div>
 
@@ -81,14 +81,14 @@ const Hero = () => {
               </Link>
             </div>
 
-            {/* Grant Badge */}
+            {/* Mission Badge */}
             <div className="flex items-center gap-3 bg-youth-blue/20 border border-youth-blue/30 rounded-lg p-4">
               <div className="bg-youth-blue p-2 rounded-lg">
                 <Sun className="text-white" size={24} />
               </div>
               <div>
-                <p className="text-white font-semibold">Funded by EU AU-EU Youth Lab Grant</p>
-                <p className="text-white/80 text-sm">Supporting youth entrepreneurship & clean energy</p>
+                <p className="text-white font-semibold">Proposed Youth-Led Social Enterprise</p>
+                <p className="text-white/80 text-sm">To create employment through clean energy solutions</p>
               </div>
             </div>
           </div>

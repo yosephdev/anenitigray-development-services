@@ -2,7 +2,7 @@ import { ProjectActivity, BudgetItem, ProjectTimeline, GrantInformation } from '
 
 export const grantInformation: GrantInformation = {
   grantor: 'European Union',
-  program: 'AU-EU Youth Lab Entrepreneurship Grant',
+  program: 'Youth Social Enterprise Initiative',
   amount: 30000,
   currency: 'EUR',
   duration: 12,

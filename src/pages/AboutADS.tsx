@@ -97,6 +97,132 @@ const AboutADS = () => {
             </div>
           </section>
 
+          {/* Our Journey & Programs History */}
+          <section className="mb-16 bg-gradient-to-br from-blue-50 to-green-50 rounded-2xl p-8 md:p-12">
+            <h2 className="text-3xl font-bold text-tigray-dark mb-8">Our Journey: From Emergency Response to Social Enterprise</h2>
+            <div className="prose max-w-none">
+              <p className="text-lg text-tigray-dark/80 leading-relaxed mb-6">
+                Since our founding in 2020, ADS has evolved from emergency response to comprehensive 
+                sustainable development. Our journey reflects our commitment to meeting communities 
+                where they are while building toward lasting solutions.
+              </p>
+              
+              <div className="grid md:grid-cols-2 gap-8 mb-8">
+                {/* Historical Programs */}
+                <div className="bg-white rounded-xl p-6 shadow-md">
+                  <h3 className="text-xl font-bold text-tigray-dark mb-4 flex items-center">
+                    <Award className="mr-3 text-blue-600" size={24} />
+                    Training & Capacity Building
+                  </h3>
+                  <ul className="space-y-3 text-tigray-dark/70">
+                    <li className="flex items-start">
+                      <span className="text-blue-600 mr-2">✓</span>
+                      <span><strong>Leadership in Crisis Training:</strong> 20 CSO leaders trained in post-conflict leadership (Sept 2024)</span>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="text-blue-600 mr-2">✓</span>
+                      <span><strong>AI & Digital Literacy:</strong> Empowering youth with essential tech skills for the modern economy</span>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="text-blue-600 mr-2">✓</span>
+                      <span><strong>Organizational Development:</strong> Strengthening CSO capacity in governance and program management</span>
+                    </li>
+                  </ul>
+                </div>
+
+                <div className="bg-white rounded-xl p-6 shadow-md">
+                  <h3 className="text-xl font-bold text-tigray-dark mb-4 flex items-center">
+                    <Heart className="mr-3 text-red-600" size={24} />
+                    Community Development
+                  </h3>
+                  <ul className="space-y-3 text-tigray-dark/70">
+                    <li className="flex items-start">
+                      <span className="text-red-600 mr-2">✓</span>
+                      <span><strong>Child Protection Services:</strong> Integrated child-friendly spaces with education and psychosocial support</span>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="text-red-600 mr-2">✓</span>
+                      <span><strong>Emergency Relief:</strong> Rapid response with food, shelter, and essential services for displaced populations</span>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="text-red-600 mr-2">✓</span>
+                      <span><strong>Economic Empowerment:</strong> Livelihoods support through vocational training and asset building</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              {/* New Social Enterprise */}
+              <div className="bg-gradient-to-r from-solar-yellow/20 to-energy-green/20 rounded-xl p-8 border-2 border-solar-yellow">
+                <div className="flex items-start gap-4 mb-4">
+                  <div className="bg-gradient-to-r from-solar-yellow to-energy-green rounded-full p-3">
+                    <Users className="text-tigray-dark" size={28} />
+                  </div>
+                  <div>
+                    <div className="inline-block bg-gradient-to-r from-solar-yellow to-energy-green text-tigray-dark text-sm font-semibold px-4 py-1 rounded-full mb-2">
+                      NEW IN 2024-2025
+                    </div>
+                    <h3 className="text-2xl font-bold text-tigray-dark mb-2">
+                      Dungo Energy Solutions: Our Social Enterprise Revolution
+                    </h3>
+                  </div>
+                </div>
+                <p className="text-tigray-dark/80 mb-4 leading-relaxed">
+                  Building on our foundation of community service, we've launched Dungo Energy — 
+                  a youth-led solar social enterprise that creates sustainable employment while 
+                  delivering clean energy. This represents our evolution from traditional aid to 
+                  innovative, self-sustaining development.
+                </p>
+                <div className="grid md:grid-cols-4 gap-4 text-center">
+                  <div className="bg-white rounded-lg p-4">
+                    <div className="text-2xl font-bold text-solar-dark mb-1">20-25</div>
+                    <div className="text-sm text-tigray-dark/70">Youth Employed</div>
+                  </div>
+                  <div className="bg-white rounded-lg p-4">
+                    <div className="text-2xl font-bold text-solar-dark mb-1">500+</div>
+                    <div className="text-sm text-tigray-dark/70">Households</div>
+                  </div>
+                  <div className="bg-white rounded-lg p-4">
+                    <div className="text-2xl font-bold text-solar-dark mb-1">100%</div>
+                    <div className="text-sm text-tigray-dark/70">Self-Sustaining</div>
+                  </div>
+                  <div className="bg-white rounded-lg p-4">
+                    <div className="text-2xl font-bold text-solar-dark mb-1">100%</div>
+                    <div className="text-sm text-tigray-dark/70">Profits Reinvested</div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="mt-8 bg-white rounded-xl p-6 border-l-4 border-tigray-terracotta">
+                <h4 className="font-bold text-tigray-dark mb-3">Our Comprehensive Impact Today</h4>
+                <p className="text-tigray-dark/70 mb-4">
+                  ADS now delivers a full spectrum of services — from emergency relief to sustainable 
+                  enterprise, from child protection to youth employment, from leadership training to 
+                  clean energy distribution. We're proving that effective development requires both 
+                  immediate response AND long-term solutions.
+                </p>
+                <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-sm">
+                  <div className="text-center">
+                    <div className="font-bold text-tigray-terracotta mb-1">500+</div>
+                    <div className="text-tigray-dark/70">Total Households Served</div>
+                  </div>
+                  <div className="text-center">
+                    <div className="font-bold text-tigray-terracotta mb-1">25+</div>
+                    <div className="text-tigray-dark/70">Youth Currently Employed</div>
+                  </div>
+                  <div className="text-center">
+                    <div className="font-bold text-tigray-terracotta mb-1">20+</div>
+                    <div className="text-tigray-dark/70">Leaders Trained</div>
+                  </div>
+                  <div className="text-center">
+                    <div className="font-bold text-tigray-terracotta mb-1">3-4 Years</div>
+                    <div className="text-tigray-dark/70">Of Continuous Service</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
           {/* Our Mission & Vision */}
           <section className="mb-16 bg-gradient-to-br from-solar-yellow/10 to-energy-green/10 rounded-2xl p-8 md:p-12">
             <div className="grid md:grid-cols-2 gap-8">

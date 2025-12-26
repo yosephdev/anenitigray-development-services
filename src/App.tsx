@@ -13,6 +13,11 @@ import YouthEmployment from "./pages/YouthEmployment";
 import Impact from "./pages/Impact";
 import Contact from "./pages/Contact";
 import Donate from "./pages/Donate";
+import Programs from "./pages/Programs";
+import IntegratedChildCare from "./pages/IntegratedChildCare";
+import AssetProgram from "./pages/AssetProgram";
+import RapidRelief from "./pages/RapidRelief";
+import CapacityBuilding from "./pages/CapacityBuilding";
 import NotFound from "./pages/NotFound";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import TermsAndConditions from './pages/TermsAndConditions';
@@ -32,6 +37,11 @@ const App = () => (
               <Route path="/" element={<Index />} />
               <Route path="/about-ads" element={<AboutADS />} />
               <Route path="/dungo-energy" element={<DungoEnergy />} />
+              <Route path="/programs" element={<Programs />} />
+              <Route path="/programs/integrated-child-care" element={<IntegratedChildCare />} />
+              <Route path="/programs/asset-program" element={<AssetProgram />} />
+              <Route path="/programs/rapid-relief" element={<RapidRelief />} />
+              <Route path="/programs/capacity-building" element={<CapacityBuilding />} />
               <Route path="/project" element={<Project />} />
               <Route path="/youth-employment" element={<YouthEmployment />} />
               <Route path="/impact" element={<Impact />} />

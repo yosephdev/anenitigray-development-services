@@ -58,8 +58,8 @@ const Index = () => {
               <ul className="space-y-2 text-sm text-tigray-dark/70 mb-6">
                 <li>✓ 100% youth governance (18-35)</li>
                 <li>✓ Based in Mekelle, Tigray</li>
-                <li>✓ 3-4 years of operation</li>
-                <li>✓ Community-focused programs</li>
+                <li>✓ 3-4 years serving the community</li>
+                <li>✓ Proven track record in programs</li>
               </ul>
               <Link to="/about-ads" className="block">
                 <button className="w-full bg-youth-blue text-white py-3 rounded-lg font-semibold hover:bg-youth-blue/90 transition-colors">
@@ -83,14 +83,14 @@ const Index = () => {
                 Dungo Energy Solutions
               </h3>
               <p className="text-tigray-dark/70 text-center mb-6">
-                Social enterprise delivering clean solar energy while creating sustainable 
-                youth employment.
+                Proposed social enterprise to deliver clean solar energy while creating 
+                sustainable youth employment.
               </p>
               <ul className="space-y-2 text-sm text-tigray-dark/70 mb-6">
-                <li>✓ 20-25 youth employed</li>
-                <li>✓ Solar energy distribution</li>
-                <li>✓ Professional training provided</li>
-                <li>✓ Profits reinvested in ADS</li>
+                <li>→ Target: 20-25 youth to employ</li>
+                <li>→ Solar energy distribution</li>
+                <li>→ Professional training to provide</li>
+                <li>→ Profits to reinvest in ADS</li>
               </ul>
               <Link to="/dungo-energy" className="block">
                 <button className="w-full bg-gradient-to-r from-solar-yellow to-energy-green text-tigray-dark py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity">
@@ -107,21 +107,21 @@ const Index = () => {
                   <TrendingUp className="text-energy-green" size={48} />
                 </div>
               </div>
-              <div className="bg-energy-green/10 text-energy-green text-sm font-semibold px-4 py-2 rounded-full inline-block mb-4">
-                EU-Funded Project
+              <div className="bg-youth-blue/10 text-youth-blue text-sm font-semibold px-4 py-2 rounded-full inline-block mb-4">
+                Proposed Social Impact Project
               </div>
               <h3 className="text-2xl font-bold text-tigray-dark mb-4 text-center">
-                Project Impact
+                Planned Project Impact
               </h3>
               <p className="text-tigray-dark/70 text-center mb-6">
-                12-month solar social enterprise project creating lasting community impact 
-                and sustainability.
+                Proposed 12-month solar social enterprise launching January 2026 to create 
+                lasting community impact and sustainability.
               </p>
               <ul className="space-y-2 text-sm text-tigray-dark/70 mb-6">
-                <li>✓ 500+ households reached</li>
-                <li>✓ 2,500+ people impacted</li>
-                <li>✓ 50 tons CO₂ reduced/year</li>
-                <li>✓ €30,000 grant investment</li>
+                <li>→ Target: 500+ households</li>
+                <li>→ Target: 2,500+ people impacted</li>
+                <li>→ Goal: 50 tons CO₂ reduced/year</li>
+                <li>→ Sustainable business model</li>
               </ul>
               <Link to="/project" className="block">
                 <button className="w-full bg-energy-green text-white py-3 rounded-lg font-semibold hover:bg-energy-dark transition-colors">
@@ -129,6 +129,120 @@ const Index = () => {
                   <ArrowRight className="inline ml-2" size={18} />
                 </button>
               </Link>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Our Diverse Programs Section */}
+      <section className="py-16 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <div className="h-1 w-20 bg-tigray-terracotta mx-auto mb-6"></div>
+            <h2 className="text-3xl md:text-4xl font-bold text-tigray-dark mb-4">
+              Our Diverse Programs
+            </h2>
+            <p className="text-xl text-tigray-dark/70 max-w-3xl mx-auto">
+              From leadership training to proposed clean energy enterprise, building comprehensive impact across Tigray
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-3 gap-8 mb-12">
+            {/* Training & Education Card */}
+            <Link to="/programs/capacity-building" className="group">
+              <div className="bg-gradient-to-br from-blue-50 to-blue-100 rounded-xl p-8 hover:shadow-xl transition-all border border-blue-200 h-full">
+                <div className="bg-blue-600 text-white text-sm font-semibold px-4 py-2 rounded-full inline-block mb-4">
+                  Training Programs
+                </div>
+                <h3 className="text-2xl font-bold text-tigray-dark mb-4">
+                  Leadership & Capacity Building
+                </h3>
+                <p className="text-tigray-dark/70 mb-6">
+                  Professional training programs including Leadership in Crisis, AI & Digital Literacy, 
+                  and organizational development for CSOs across Tigray.
+                </p>
+                <ul className="space-y-2 text-sm text-tigray-dark/70 mb-6">
+                  <li>✓ Leadership in Crisis Training</li>
+                  <li>✓ AI & Digital Literacy Programs</li>
+                  <li>✓ CSO Capacity Building</li>
+                  <li>✓ Professional Development</li>
+                </ul>
+                <div className="flex items-center text-blue-600 font-semibold group-hover:translate-x-2 transition-transform">
+                  Learn More <ArrowRight className="ml-2" size={18} />
+                </div>
+              </div>
+            </Link>
+
+            {/* Social Enterprise Card */}
+            <Link to="/dungo-energy" className="group">
+              <div className="bg-gradient-to-br from-solar-yellow/20 to-energy-green/20 rounded-xl p-8 hover:shadow-xl transition-all border border-solar-yellow h-full">
+                <div className="bg-gradient-to-r from-solar-yellow to-energy-green text-tigray-dark text-sm font-semibold px-4 py-2 rounded-full inline-block mb-4">
+                  Social Enterprise • NEW
+                </div>
+                <h3 className="text-2xl font-bold text-tigray-dark mb-4">
+                  Dungo Energy Solutions
+                </h3>
+                <p className="text-tigray-dark/70 mb-6">
+                  Proposed youth-led solar social enterprise to create sustainable employment while delivering 
+                  clean energy to communities. 100% profits to be reinvested in ADS programs.
+                </p>
+                <ul className="space-y-2 text-sm text-tigray-dark/70 mb-6">
+                  <li>→ Target: 20-25 Youth to Employ</li>
+                  <li>→ Target: 500+ Households to Power</li>
+                  <li>→ Solar Energy Distribution</li>
+                  <li>→ Professional Training to Provide</li>
+                </ul>
+                <div className="flex items-center text-energy-green font-semibold group-hover:translate-x-2 transition-transform">
+                  Explore Dungo Energy <ArrowRight className="ml-2" size={18} />
+                </div>
+              </div>
+            </Link>
+
+            {/* Community & Emergency Card */}
+            <Link to="/programs" className="group">
+              <div className="bg-gradient-to-br from-tigray-sand/30 to-tigray-ochre/20 rounded-xl p-8 hover:shadow-xl transition-all border border-tigray-ochre h-full">
+                <div className="bg-tigray-terracotta text-white text-sm font-semibold px-4 py-2 rounded-full inline-block mb-4">
+                  Community Programs
+                </div>
+                <h3 className="text-2xl font-bold text-tigray-dark mb-4">
+                  Community & Emergency Services
+                </h3>
+                <p className="text-tigray-dark/70 mb-6">
+                  Comprehensive community development, child protection, emergency relief, 
+                  and integrated support services for vulnerable populations.
+                </p>
+                <ul className="space-y-2 text-sm text-tigray-dark/70 mb-6">
+                  <li>✓ Emergency Relief & Food Security</li>
+                  <li>✓ Child Protection Services</li>
+                  <li>✓ Community Development</li>
+                  <li>✓ Healthcare & Wellness</li>
+                </ul>
+                <div className="flex items-center text-tigray-terracotta font-semibold group-hover:translate-x-2 transition-transform">
+                  View All Programs <ArrowRight className="ml-2" size={18} />
+                </div>
+              </div>
+            </Link>
+          </div>
+
+          {/* Stats Row */}
+          <div className="bg-gradient-to-r from-tigray-dark to-tigray-brown rounded-xl p-8 text-white">
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+              <div>
+                <div className="text-3xl font-bold text-solar-yellow mb-2">500+</div>
+                <div className="text-sm text-white/80">Target Households (Dungo)</div>
+              </div>
+              <div>
+                <div className="text-3xl font-bold text-solar-yellow mb-2">25+</div>
+                <div className="text-sm text-white/80">Youth to Employ (Dungo)</div>
+              </div>
+              <div>
+                <div className="text-3xl font-bold text-solar-yellow mb-2">20+</div>
+                <div className="text-sm text-white/80">CSO Leaders Trained (ADS)</div>
+              </div>
+              <div>
+                <div className="text-3xl font-bold text-solar-yellow mb-2">3-4</div>
+                <div className="text-sm text-white/80">Years Operating (ADS)</div>
+              </div>
             </div>
           </div>
         </div>
@@ -146,10 +260,10 @@ const Index = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-tigray-dark mb-4">
-              Our Impact at a Glance
+              Expected Impact Overview
             </h2>
             <p className="text-xl text-tigray-dark/70">
-              Real numbers, real change, real sustainability
+              Projected outcomes and targets for our proposed initiative
             </p>
           </div>
           <ImpactMetricsDashboard showTrends={true} />
@@ -160,14 +274,14 @@ const Index = () => {
       <section className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl md:text-4xl font-bold text-tigray-dark mb-12 text-center">
-            How We Create Impact
+            How We Plan to Create Impact
           </h2>
           <div className="grid md:grid-cols-4 gap-6">
             {[
               {
                 step: '01',
                 title: 'Youth Recruitment',
-                description: 'We identify and recruit passionate young people aged 18-35 from Mekelle'
+                description: 'We will identify and recruit passionate young people aged 18-35 from Mekelle'
               },
               {
                 step: '02',
@@ -177,12 +291,12 @@ const Index = () => {
               {
                 step: '03',
                 title: 'Employment & Distribution',
-                description: 'Graduates join Dungo Energy to install solar systems in communities'
+                description: 'Graduates will join Dungo Energy to install solar systems in communities'
               },
               {
                 step: '04',
                 title: 'Sustainable Growth',
-                description: 'Revenue reinvested for continued youth employment and community programs'
+                description: 'Revenue to be reinvested for continued youth employment and community programs'
               }
             ].map((item, index) => (
               <div key={index} className="relative">
@@ -206,10 +320,10 @@ const Index = () => {
       <section className="py-16 bg-gradient-to-r from-youth-blue to-youth-purple text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
-            Are You Aged 18-35? Join Our Team!
+            Are You Aged 18-35? Join Our Planned Initiative!
           </h2>
           <p className="text-xl mb-8 max-w-3xl mx-auto text-white/90">
-            We're recruiting for our next training cohort. Get certified, gain employment, 
+            We will be recruiting for our first training cohort once the project is funded. Get certified, gain employment, 
             and build a career in clean energy while making a difference in your community.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
@@ -237,12 +351,12 @@ const Index = () => {
                 Powering Communities, Empowering Youth
               </h2>
               <p className="text-lg text-tigray-dark/70 mb-6 leading-relaxed">
-                Every solar system we install represents multiple victories: a young person 
+                Every solar system we plan to install will represent multiple victories: a young person 
                 employed, a family with reliable electricity, and a community moving toward 
                 sustainable energy independence.
               </p>
               <p className="text-lg text-tigray-dark/70 mb-8 leading-relaxed">
-                Our model proves that social enterprise can be both profitable and purposeful, 
+                Our proposed model will demonstrate that social enterprise can be both profitable and purposeful, 
                 creating lasting change that goes far beyond traditional charity approaches.
               </p>
               <Link to="/impact">
@@ -257,21 +371,21 @@ const Index = () => {
                 <div className="bg-white rounded-xl p-6 shadow-md">
                   <h4 className="font-bold text-tigray-dark mb-2">For Youth</h4>
                   <p className="text-sm text-tigray-dark/70">
-                    Professional skills, stable employment, career growth, and the pride of 
+                    Will provide professional skills, stable employment, career growth, and the pride of 
                     meaningful work
                   </p>
                 </div>
                 <div className="bg-white rounded-xl p-6 shadow-md">
                   <h4 className="font-bold text-tigray-dark mb-2">For Households</h4>
                   <p className="text-sm text-tigray-dark/70">
-                    Reliable electricity, cost savings, improved quality of life, and 
+                    Will bring reliable electricity, cost savings, improved quality of life, and 
                     environmental benefits
                   </p>
                 </div>
                 <div className="bg-white rounded-xl p-6 shadow-md">
                   <h4 className="font-bold text-tigray-dark mb-2">For Tigray</h4>
                   <p className="text-sm text-tigray-dark/70">
-                    Economic development, youth retention, clean energy adoption, and 
+                    Will drive economic development, youth retention, clean energy adoption, and 
                     sustainable growth
                   </p>
                 </div>
