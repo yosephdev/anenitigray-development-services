@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
 import { Button } from './ui/button';
-// import LanguageSwitcher from './LanguageSwitcher';
+import YouthLeadershipBadge from './YouthLeadershipBadge';
 import { useLanguage } from '../contexts/LanguageContext';
 
 const Navbar = () => {
@@ -28,47 +28,43 @@ const Navbar = () => {
                 </div>
               </div>
             </Link>
+            <div className="hidden lg:block ml-6">
+              <YouthLeadershipBadge size="sm" />
+            </div>
             <div className="hidden md:block">
               <div className="ml-10 flex items-center space-x-4">
-                <Link to="/" className="font-medium text-tigray-dark hover:text-tigray-terracotta px-3 py-2 transition-colors">
-                  {t('home')}
+                <Link to="/" className="font-medium text-tigray-dark hover:text-solar-yellow px-3 py-2 transition-colors">
+                  Home
                 </Link>
-                <Link to="/about" className="font-medium text-tigray-dark hover:text-tigray-terracotta px-3 py-2 transition-colors">
-                  {t('about')}
+                <Link to="/about-ads" className="font-medium text-tigray-dark hover:text-solar-yellow px-3 py-2 transition-colors">
+                  About ADS
                 </Link>
-                <Link to="/programs" className="font-medium text-tigray-dark hover:text-tigray-terracotta px-3 py-2 transition-colors">
-                  {t('programs')}
+                <Link to="/dungo-energy" className="font-medium text-tigray-dark hover:text-solar-yellow px-3 py-2 transition-colors">
+                  Dungo Energy
                 </Link>
-                <Link to="/impact" className="font-medium text-tigray-dark hover:text-tigray-terracotta px-3 py-2 transition-colors">
-                  {t('impact')}
+                <Link to="/project" className="font-medium text-tigray-dark hover:text-solar-yellow px-3 py-2 transition-colors">
+                  Our Project
                 </Link>
-                <a 
-                  href="https://tigray.ternafit.org" 
-                  target="_blank" 
-                  rel="noopener noreferrer" 
-                  className="font-medium text-tigray-dark hover:text-tigray-terracotta px-3 py-2 transition-colors flex items-center"
-                >
-                  Resources
-                  <svg className="w-3 h-3 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-                  </svg>
-                </a>
-                <Link to="/contact" className="font-medium text-tigray-dark hover:text-tigray-terracotta px-3 py-2 transition-colors">
-                  {t('contact')}
+                <Link to="/youth-employment" className="font-medium text-tigray-dark hover:text-solar-yellow px-3 py-2 transition-colors">
+                  Youth Opportunities
+                </Link>
+                <Link to="/impact" className="font-medium text-tigray-dark hover:text-solar-yellow px-3 py-2 transition-colors">
+                  Impact
+                </Link>
+                <Link to="/contact" className="font-medium text-tigray-dark hover:text-solar-yellow px-3 py-2 transition-colors">
+                  Contact
                 </Link>
               </div>
             </div>
           </div>
           <div className="hidden md:flex items-center space-x-4">
-            {/* <LanguageSwitcher /> */}
             <Link to="/donate">
-              <Button className="bg-tigray-terracotta hover:bg-tigray-terracotta/90 text-white font-semibold border-0">
-                {t('donate')}
+              <Button className="bg-gradient-to-r from-solar-yellow to-energy-green hover:opacity-90 text-tigray-dark font-semibold border-0">
+                Support Us
               </Button>
             </Link>
           </div>
           <div className="md:hidden flex items-center">
-            {/* <LanguageSwitcher /> */}
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
               className="inline-flex items-center justify-center p-2 ml-3 rounded-md text-tigray-dark hover:bg-tigray-sand focus:outline-none"
@@ -83,38 +79,33 @@ const Navbar = () => {
       {isMenuOpen && (
         <div className="md:hidden bg-white shadow-lg animate-fade-in">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-            <Link to="/" className="block font-medium text-tigray-dark hover:text-tigray-terracotta px-3 py-2 transition-colors">
-              {t('home')}
+            <div className="mb-3 px-3">
+              <YouthLeadershipBadge size="sm" />
+            </div>
+            <Link to="/" className="block font-medium text-tigray-dark hover:text-solar-yellow px-3 py-2 transition-colors">
+              Home
             </Link>
-            <Link to="/about" className="block font-medium text-tigray-dark hover:text-tigray-terracotta px-3 py-2 transition-colors">
-              {t('about')}
+            <Link to="/about-ads" className="block font-medium text-tigray-dark hover:text-solar-yellow px-3 py-2 transition-colors">
+              About ADS
             </Link>
-            <Link to="/programs" className="block font-medium text-tigray-dark hover:text-tigray-terracotta px-3 py-2 transition-colors">
-              {t('programs')}
+            <Link to="/dungo-energy" className="block font-medium text-tigray-dark hover:text-solar-yellow px-3 py-2 transition-colors">
+              Dungo Energy
             </Link>
-            <Link to="/impact" className="block font-medium text-tigray-dark hover:text-tigray-terracotta px-3 py-2 transition-colors">
-              {t('impact')}
+            <Link to="/project" className="block font-medium text-tigray-dark hover:text-solar-yellow px-3 py-2 transition-colors">
+              Our Project
             </Link>
-            <a 
-              href="https://tigray.ternafit.org" 
-              target="_blank" 
-              rel="noopener noreferrer" 
-              className="block font-medium text-tigray-dark hover:text-tigray-terracotta px-3 py-2 transition-colors flex items-center"
-            >
-              Resources
-              <svg className="w-3 h-3 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-              </svg>
-            </a>
-            <Link to="/news" className="block font-medium text-tigray-dark hover:text-tigray-terracotta px-3 py-2 transition-colors">
-              {t('news')}
+            <Link to="/youth-employment" className="block font-medium text-tigray-dark hover:text-solar-yellow px-3 py-2 transition-colors">
+              Youth Opportunities
             </Link>
-            <Link to="/contact" className="block font-medium text-tigray-dark hover:text-tigray-terracotta px-3 py-2 transition-colors">
-              {t('contact')}
+            <Link to="/impact" className="block font-medium text-tigray-dark hover:text-solar-yellow px-3 py-2 transition-colors">
+              Impact
+            </Link>
+            <Link to="/contact" className="block font-medium text-tigray-dark hover:text-solar-yellow px-3 py-2 transition-colors">
+              Contact
             </Link>
             <Link to="/donate" className="block">
-              <Button className="w-full bg-tigray-terracotta hover:bg-tigray-terracotta/90 text-white font-semibold border-0 mt-2">
-                {t('donate')}
+              <Button className="w-full bg-gradient-to-r from-solar-yellow to-energy-green hover:opacity-90 text-tigray-dark font-semibold border-0 mt-2">
+                Support Us
               </Button>
             </Link>
           </div>

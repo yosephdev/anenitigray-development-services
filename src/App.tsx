@@ -6,23 +6,17 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { HelmetProvider } from "react-helmet-async";
 import Index from "./pages/Index";
-import About from "./pages/About";
-import Programs from "./pages/Programs";
-import IntegratedChildCare from "./pages/IntegratedChildCare";
-import AssetProgram from "./pages/AssetProgram";
-import RapidRelief from "./pages/RapidRelief";
-import CapacityBuilding from "./pages/CapacityBuilding";
+import AboutADS from "./pages/AboutADS";
+import DungoEnergy from "./pages/DungoEnergy";
+import Project from "./pages/Project";
+import YouthEmployment from "./pages/YouthEmployment";
 import Impact from "./pages/Impact";
-import News from "./pages/News";
 import Contact from "./pages/Contact";
 import Donate from "./pages/Donate";
 import NotFound from "./pages/NotFound";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import TermsAndConditions from './pages/TermsAndConditions';
 import { LanguageProvider } from "./contexts/LanguageContext";
-import Volunteer from "./pages/Volunteer";
-import LegacyGiving from "./pages/LegacyGiving";
-
 
 const queryClient = new QueryClient();
 
@@ -36,33 +30,16 @@ const App = () => (
           <BrowserRouter>
             <Routes>
               <Route path="/" element={<Index />} />
-              <Route path="/about" element={<About />} />
-              <Route path="/programs" element={<Programs />} />
+              <Route path="/about-ads" element={<AboutADS />} />
+              <Route path="/dungo-energy" element={<DungoEnergy />} />
+              <Route path="/project" element={<Project />} />
+              <Route path="/youth-employment" element={<YouthEmployment />} />
               <Route path="/impact" element={<Impact />} />
-              <Route path="/news" element={<News />} />
               <Route path="/contact" element={<Contact />} />
               <Route path="/donate" element={<Donate />} />
               <Route path="/privacy-policy" element={<PrivacyPolicy />} />
-                      <Route path="/" element={<Index />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/programs" element={<Programs />} />
-            <Route path="/programs/integrated-child-care" element={<IntegratedChildCare />} />
-            <Route path="/programs/asset-program" element={<AssetProgram />} />
-            <Route path="/programs/rapid-relief" element={<RapidRelief />} />
-            <Route path="/programs/capacity-building" element={<CapacityBuilding />} />
-            <Route path="/impact" element={<Impact />} />
-            <Route path="/news" element={<News />} />
-            <Route path="/contact" element={<Contact />} />
-            <Route path="/donate" element={<Donate />} />
-            <Route path="/volunteer" element={<Volunteer />} />
-            <Route path="/legacy-giving" element={<LegacyGiving />} />
-            <Route path="/privacy-policy" element={<PrivacyPolicy />} />
-            <Route path="/terms-and-conditions" element={<TermsAndConditions />} />
-            <Route path="*" element={<NotFound />} />
-              {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
+              <Route path="/terms-and-conditions" element={<TermsAndConditions />} />
               <Route path="*" element={<NotFound />} />
-              <Route path="/volunteer" element={<Volunteer />} />
-              <Route path="/legacy-giving" element={<LegacyGiving />} />
             </Routes>
           </BrowserRouter>
         </TooltipProvider>
