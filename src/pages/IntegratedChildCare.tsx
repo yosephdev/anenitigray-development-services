@@ -44,7 +44,7 @@ const IntegratedChildCare = () => {
                   <div className="text-sm text-red-700">Schools damaged during conflict</div>
                 </div>
                 <div className="bg-white p-6 rounded-lg border-l-4 border-red-500">
-                  <div className="text-2xl font-bold text-red-600">8M</div>
+                  <div className="text-2xl font-bold text-red-600">2M</div>
                   <div className="text-sm text-red-700">Children out of school in region</div>
                 </div>
               </div>

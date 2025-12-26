@@ -65,7 +65,7 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				},
-				// ADS NGO Custom Colors
+				// ADS NGO Custom Colors - Youth-Led Solar Energy Theme
 				'tigray-terracotta': '#C45E40',
 				'tigray-ochre': '#DBAE58',
 				'tigray-green': '#4F6F52',
@@ -81,6 +81,33 @@ export default {
 					sand: '#E7D7C1',
 					light: '#FDF5E6',
 					dark: '#2C2C2C'
+				},
+				// Solar Energy & Youth Theme Colors
+				solar: {
+					yellow: '#FDB813',
+					gold: '#F39C12',
+					orange: '#E67E22',
+					bright: '#FFD93D',
+					dark: '#D68910'
+				},
+				energy: {
+					green: '#27AE60',
+					light: '#52D273',
+					dark: '#229954',
+					mint: '#A8E6CF',
+					forest: '#1E8449'
+				},
+				youth: {
+					blue: '#3498DB',
+					purple: '#9B59B6',
+					pink: '#E91E63',
+					teal: '#16A085',
+					indigo: '#5D3FD3'
+				},
+				dungo: {
+					primary: '#FDB813',
+					secondary: '#27AE60',
+					accent: '#3498DB'
 				}
 			},
 			borderRadius: {
