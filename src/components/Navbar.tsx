@@ -33,12 +33,12 @@ const Navbar = () => {
               <YouthLeadershipBadge size="sm" />
             </div> */}
             <div className="hidden md:block">
-              <div className="ml-10 flex items-center space-x-4">
+              <div className="ml-10 flex items-center space-x-1">
                 <Link to="/" className="font-medium text-tigray-dark hover:text-solar-yellow px-3 py-2 transition-colors">
                   Home
                 </Link>
                 <Link to="/about-ads" className="font-medium text-tigray-dark hover:text-solar-yellow px-3 py-2 transition-colors">
-                  About ADS
+                  About
                 </Link>
                 
                 {/* Programs Dropdown */}
@@ -48,43 +48,36 @@ const Navbar = () => {
                     onMouseEnter={() => setIsProgramsDropdownOpen(true)}
                     onMouseLeave={() => setIsProgramsDropdownOpen(false)}
                   >
-                    Our Programs
+                    Programs
                     <ChevronDown size={16} className="ml-1" />
                   </button>
                   {isProgramsDropdownOpen && (
                     <div 
-                      className="absolute left-0 mt-2 w-64 bg-white rounded-lg shadow-xl border border-gray-100 py-2 z-50"
+                      className="absolute left-0 mt-2 w-56 bg-white rounded-lg shadow-xl border border-gray-100 py-2 z-50"
                       onMouseEnter={() => setIsProgramsDropdownOpen(true)}
                       onMouseLeave={() => setIsProgramsDropdownOpen(false)}
                     >
-                      <Link to="/programs" className="block px-4 py-2 text-tigray-dark hover:bg-tigray-sand/20 transition-colors">
-                        <span className="font-semibold">All Programs</span>
+                      <Link to="/programs/capacity-building" className="block px-4 py-2 text-sm text-tigray-dark hover:bg-tigray-sand/20 transition-colors">
+                        Training & Capacity
                       </Link>
-                      <div className="border-t border-gray-100 my-2"></div>
-                      <Link to="/programs/capacity-building" className="block px-4 py-2 text-tigray-dark hover:bg-tigray-sand/20 transition-colors">
-                        Training & Capacity Building
-                      </Link>
-                      <Link to="/dungo-energy" className="block px-4 py-2 text-tigray-dark hover:bg-solar-yellow/10 transition-colors">
-                        <span className="flex items-center">
-                          Social Enterprise (Dungo)
-                          <span className="ml-2 text-xs bg-solar-yellow text-tigray-dark px-2 py-0.5 rounded">NEW</span>
+                      <Link to="/dungo-energy" className="block px-4 py-2 text-sm text-tigray-dark hover:bg-solar-yellow/10 transition-colors">
+                        <span className="flex items-center justify-between">
+                          Dungo Energy
+                          <span className="text-xs bg-solar-yellow text-tigray-dark px-1.5 py-0.5 rounded">NEW</span>
                         </span>
                       </Link>
-                      <Link to="/programs/integrated-child-care" className="block px-4 py-2 text-tigray-dark hover:bg-tigray-sand/20 transition-colors">
-                        Community Development
+                      <Link to="/programs/integrated-child-care" className="block px-4 py-2 text-sm text-tigray-dark hover:bg-tigray-sand/20 transition-colors">
+                        Community Services
                       </Link>
-                      <Link to="/programs/rapid-relief" className="block px-4 py-2 text-tigray-dark hover:bg-tigray-sand/20 transition-colors">
-                        Emergency Response
+                      <Link to="/programs/rapid-relief" className="block px-4 py-2 text-sm text-tigray-dark hover:bg-tigray-sand/20 transition-colors">
+                        Emergency Relief
                       </Link>
                     </div>
                   )}
                 </div>
                 
                 <Link to="/project" className="font-medium text-tigray-dark hover:text-solar-yellow px-3 py-2 transition-colors">
-                  Our Project
-                </Link>
-                <Link to="/youth-employment" className="font-medium text-tigray-dark hover:text-solar-yellow px-3 py-2 transition-colors">
-                  Youth Opportunities
+                  Project
                 </Link>
                 <Link to="/impact" className="font-medium text-tigray-dark hover:text-solar-yellow px-3 py-2 transition-colors">
                   Impact
@@ -124,7 +117,7 @@ const Navbar = () => {
               Home
             </Link>
             <Link to="/about-ads" className="block font-medium text-tigray-dark hover:text-solar-yellow px-3 py-2 transition-colors">
-              About ADS
+              About
             </Link>
             
             {/* Programs Section */}
@@ -133,35 +126,29 @@ const Navbar = () => {
                 onClick={() => setIsProgramsDropdownOpen(!isProgramsDropdownOpen)}
                 className="flex items-center justify-between w-full font-medium text-tigray-dark"
               >
-                Our Programs
+                Programs
                 <ChevronDown size={16} className={`transition-transform ${isProgramsDropdownOpen ? 'rotate-180' : ''}`} />
               </button>
               {isProgramsDropdownOpen && (
                 <div className="mt-2 ml-4 space-y-2">
-                  <Link to="/programs" className="block text-sm text-tigray-dark hover:text-solar-yellow py-1">
-                    All Programs
-                  </Link>
                   <Link to="/programs/capacity-building" className="block text-sm text-tigray-dark hover:text-solar-yellow py-1">
-                    Training & Capacity Building
+                    Training & Capacity
                   </Link>
                   <Link to="/dungo-energy" className="block text-sm text-tigray-dark hover:text-solar-yellow py-1">
-                    Social Enterprise (Dungo) <span className="text-xs bg-solar-yellow px-1 rounded">NEW</span>
+                    Dungo Energy <span className="text-xs bg-solar-yellow px-1 rounded">NEW</span>
                   </Link>
                   <Link to="/programs/integrated-child-care" className="block text-sm text-tigray-dark hover:text-solar-yellow py-1">
-                    Community Development
+                    Community Services
                   </Link>
                   <Link to="/programs/rapid-relief" className="block text-sm text-tigray-dark hover:text-solar-yellow py-1">
-                    Emergency Response
+                    Emergency Relief
                   </Link>
                 </div>
               )}
             </div>
             
             <Link to="/project" className="block font-medium text-tigray-dark hover:text-solar-yellow px-3 py-2 transition-colors">
-              Our Project
-            </Link>
-            <Link to="/youth-employment" className="block font-medium text-tigray-dark hover:text-solar-yellow px-3 py-2 transition-colors">
-              Youth Opportunities
+              Project
             </Link>
             <Link to="/impact" className="block font-medium text-tigray-dark hover:text-solar-yellow px-3 py-2 transition-colors">
               Impact
