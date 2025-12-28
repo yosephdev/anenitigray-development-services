@@ -242,6 +242,12 @@ const Programs = () => {
                       </ul>
                     </div>
 
+                    <img 
+                      src="/images/dungo-solar-solutions-hero.jpeg"
+                      alt="Dungo Energy Solutions"
+                      className="w-full h-64 object-cover rounded-xl shadow-lg"
+                    />
+
                     <div className="bg-white rounded-xl p-6 shadow-lg">
                       <h4 className="font-bold text-tigray-dark mb-3">Youth Training Program</h4>
                       <ul className="space-y-2 text-tigray-dark/70">

@@ -96,52 +96,20 @@ const Hero = () => {
           {/* Right Column - Visual Element */}
           <div className="relative lg:block hidden">
             <div className="relative">
-              {/* Placeholder for solar/youth imagery */}
-              <div className="relative bg-gradient-to-br from-solar-yellow/20 to-energy-green/20 rounded-2xl p-8 backdrop-blur-sm border border-white/10">
-                <div className="space-y-6">
-                  {/* Mission Statement Card */}
-                  <div className="bg-white rounded-xl p-6 shadow-2xl">
-                    <h3 className="text-xl font-bold text-tigray-dark mb-3">Our Dual Mission</h3>
-                    <div className="space-y-4">
-                      <div className="flex items-start gap-3">
-                        <div className="bg-youth-blue/10 p-2 rounded-lg">
-                          <Users className="text-youth-blue" size={20} />
-                        </div>
-                        <div>
-                          <h4 className="font-semibold text-tigray-dark">Social Impact</h4>
-                          <p className="text-sm text-tigray-dark/70">Creating meaningful employment for young people aged 18-35</p>
-                        </div>
-                      </div>
-                      <div className="flex items-start gap-3">
-                        <div className="bg-energy-green/10 p-2 rounded-lg">
-                          <Sun className="text-energy-green" size={20} />
-                        </div>
-                        <div>
-                          <h4 className="font-semibold text-tigray-dark">Environmental Impact</h4>
-                          <p className="text-sm text-tigray-dark/70">Providing clean, sustainable energy access to communities</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  {/* Organization Structure */}
-                  <div className="bg-white/90 backdrop-blur-sm rounded-xl p-6">
-                    <div className="flex items-center justify-between mb-4">
-                      <h4 className="font-bold text-tigray-dark">Organization Structure</h4>
-                    </div>
-                    <div className="space-y-3">
-                      <div className="flex items-center justify-between p-3 bg-gray-50 rounded-lg">
-                        <span className="font-medium text-tigray-dark">ADS (NGO)</span>
-                        <span className="text-sm text-tigray-dark/70">Governance & Impact</span>
-                      </div>
-                      <div className="flex items-center justify-center">
-                        <ArrowRight className="text-tigray-dark/40" size={20} />
-                      </div>
-                      <div className="flex items-center justify-between p-3 bg-gradient-to-r from-solar-yellow/20 to-energy-green/20 rounded-lg">
-                        <span className="font-medium text-tigray-dark">Dungo Energy</span>
-                        <span className="text-sm text-tigray-dark/70">Social Enterprise</span>
-                      </div>
-                    </div>
+              {/* Dungo Energy Hero Image */}
+              <div className="relative rounded-2xl overflow-hidden shadow-2xl border border-white/20">
+                <img 
+                  src="/images/dungo-energy-hero-01.jpeg" 
+                  alt="Dungo Energy Solutions - Youth Solar Team"
+                  className="w-full h-full object-cover"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-tigray-dark/60 via-transparent to-transparent"></div>
+                
+                {/* Overlay Content */}
+                <div className="absolute inset-0 flex flex-col justify-end p-8">
+                  <div className="space-y-3">
+                    <h3 className="text-2xl font-bold text-white">Dungo Energy Solutions</h3>
+                    <p className="text-white/90 text-sm">Youth-led solar enterprise bringing clean energy and employment to Tigray</p>
                   </div>
                 </div>
               </div>

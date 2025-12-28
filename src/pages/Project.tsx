@@ -145,6 +145,46 @@ const Project = () => {
             </div>
           </section>
 
+          {/* Project Implementation Images */}
+          <section>
+            <h2 className="text-3xl font-bold text-tigray-dark mb-8">Project Implementation Highlights</h2>
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+              <div className="rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
+                <img 
+                  src="/images/dungo-youth-training-01.jpg" 
+                  alt="Youth training in solar installation"
+                  className="w-full h-56 object-cover"
+                />
+                <div className="p-4 bg-white">
+                  <h4 className="font-semibold text-tigray-dark">Training Activity</h4>
+                  <p className="text-sm text-tigray-dark/70 mt-1">Comprehensive solar technical training</p>
+                </div>
+              </div>
+              <div className="rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
+                <img 
+                  src="/images/dungo-solar-panel-setup.jpg" 
+                  alt="Solar panel installation"
+                  className="w-full h-56 object-cover"
+                />
+                <div className="p-4 bg-white">
+                  <h4 className="font-semibold text-tigray-dark">Solar Distribution</h4>
+                  <p className="text-sm text-tigray-dark/70 mt-1">Product procurement & distribution</p>
+                </div>
+              </div>
+              <div className="rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
+                <img 
+                  src="/images/dungo-team-workshop-01.jpeg" 
+                  alt="Team collaboration workshop"
+                  className="w-full h-56 object-cover"
+                />
+                <div className="p-4 bg-white">
+                  <h4 className="font-semibold text-tigray-dark">Enterprise Operations</h4>
+                  <p className="text-sm text-tigray-dark/70 mt-1">Social enterprise management setup</p>
+                </div>
+              </div>
+            </div>
+          </section>
+
           {/* Budget Breakdown */}
           <section>
             <BudgetBreakdownComponent />

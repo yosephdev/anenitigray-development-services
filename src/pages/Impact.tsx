@@ -132,7 +132,7 @@ const Impact = () => {
                     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                         <ImageShowcase 
                             title="Our Impact in Action"
-                            description="See the real difference we're making in Tigray communities through our various programs and initiatives."
+                            description="See the real difference we're making in Tigray communities through our various programs and initiatives, including our new Dungo Energy solar enterprise."
                             images={[
                                 {
                                     src: "/images/ADS-1.jpg",
@@ -140,9 +140,9 @@ const Impact = () => {
                                     caption: "Community outreach and engagement"
                                 },
                                 {
-                                    src: "/images/ADS-15.jpg",
-                                    alt: "Educational support program",
-                                    caption: "Educational support and capacity building"
+                                    src: "/images/dungo-community-solar-01.jpeg",
+                                    alt: "Dungo Energy community solar solutions",
+                                    caption: "Dungo Energy - Clean energy for communities"
                                 },
                                 {
                                     src: "/images/ADS-16.jpg",
@@ -150,19 +150,19 @@ const Impact = () => {
                                     caption: "Healthcare and wellness programs"
                                 },
                                 {
-                                    src: "/images/ADS-17.jpg",
-                                    alt: "Food security program",
-                                    caption: "Food security and nutrition support"
+                                    src: "/images/dungo-solar-installation-01.jpg",
+                                    alt: "Professional solar installation",
+                                    caption: "Dungo Energy - Professional installations"
                                 },
                                 {
-                                    src: "/images/ADS-18.jpg",
-                                    alt: "Economic empowerment",
-                                    caption: "Economic empowerment initiatives"
+                                    src: "/images/dungo-youth-employment-01.jpeg",
+                                    alt: "Youth employment through Dungo Energy",
+                                    caption: "Dungo Energy - Youth employment creation"
                                 },
                                 {
-                                    src: "/images/ADS-CFS.jpg",
-                                    alt: "Child-Friendly Space",
-                                    caption: "Child-Friendly Space program"
+                                    src: "/images/dungo-solar-distribution-01.jpeg",
+                                    alt: "Solar distribution impact",
+                                    caption: "Dungo Energy - Household energy access"
                                 }
                             ]}
                         />

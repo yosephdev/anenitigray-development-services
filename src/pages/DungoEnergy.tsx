@@ -139,6 +139,79 @@ const DungoEnergy = () => {
             <SolarProductCatalog />
           </section>
 
+          {/* Photo Gallery Section */}
+          <section className="mb-16">
+            <h2 className="text-3xl font-bold text-tigray-dark mb-8">Our Work in Action</h2>
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+              <div className="rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
+                <img 
+                  src="/images/dungo-solar-installation-01.jpg" 
+                  alt="Solar installation by Dungo Energy team"
+                  className="w-full h-64 object-cover"
+                />
+                <div className="p-4 bg-white">
+                  <h4 className="font-semibold text-tigray-dark">Professional Installation</h4>
+                  <p className="text-sm text-tigray-dark/70 mt-1">Expert setup and configuration services</p>
+                </div>
+              </div>
+              <div className="rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
+                <img 
+                  src="/images/dungo-youth-team-01.jpg" 
+                  alt="Dungo Energy youth team members"
+                  className="w-full h-64 object-cover"
+                />
+                <div className="p-4 bg-white">
+                  <h4 className="font-semibold text-tigray-dark">Youth Team</h4>
+                  <p className="text-sm text-tigray-dark/70 mt-1">Our dedicated young professionals</p>
+                </div>
+              </div>
+              <div className="rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
+                <img 
+                  src="/images/dungo-community-solar-01.jpeg" 
+                  alt="Community solar energy solutions"
+                  className="w-full h-64 object-cover"
+                />
+                <div className="p-4 bg-white">
+                  <h4 className="font-semibold text-tigray-dark">Community Solutions</h4>
+                  <p className="text-sm text-tigray-dark/70 mt-1">Tailored energy solutions for families</p>
+                </div>
+              </div>
+              <div className="rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
+                <img 
+                  src="/images/dungo-youth-training-01.jpg" 
+                  alt="Youth training and certification"
+                  className="w-full h-64 object-cover"
+                />
+                <div className="p-4 bg-white">
+                  <h4 className="font-semibold text-tigray-dark">Training Programs</h4>
+                  <p className="text-sm text-tigray-dark/70 mt-1">Technical and business skills development</p>
+                </div>
+              </div>
+              <div className="rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
+                <img 
+                  src="/images/dungo-solar-panel-setup.jpg" 
+                  alt="Solar panel setup process"
+                  className="w-full h-64 object-cover"
+                />
+                <div className="p-4 bg-white">
+                  <h4 className="font-semibold text-tigray-dark">Quality Products</h4>
+                  <p className="text-sm text-tigray-dark/70 mt-1">High-performance solar systems</p>
+                </div>
+              </div>
+              <div className="rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
+                <img 
+                  src="/images/dungo-team-workshop-01.jpeg" 
+                  alt="Team workshop and collaboration"
+                  className="w-full h-64 object-cover"
+                />
+                <div className="p-4 bg-white">
+                  <h4 className="font-semibold text-tigray-dark">Collaboration</h4>
+                  <p className="text-sm text-tigray-dark/70 mt-1">Teamwork and knowledge sharing</p>
+                </div>
+              </div>
+            </div>
+          </section>
+
           {/* Services */}
           <section className="mb-16">
             <h2 className="text-3xl font-bold text-tigray-dark mb-8">Our Services</h2>

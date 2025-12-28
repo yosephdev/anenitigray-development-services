@@ -181,7 +181,7 @@ const YouthEmployment = () => {
             <h2 className="text-3xl font-bold text-tigray-dark mb-8 text-center">
               Hear from Our Team
             </h2>
-            <div className="grid md:grid-cols-2 gap-8">
+            <div className="grid md:grid-cols-2 gap-8 mb-12">
               <div className="bg-white rounded-xl p-6 shadow-md">
                 <p className="text-tigray-dark/70 italic mb-4">
                   "This program changed my life. I went from being unemployed to having 
@@ -213,6 +213,43 @@ const YouthEmployment = () => {
                     <p className="font-semibold text-tigray-dark">Marta, 28</p>
                     <p className="text-sm text-tigray-dark/60">Installation Supervisor</p>
                   </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Team Images Gallery */}
+            <div className="grid md:grid-cols-3 gap-6">
+              <div className="rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
+                <img 
+                  src="/images/dungo-youth-employment-01.jpeg" 
+                  alt="Youth employment team"
+                  className="w-full h-56 object-cover"
+                />
+                <div className="p-4 bg-white">
+                  <h4 className="font-semibold text-tigray-dark">Employment Ready</h4>
+                  <p className="text-sm text-tigray-dark/70 mt-1">Professional certified technicians</p>
+                </div>
+              </div>
+              <div className="rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
+                <img 
+                  src="/images/dungo-solar-distribution-01.jpeg" 
+                  alt="Solar distribution and installation"
+                  className="w-full h-56 object-cover"
+                />
+                <div className="p-4 bg-white">
+                  <h4 className="font-semibold text-tigray-dark">Real Impact</h4>
+                  <p className="text-sm text-tigray-dark/70 mt-1">Serving communities with clean energy</p>
+                </div>
+              </div>
+              <div className="rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
+                <img 
+                  src="/images/dungo-solar-installation-02.jpg" 
+                  alt="Professional installation services"
+                  className="w-full h-56 object-cover"
+                />
+                <div className="p-4 bg-white">
+                  <h4 className="font-semibold text-tigray-dark">Quality Work</h4>
+                  <p className="text-sm text-tigray-dark/70 mt-1">Expert solar installation services</p>
                 </div>
               </div>
             </div>
