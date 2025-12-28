@@ -210,20 +210,24 @@ const AboutADS = () => {
                 </p>
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-sm">
                   <div className="text-center">
-                    <div className="font-bold text-tigray-terracotta mb-1">500+</div>
-                    <div className="text-tigray-dark/70">Total Households Served</div>
+                    <div className="font-bold text-tigray-terracotta mb-1">11,741</div>
+                    <div className="text-tigray-dark/70">Lives Supported</div>
+                    <p className="text-xs text-tigray-dark/60 mt-2">The total number of individuals who benefited from ADS programs and interventions during 2025.</p>
                   </div>
                   <div className="text-center">
-                    <div className="font-bold text-tigray-terracotta mb-1">25+</div>
-                    <div className="text-tigray-dark/70">Youth Currently Employed</div>
+                    <div className="font-bold text-tigray-terracotta mb-1">3,861</div>
+                    <div className="text-tigray-dark/70">IDPs Assisted</div>
+                    <p className="text-xs text-tigray-dark/60 mt-2">Number of Internally Displaced Persons who received essential aid and support from ADS in 2025.</p>
                   </div>
                   <div className="text-center">
-                    <div className="font-bold text-tigray-terracotta mb-1">20+</div>
-                    <div className="text-tigray-dark/70">Leaders Trained</div>
+                    <div className="font-bold text-tigray-terracotta mb-1">4,196</div>
+                    <div className="text-tigray-dark/70">Children Reached</div>
+                    <p className="text-xs text-tigray-dark/60 mt-2">Number of children who received support through ADS initiatives, including education and child protection programs in 2025.</p>
                   </div>
                   <div className="text-center">
-                    <div className="font-bold text-tigray-terracotta mb-1">3-4 Years</div>
-                    <div className="text-tigray-dark/70">Of Continuous Service</div>
+                    <div className="font-bold text-tigray-terracotta mb-1">3,684</div>
+                    <div className="text-tigray-dark/70">Women Supported</div>
+                    <p className="text-xs text-tigray-dark/60 mt-2">Number of women empowered through ADS programs, including economic support and healthcare services in 2025.</p>
                   </div>
                 </div>
               </div>
