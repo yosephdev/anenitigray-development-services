@@ -17,7 +17,7 @@ const Donate = () => {
         <BrandedHeader 
           title="Donate"
           subtitle="Your donation helps us create lasting change in Tigray communities."
-          backgroundImage="/images/ads-economic-empowerment-01.jpg"
+          backgroundImage="/images/ads-community-outreach-02.jpg"
           showLogo={true}
         />
 

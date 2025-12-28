@@ -17,7 +17,12 @@ const YouthEmployment = () => {
       <Navbar />
 
       {/* Hero Section */}
-      <div className="bg-gradient-to-br from-youth-blue to-youth-purple text-white py-16">
+      <div className="bg-gradient-to-br from-youth-blue to-youth-purple text-white py-16 relative" style={{
+        backgroundImage: "url('/images/dungo-youth-employment-01.jpeg')",
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundBlendMode: 'overlay'
+      }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center gap-4 mb-6">
             <YouthLeadershipBadge size="lg" />

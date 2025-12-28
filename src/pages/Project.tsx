@@ -1,4 +1,3 @@
-import React from 'react';
 import { Helmet } from 'react-helmet-async';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
@@ -26,7 +25,12 @@ const Project = () => {
       <Navbar />
 
       {/* Hero Section */}
-      <div className="bg-gradient-to-br from-youth-blue/20 via-solar-yellow/20 to-energy-green/20 py-16">
+      <div className="bg-gradient-to-br from-youth-blue/20 via-solar-yellow/20 to-energy-green/20 py-16 relative" style={{
+        backgroundImage: "url('/images/dungo-solar-installation-01.jpg')",
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundBlendMode: 'overlay'
+      }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="inline-block bg-energy-green text-white px-4 py-2 rounded-full text-sm font-semibold mb-4">
             Application In Progress • Deadline: Jan 7, 2026
@@ -76,7 +80,6 @@ const Project = () => {
                   <p className="text-sm text-energy-green font-semibold mt-4">
                     Currently applying to AU EU LAB with a deadline of January 7, 2026.
                   </p>
-                </div>
                 </div>
               </div>
 

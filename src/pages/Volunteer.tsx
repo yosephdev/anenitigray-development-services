@@ -16,8 +16,13 @@ const Volunteer: React.FC = () => {
       <Navbar />
 
       <main className="flex-grow">
-        <div className="bg-tigray-dark text-white py-20">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <div className="bg-tigray-dark text-white py-20 relative" style={{
+          backgroundImage: "url('/images/ads-community-service-01.jpg')",
+          backgroundSize: 'cover',
+          backgroundPosition: 'center'
+        }}>
+          <div className="absolute inset-0 bg-black/50"></div>
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
             <h1 className="text-4xl font-bold mb-6">{t('volunteer.hero.title')}</h1>
             <p className="text-xl text-white/90 max-w-3xl mx-auto">
               {t('volunteer.hero.subtitle')}

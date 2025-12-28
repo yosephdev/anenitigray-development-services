@@ -16,18 +16,25 @@ const AboutADS = () => {
       <Navbar />
 
       {/* Hero Section */}
-      <div className="bg-gradient-to-br from-youth-blue/10 to-youth-purple/10 py-16">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex items-center gap-4 mb-6">
-            <YouthLeadershipBadge size="lg" />
+      <div className="relative py-20 bg-cover bg-center" style={{
+        backgroundImage: "url('/images/ads-community-outreach-01.jpg')",
+        backgroundSize: 'cover',
+        backgroundPosition: 'center'
+      }}>
+        <div className="absolute inset-0 bg-black/40"></div>
+        <div className="relative z-10">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="flex items-center gap-4 mb-6">
+              <YouthLeadershipBadge size="lg" />
+            </div>
+            <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">
+              About Anenitigray Development Services
+            </h1>
+            <p className="text-xl text-white/90 max-w-3xl">
+              A youth-led NGO based in Mekelle, Tigray, empowering communities through 
+              sustainable development, social enterprise, and youth employment since 2020.
+            </p>
           </div>
-          <h1 className="text-4xl md:text-5xl font-bold text-tigray-dark mb-6">
-            About Anenitigray Development Services
-          </h1>
-          <p className="text-xl text-tigray-dark/80 max-w-3xl">
-            A youth-led NGO based in Mekelle, Tigray, empowering communities through 
-            sustainable development, social enterprise, and youth employment since 2020.
-          </p>
         </div>
       </div>
 

@@ -17,19 +17,26 @@ const DungoEnergy = () => {
       <Navbar />
 
       {/* Hero Section */}
-      <div className="bg-gradient-to-br from-solar-yellow/20 to-energy-green/20 py-16">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex items-center gap-4 mb-6">
-            <SocialEnterprisePill variant="dungo" size="lg" />
+      <div className="relative py-20 bg-cover bg-center" style={{
+        backgroundImage: "url('/images/dungo-energy-hero-01.jpeg')",
+        backgroundSize: 'cover',
+        backgroundPosition: 'center'
+      }}>
+        <div className="absolute inset-0 bg-black/40"></div>
+        <div className="relative z-10">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="flex items-center gap-4 mb-6">
+              <SocialEnterprisePill variant="dungo" size="lg" />
+            </div>
+            <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">
+              Dungo Energy Solutions
+            </h1>
+            <p className="text-xl text-white/90 max-w-3xl">
+              A youth-led social enterprise bringing clean, affordable solar energy to households 
+              across Mekelle while creating sustainable employment for young people. Currently applying 
+              for AU EU LAB funding (deadline: January 7, 2026).
+            </p>
           </div>
-          <h1 className="text-4xl md:text-5xl font-bold text-tigray-dark mb-6">
-            Dungo Energy Solutions
-          </h1>
-          <p className="text-xl text-tigray-dark/80 max-w-3xl">
-            A youth-led social enterprise bringing clean, affordable solar energy to households 
-            across Mekelle while creating sustainable employment for young people. Currently applying 
-            for AU EU LAB funding (deadline: January 7, 2026).
-          </p>
         </div>
       </div>
 
