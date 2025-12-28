@@ -420,6 +420,80 @@ const AboutADS = () => {
             </div>
           </section>
 
+          {/* Resources & Downloads */}
+          <section className="mb-16">
+            <h2 className="text-3xl font-bold text-tigray-dark mb-8">Resources & Reports</h2>
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="bg-white rounded-xl shadow-md p-6 border-l-4 border-youth-blue hover:shadow-lg transition-shadow">
+                <div className="flex items-start gap-4">
+                  <div className="bg-youth-blue/10 p-3 rounded-lg">
+                    <svg className="w-6 h-6 text-youth-blue" fill="currentColor" viewBox="0 0 24 24">
+                      <path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8l-6-6z"/>
+                    </svg>
+                  </div>
+                  <div className="flex-1">
+                    <h3 className="text-lg font-bold text-tigray-dark mb-2">ADS Annual Report 2023-2024</h3>
+                    <p className="text-sm text-tigray-dark/70 mb-4">Comprehensive overview of our programs, impact metrics, and organizational growth</p>
+                    <a href="/images/ADS Annual report 2023-2024.pdf" download className="inline-block bg-youth-blue text-white px-4 py-2 rounded-lg text-sm font-semibold hover:bg-youth-blue/90 transition-colors">
+                      Download PDF
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-white rounded-xl shadow-md p-6 border-l-4 border-energy-green hover:shadow-lg transition-shadow">
+                <div className="flex items-start gap-4">
+                  <div className="bg-energy-green/10 p-3 rounded-lg">
+                    <svg className="w-6 h-6 text-energy-green" fill="currentColor" viewBox="0 0 24 24">
+                      <path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8l-6-6z"/>
+                    </svg>
+                  </div>
+                  <div className="flex-1">
+                    <h3 className="text-lg font-bold text-tigray-dark mb-2">ADS Annual Report 2022</h3>
+                    <p className="text-sm text-tigray-dark/70 mb-4">Our foundational year's report documenting initial programs and community engagement</p>
+                    <a href="/images/ADS_ANNUAL REPORT_2022.pdf" download className="inline-block bg-energy-green text-white px-4 py-2 rounded-lg text-sm font-semibold hover:bg-energy-green/90 transition-colors">
+                      Download PDF
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-white rounded-xl shadow-md p-6 border-l-4 border-solar-yellow hover:shadow-lg transition-shadow">
+                <div className="flex items-start gap-4">
+                  <div className="bg-solar-yellow/10 p-3 rounded-lg">
+                    <svg className="w-6 h-6 text-solar-dark" fill="currentColor" viewBox="0 0 24 24">
+                      <path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8l-6-6z"/>
+                    </svg>
+                  </div>
+                  <div className="flex-1">
+                    <h3 className="text-lg font-bold text-tigray-dark mb-2">Environmental & Climate-Sensitive Programming Policy</h3>
+                    <p className="text-sm text-tigray-dark/70 mb-4">Our commitment to sustainable and environmentally responsible development practices</p>
+                    <a href="/images/ADS_Environmental and Climate-Sensitive Programming Policy.pdf" download className="inline-block bg-solar-yellow text-tigray-dark px-4 py-2 rounded-lg text-sm font-semibold hover:bg-solar-yellow/90 transition-colors">
+                      Download PDF
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-white rounded-xl shadow-md p-6 border-l-4 border-tigray-terracotta hover:shadow-lg transition-shadow">
+                <div className="flex items-start gap-4">
+                  <div className="bg-tigray-terracotta/10 p-3 rounded-lg">
+                    <svg className="w-6 h-6 text-tigray-terracotta" fill="currentColor" viewBox="0 0 24 24">
+                      <path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8l-6-6z"/>
+                    </svg>
+                  </div>
+                  <div className="flex-1">
+                    <h3 className="text-lg font-bold text-tigray-dark mb-2">AI & Digital Literacy Training Agenda</h3>
+                    <p className="text-sm text-tigray-dark/70 mb-4">Detailed training curriculum for our AI and digital skills capacity building program</p>
+                    <a href="/images/Training Agenda_ AI & Digital Literacy for ADS Volunteers.pdf" download className="inline-block bg-tigray-terracotta text-white px-4 py-2 rounded-lg text-sm font-semibold hover:bg-tigray-terracotta/90 transition-colors">
+                      Download PDF
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
           {/* Call to Action */}
           <section className="text-center bg-gradient-to-r from-youth-blue to-youth-purple rounded-2xl p-12 text-white">
             <h2 className="text-3xl font-bold mb-4">Join Our Mission</h2>
