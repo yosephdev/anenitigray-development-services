@@ -170,7 +170,7 @@ const Project = () => {
               </div>
               <div className="rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
                 <img 
-                  src="/images/dungo-solar-panel-setup.jpg" 
+                  src="/images/home-slider-3.png" 
                   alt="Solar panel installation"
                   className="w-full h-56 object-cover"
                 />
@@ -181,7 +181,7 @@ const Project = () => {
               </div>
               <div className="rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
                 <img 
-                  src="/images/dungo-team-workshop-01.jpeg" 
+                  src="/images/dungo-logo-bg.png" 
                   alt="Team collaboration workshop"
                   className="w-full h-56 object-cover"
                 />

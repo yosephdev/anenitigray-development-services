@@ -167,7 +167,7 @@ const AboutADS = () => {
                   </div>
                   <div>
                     <div className="inline-block bg-gradient-to-r from-solar-yellow to-energy-green text-tigray-dark text-sm font-semibold px-4 py-1 rounded-full mb-2">
-                      NEW IN 2024-2025
+                      NEW IN 2026-2027
                     </div>
                     <h3 className="text-2xl font-bold text-tigray-dark mb-2">
                       Dungo Energy Solutions: Our Social Enterprise Revolution

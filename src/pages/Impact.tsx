@@ -140,7 +140,7 @@ const Impact = () => {
                                     caption: "Community outreach and engagement"
                                 },
                                 {
-                                    src: "/images/dungo-community-solar-01.jpeg",
+                                    src: "/images/dungo-energy-logo.png",
                                     alt: "Dungo Energy community solar solutions",
                                     caption: "Dungo Energy - Clean energy for communities"
                                 },
@@ -155,12 +155,12 @@ const Impact = () => {
                                     caption: "Dungo Energy - Professional installations"
                                 },
                                 {
-                                    src: "/images/dungo-youth-employment-01.jpeg",
+                                    src: "/images/dungo-youth-employment-01.jpg",
                                     alt: "Youth employment through Dungo Energy",
                                     caption: "Dungo Energy - Youth employment creation"
                                 },
                                 {
-                                    src: "/images/dungo-solar-distribution-01.jpeg",
+                                    src: "/images/dungo-solar-distribution-04.jpg",
                                     alt: "Solar distribution impact",
                                     caption: "Dungo Energy - Household energy access"
                                 }
