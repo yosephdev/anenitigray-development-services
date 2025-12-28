@@ -25,20 +25,21 @@ const Project = () => {
       <Navbar />
 
       {/* Hero Section */}
-      <div className="bg-gradient-to-br from-youth-blue/20 via-solar-yellow/20 to-energy-green/20 py-16 relative" style={{
-        backgroundImage: "url('/images/dungo-solar-solutions-hero.jpeg')",
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
-        backgroundBlendMode: 'overlay'
-      }}>
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="inline-block bg-energy-green text-white px-4 py-2 rounded-full text-sm font-semibold mb-4">
+      <div className="bg-gradient-to-br from-energy-green to-youth-blue py-20 relative">
+        <div className="absolute inset-0 opacity-10" style={{
+          backgroundImage: "url('/images/logos/AneniTigray-Development-Services-logo.png')",
+          backgroundSize: '300px',
+          backgroundPosition: 'right center',
+          backgroundRepeat: 'no-repeat'
+        }}></div>
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="inline-block bg-white text-energy-green px-4 py-2 rounded-full text-sm font-semibold mb-4">
             Application In Progress • Deadline: Jan 7, 2026
           </div>
-          <h1 className="text-4xl md:text-5xl font-bold text-tigray-dark mb-6">
+          <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">
             Dungo Energy Solutions: Youth-Led Solar Social Enterprise
           </h1>
-          <p className="text-xl text-tigray-dark/80 max-w-3xl">
+          <p className="text-xl text-white/95 max-w-3xl">
             We're applying for AU EU LAB funding to launch a comprehensive 12-month initiative 
             creating sustainable youth employment through solar energy distribution in Mekelle, Tigray.
           </p>
