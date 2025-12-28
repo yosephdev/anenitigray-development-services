@@ -176,7 +176,7 @@ const DungoEnergy = () => {
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
               <div className="rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
                 <img 
-                  src="/images/dungo-solar-installation-03.jpeg" 
+                  src="/images/dungo-technical-training-02.jpg" 
                   alt="Solar installation by Dungo Energy team"
                   className="w-full h-64 object-cover"
                 />
@@ -187,7 +187,7 @@ const DungoEnergy = () => {
               </div>
               <div className="rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
                 <img 
-                  src="/images/dungo-youth-team-installation-02.jpg" 
+                  src="/images/dungo-youth-training-01.jpg" 
                   alt="Dungo Energy youth team members"
                   className="w-full h-64 object-cover"
                 />
@@ -198,7 +198,7 @@ const DungoEnergy = () => {
               </div>
               <div className="rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
                 <img 
-                  src="/images/dungo-solar-distribution-01.jpeg" 
+                  src="/images/dungo-solar-panel-setup.jpg" 
                   alt="Community solar energy solutions"
                   className="w-full h-64 object-cover"
                 />
@@ -220,7 +220,7 @@ const DungoEnergy = () => {
               </div>
               <div className="rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
                 <img 
-                  src="/images/dungo-solar-panel-setup.jpg" 
+                  src="/images/dungo-youth-team-installation-02.jpg" 
                   alt="Solar panel setup process"
                   className="w-full h-64 object-cover"
                 />
