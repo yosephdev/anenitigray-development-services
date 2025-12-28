@@ -12,7 +12,7 @@ const News = () => {
     {
       title: language === 'en' ? 'New Clean Water Project Launched' : 'ሓዲሽ መደብ ጽሩይ ማይ ተጀሚሩ',
       date: language === 'en' ? 'April 2, 2025' : '2 መጋቢት 2017 ዓ.ም.',
-      image: '/images/ADS-03.jpg',
+      image: '/images/ads-community-outreach-02.jpg',
       summary: language === 'en' 
         ? 'ADS has launched a new initiative to bring clean water to five villages in western Tigray, benefiting over 2,000 residents.' 
         : 'ADS ንልዕሊ 2,000 ነበርቲ ተጠቀምቲ ዝኾኑ ንሓሙሽተ ዓድታት ምዕራብ ትግራይ ጽሩይ ማይ ንምምጻእ ሓዲሽ ተበግሶ ጀሚሩ።',
@@ -21,7 +21,7 @@ const News = () => {
     {
       title: language === 'en' ? 'Annual Fundraising Gala Raises Record Amount' : 'ዓመታዊ ናይ ገንዘብ ምትእኽኻብ መደብ ሪኮርድ ዝሰበረ መጠን ኣዋህሊሉ',
       date: language === 'en' ? 'March 15, 2025' : '15 የካቲት 2017 ዓ.ም.',
-      image: '/images/ADS-04.jpg',
+      image: '/images/ads-community-service-01.jpg',
       summary: language === 'en' 
         ? 'The annual ADS fundraising gala in Addis Ababa raised over 5 million birr for education and healthcare projects in Tigray.' 
         : 'ኣብ ኣዲስ ኣበባ ዝተኻየደ ዓመታዊ ናይ ADS ፈንድ ምትእኽኻብ ልዕሊ 5 ሚሊዮን ቅርሺ ንትምህርትን ጥዕናን ፕሮጀክትታት ኣብ ትግራይ ኣዋህሊሉ።',
@@ -30,7 +30,7 @@ const News = () => {
     {
       title: language === 'en' ? 'New School Opens in Adwa' : 'ኣብ ዓድዋ ሓዳስ ቤት ትምህርቲ ተኸፊቱ',
       date: language === 'en' ? 'February 20, 2025' : '20 ጥሪ 2017 ዓ.ም.',
-      image: '/images/ADS-8.jpg',
+      image: '/images/ads-economic-empowerment-01.jpg',
       summary: language === 'en' 
         ? 'ADS has opened a new primary school in Adwa, equipped with modern facilities and resources for 500 students.' 
         : 'ADS ንዓመታዊ መደባት ናይ 500 ተምሃሮ ዘገልግል ዘመናዊ መሳርሒታትን ንብረትን ዘለዎ ሓዳስ መባእታ ቤት ትምህርቲ ኣብ ዓድዋ ከፊቱ።',
@@ -39,7 +39,7 @@ const News = () => {
     {
       title: language === 'en' ? 'Healthcare Worker Training Program Graduates 50 Nurses' : 'ናይ ሰራሕተኛታት ጥዕና መደብ ስልጠና 50 ነርሳት ኣመሪቁ',
       date: language === 'en' ? 'January 10, 2025' : '10 ታሕሳስ 2017 ዓ.ም.',
-      image: '/images/ADS-16.jpg',
+      image: '/images/ads-health-program-01.jpg',
       summary: language === 'en' 
         ? 'Our healthcare training program has graduated 50 nurses who will provide essential medical services in rural communities throughout Tigray.' 
         : 'መደብ ስልጠና ናይ ጥዕና 50 ነርሳት ኣመሪቁ፡ ኣብ ገጠራት ትግራይ ኣገደስቲ ሕክምናዊ ኣገልግሎታት ክህቡ እዮም።',
@@ -57,7 +57,7 @@ const News = () => {
     {
       title: language === 'en' ? 'Partnership with International NGO Announced' : 'ምስ ዓለም ለኻዊ NGO ምትሕብባር ተኣዊጁ',
       date: language === 'en' ? 'November 12, 2024' : '12 ጥቅምቲ 2017 ዓ.ም.',
-      image: '/images/ads-007.jpg',
+      image: '/images/ads-impact-training-01.jpg',
       summary: language === 'en' 
         ? 'ADS has formed a strategic partnership with Global Development Partners to enhance food security initiatives in the region.' 
         : 'ADS ንተበግሶታት ምግቢ ውሕስነት ኣብቲ ዞባ ንምምሕያሽ ምስ ዓለምለኻዊ መሻርኽቲ ምዕባለ ስትራተጂያዊ ምትሕብባር ፈጢሩ።',
@@ -78,7 +78,7 @@ const News = () => {
       <div className="flex-grow">
         <div className="relative py-24 bg-tigray-dark">
           <div className="absolute inset-0 bg-cover bg-center opacity-20" style={{ 
-            backgroundImage: "url('/images/ADS-17.jpg')"
+            backgroundImage: "url('/images/ads-food-security-01.jpg')"
           }}></div>
           <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h1 className="text-4xl font-bold text-white mb-4">{t('news')}</h1>

@@ -10,7 +10,7 @@ interface BrandedHeaderProps {
 const BrandedHeader: React.FC<BrandedHeaderProps> = ({ 
   title, 
   subtitle, 
-  backgroundImage = '/images/ADS-14.jpg',
+  backgroundImage = '/images/ads-community-service-02.jpg',
   showLogo = false 
 }) => {
   return (

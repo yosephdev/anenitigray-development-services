@@ -14,7 +14,7 @@ const IntegratedChildCare = () => {
         {/* Hero Section */}
         <div className="relative py-24 bg-tigray-dark">
           <div className="absolute inset-0 bg-cover bg-center opacity-20" style={{ 
-            backgroundImage: "url('/images/ADS-CFS.jpg')"
+            backgroundImage: "url('/images/ads-child-friendly-space-01.jpg')"
           }}></div>
           <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h1 className="text-4xl font-bold text-white mb-4">Integrated Child Care Support</h1>

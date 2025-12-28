@@ -53,7 +53,7 @@ const Impact = () => {
             <div className="flex-grow">
                 <div className="relative py-24 bg-tigray-dark">
                     <div className="absolute inset-0 bg-cover bg-center opacity-20" style={{
-                        backgroundImage: "url('/images/ADS-14.jpg')"
+                        backgroundImage: "url('/images/ads-community-service-02.jpg')"
                     }}></div>
                     <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
                         <h1 className="text-4xl font-bold text-white mb-4">{language === 'en' ? 'Our Impact' : 'ውጽኢታትና'}</h1>
@@ -135,7 +135,7 @@ const Impact = () => {
                             description="See the real difference we're making in Tigray communities through our various programs and initiatives, including our new Dungo Energy solar enterprise."
                             images={[
                                 {
-                                    src: "/images/ADS-1.jpg",
+                                    src: "/images/ads-community-outreach-01.jpg",
                                     alt: "Community outreach program",
                                     caption: "Community outreach and engagement"
                                 },
@@ -145,7 +145,7 @@ const Impact = () => {
                                     caption: "Dungo Energy - Clean energy for communities"
                                 },
                                 {
-                                    src: "/images/ADS-16.jpg",
+                                    src: "/images/ads-health-program-01.jpg",
                                     alt: "Healthcare initiatives",
                                     caption: "Healthcare and wellness programs"
                                 },

@@ -20,19 +20,19 @@ const LegacyGiving: React.FC = () => {
       id: 'bequests',
       titleKey: 'legacy.bequests.title',
       descriptionKey: 'legacy.bequests.description',
-      image: '/images/legacy-bequests.jpg'
+      image: '/images/ads-legacy-bequests-program.jpg'
     },
     {
       id: 'trusts',
       titleKey: 'legacy.trusts.title',
       descriptionKey: 'legacy.trusts.description',
-      image: '/images/legacy-trusts.jpg'
+      image: '/images/ads-legacy-trusts-program.jpg'
     },
     {
       id: 'insurance',
       titleKey: 'legacy.insurance.title',
       descriptionKey: 'legacy.insurance.description',
-      image: '/images/legacy-insurance.jpg'
+      image: '/images/ads-legacy-insurance-program.jpg'
     }
   ];
 

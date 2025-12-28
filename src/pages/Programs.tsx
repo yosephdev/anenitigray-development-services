@@ -24,7 +24,7 @@ const Programs = () => {
         {/* Hero Section */}
         <div className="relative py-24 bg-tigray-dark">
           <div className="absolute inset-0 bg-cover bg-center opacity-20" style={{ 
-            backgroundImage: "url('/images/ADS-18.jpg')"
+            backgroundImage: "url('/images/ads-economic-empowerment-01.jpg')"
           }}></div>
           <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h1 className="text-4xl font-bold text-white mb-4">Our Programs</h1>
@@ -296,7 +296,7 @@ const Programs = () => {
                 <Link to="/programs/integrated-child-care" className="group">
                   <div className="bg-white rounded-xl p-8 shadow-lg border border-gray-100 hover:shadow-xl transition-shadow h-full">
                     <img 
-                      src="/images/ADS-CFS.jpg"
+                      src="/images/ads-child-friendly-space-01.jpg"
                       alt="Child Care Program"
                       className="w-full h-48 object-cover rounded-lg mb-6"
                     />
@@ -317,7 +317,7 @@ const Programs = () => {
                 <Link to="/programs/rapid-relief" className="group">
                   <div className="bg-white rounded-xl p-8 shadow-lg border border-gray-100 hover:shadow-xl transition-shadow h-full">
                     <img 
-                      src="/images/ADS-1(1).jpg"
+                      src="/images/ads-youth-program-01.jpg"
                       alt="Emergency Relief"
                       className="w-full h-48 object-cover rounded-lg mb-6"
                     />
@@ -338,7 +338,7 @@ const Programs = () => {
                 <Link to="/programs/asset-program" className="group">
                   <div className="bg-white rounded-xl p-8 shadow-lg border border-gray-100 hover:shadow-xl transition-shadow h-full">
                     <img 
-                      src="/images/ADS-10.jpg"
+                      src="/images/ads-education-program-01.jpg"
                       alt="Asset Building Program"
                       className="w-full h-48 object-cover rounded-lg mb-6"
                     />

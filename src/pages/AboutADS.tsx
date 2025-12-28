@@ -374,6 +374,41 @@ const AboutADS = () => {
             </div>
           </section>
 
+          {/* Video Section */}
+          <section className="mb-16">
+            <h2 className="text-3xl font-bold text-tigray-dark mb-8">Our Work & Impact in Video</h2>
+            <div className="grid md:grid-cols-2 gap-8 items-center">
+              <div className="rounded-xl overflow-hidden shadow-lg">
+                <div className="bg-gray-900 w-full h-96 flex items-center justify-center">
+                  <video
+                    src="/images/ads-emergency-response-overview.mp4"
+                    className="w-full h-full object-cover"
+                    controls
+                  />
+                </div>
+              </div>
+              <div className="space-y-6">
+                <div>
+                  <h3 className="text-2xl font-bold text-tigray-dark mb-3">Emergency Response & Community Relief</h3>
+                  <p className="text-tigray-dark/70 leading-relaxed">
+                    Watch how ADS responds to community emergencies and provides essential relief services 
+                    to vulnerable populations in Tigray. Our video documents the real-world impact of our 
+                    rapid response initiatives and community support programs.
+                  </p>
+                </div>
+                <div className="bg-gradient-to-br from-youth-blue/10 to-youth-purple/10 rounded-xl p-6 border border-youth-blue/20">
+                  <h4 className="font-semibold text-tigray-dark mb-3">Learn More About Our Programs</h4>
+                  <ul className="space-y-2 text-sm text-tigray-dark/70">
+                    <li>→ Emergency Relief & Rapid Response</li>
+                    <li>→ Youth Leadership Development</li>
+                    <li>→ Child Protection & Care Services</li>
+                    <li>→ Community Outreach & Engagement</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </section>
+
           {/* Call to Action */}
           <section className="text-center bg-gradient-to-r from-youth-blue to-youth-purple rounded-2xl p-12 text-white">
             <h2 className="text-3xl font-bold mb-4">Join Our Mission</h2>

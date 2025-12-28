@@ -57,7 +57,7 @@ const RecentTrainingShowcase = () => {
                 poster="/images/PHOTO-2025-09-15-17-43-54.jpg"
                 className="w-full h-auto max-h-96 object-cover"
               >
-                <source src="/images/VIDEO-2025-09-15-17-43-56.mp4" type="video/mp4" />
+                <source src="/images/ads-emergency-response-overview.mp4" type="video/mp4" />
                 Your browser does not support the video tag.
               </video>
             </div>

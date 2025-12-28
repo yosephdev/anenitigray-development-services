@@ -94,7 +94,7 @@ const AboutADSSection = () => {
             {/* Main Image */}
             <div className="relative">
               <img 
-                src="/images/ADS-CFS.jpg" 
+                src="/images/ads-child-friendly-space-01.jpg" 
                 alt="ADS community work" 
                 className="w-full h-80 object-cover rounded-xl shadow-lg"
               />

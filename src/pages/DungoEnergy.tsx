@@ -236,6 +236,64 @@ const DungoEnergy = () => {
             </div>
           </section>
 
+          {/* Video Showcase */}
+          <section className="mb-16">
+            <h2 className="text-3xl font-bold text-tigray-dark mb-8">See Dungo Energy in Action</h2>
+            <div className="grid md:grid-cols-2 gap-8">
+              <div className="rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
+                <div className="bg-gray-900 w-full h-96 flex items-center justify-center relative group">
+                  <video
+                    src="/images/dungo-solar-operations-overview.mp4"
+                    className="w-full h-full object-cover"
+                    controls
+                  />
+                </div>
+                <div className="p-6 bg-white">
+                  <h4 className="font-semibold text-tigray-dark mb-2">Operations Overview</h4>
+                  <p className="text-sm text-tigray-dark/70">See how Dungo Energy operates and delivers solar solutions to communities</p>
+                </div>
+              </div>
+              <div className="bg-gradient-to-br from-energy-green/10 to-solar-yellow/10 rounded-xl p-8 border border-energy-green/20">
+                <h3 className="text-2xl font-bold text-tigray-dark mb-6">Why Video Matters</h3>
+                <ul className="space-y-4">
+                  <li className="flex items-start gap-3">
+                    <div className="bg-energy-green/20 p-2 rounded-lg mt-1">
+                      <svg className="w-4 h-4 text-energy-green" fill="currentColor" viewBox="0 0 20 20">
+                        <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                      </svg>
+                    </div>
+                    <div>
+                      <h4 className="font-semibold text-tigray-dark mb-1">Real Impact Stories</h4>
+                      <p className="text-sm text-tigray-dark/70">Watch how our solar solutions transform communities</p>
+                    </div>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <div className="bg-energy-green/20 p-2 rounded-lg mt-1">
+                      <svg className="w-4 h-4 text-energy-green" fill="currentColor" viewBox="0 0 20 20">
+                        <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                      </svg>
+                    </div>
+                    <div>
+                      <h4 className="font-semibold text-tigray-dark mb-1">Youth Employment</h4>
+                      <p className="text-sm text-tigray-dark/70">Meet the young people creating solar solutions</p>
+                    </div>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <div className="bg-energy-green/20 p-2 rounded-lg mt-1">
+                      <svg className="w-4 h-4 text-energy-green" fill="currentColor" viewBox="0 0 20 20">
+                        <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                      </svg>
+                    </div>
+                    <div>
+                      <h4 className="font-semibold text-tigray-dark mb-1">Clean Energy Access</h4>
+                      <p className="text-sm text-tigray-dark/70">Discover the difference solar energy makes</p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </section>
+
           {/* Services */}
           <section className="mb-16">
             <h2 className="text-3xl font-bold text-tigray-dark mb-8">Our Services</h2>

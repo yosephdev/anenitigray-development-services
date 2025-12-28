@@ -15,7 +15,7 @@ const About = () => {
       <div className="flex-grow">
         <div className="relative py-24 bg-tigray-dark">
           <div className="absolute inset-0 bg-cover bg-center opacity-20" style={{ 
-            backgroundImage: "url('/images/ADS-14.jpg')" // TODO: Replace with relevant image (e.g., Tigray landscape, community meeting)
+            backgroundImage: "url('/images/ads-community-service-02.jpg')" // Tigray community engagement
           }}></div>
           <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h1 className="text-4xl font-bold text-white mb-4">About ADS</h1>
@@ -53,7 +53,7 @@ const About = () => {
             </div>
             <div className="relative">
               <img 
-                src="/images/ads-04.jpg" // TODO: Replace with relevant photo (e.g., ADS team or beneficiaries) 
+                src="/images/ads-community-outreach-02.jpg" // ADS team working with beneficiaries 
                 alt="Team members working in Tigray"
                 className="rounded-lg shadow-lg w-full h-auto"
               />

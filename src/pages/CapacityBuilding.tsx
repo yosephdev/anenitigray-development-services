@@ -14,7 +14,7 @@ const CapacityBuilding = () => {
         {/* Hero Section */}
         <div className="relative py-24 bg-tigray-dark">
           <div className="absolute inset-0 bg-cover bg-center opacity-20" style={{ 
-            backgroundImage: "url('/images/ADS-15(1).jpg')"
+            backgroundImage: "url('/images/ads-capacity-building-01.jpg')"
           }}></div>
           <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h1 className="text-4xl font-bold text-white mb-4">Capacity Building Program</h1>
@@ -348,7 +348,7 @@ const CapacityBuilding = () => {
                       poster="/images/PHOTO-2025-09-15-17-43-54.jpg"
                       className="w-full h-48 object-cover"
                     >
-                      <source src="/images/VIDEO-2025-09-15-17-43-56.mp4" type="video/mp4" />
+                      <source src="/images/ads-emergency-response-overview.mp4" type="video/mp4" />
                       Your browser does not support the video tag.
                     </video>
                   </div>

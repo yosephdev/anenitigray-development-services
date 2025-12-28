@@ -11,25 +11,25 @@ const ProgramsSection = () => {
     {
       title: t('childcare.title'),
       description: t('childcare.desc'),
-      image: '/images/ADS-CFS.jpg',
+      image: '/images/ads-child-friendly-space-01.jpg',
       link: '/programs/integrated-child-care'
     },
     {
       title: t('asset.title'),
       description: t('asset.desc'),
-      image: '/images/ADS-10.jpg',
+      image: '/images/ads-education-program-01.jpg',
       link: '/programs/asset-program'
     },
     {
       title: t('relief.title'),
       description: t('relief.desc'),
-      image: '/images/ADS-1(1).jpg',
+      image: '/images/ads-youth-program-01.jpg',
       link: '/programs/rapid-relief'
     },
     {
       title: t('capacity.title'),
       description: t('capacity.desc'),
-      image: '/images/ADS-15(1).jpg',
+      image: '/images/ads-food-security-01.jpg',
       link: '/programs/capacity-building'
     }
   ];

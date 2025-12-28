@@ -23,7 +23,7 @@ const OrganizationShowcase = () => {
           {/* Main organizational images */}
           <div className="lg:col-span-2">
             <img 
-              src="/images/ADS-1.jpg" 
+              src="/images/ads-community-outreach-01.jpg" 
               alt="ADS team in action"
               className="w-full h-64 lg:h-80 object-cover rounded-lg shadow-lg"
             />
@@ -32,12 +32,12 @@ const OrganizationShowcase = () => {
           
           <div className="space-y-4">
             <img 
-              src="/images/ADS-03.jpg" 
+              src="/images/ads-community-outreach-02.jpg" 
               alt="Community engagement"
               className="w-full h-36 lg:h-38 object-cover rounded-lg shadow-lg"
             />
             <img 
-              src="/images/ads-04.jpg" 
+              src="/images/ads-community-service-01.jpg" 
               alt="Program implementation"
               className="w-full h-36 lg:h-38 object-cover rounded-lg shadow-lg"
             />
@@ -48,7 +48,7 @@ const OrganizationShowcase = () => {
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
           <div className="space-y-2">
             <img 
-              src="/images/ADS-7.jpg" 
+              src="/images/ads-community-service-03.jpg" 
               alt="Community development work"
               className="w-full h-32 object-cover rounded-lg shadow-md"
             />
@@ -57,7 +57,7 @@ const OrganizationShowcase = () => {
           
           <div className="space-y-2">
             <img 
-              src="/images/ADS-8.jpg" 
+              src="/images/ads-economic-empowerment-01.jpg" 
               alt="Healthcare initiatives"
               className="w-full h-32 object-cover rounded-lg shadow-md"
             />
@@ -66,7 +66,7 @@ const OrganizationShowcase = () => {
           
           <div className="space-y-2">
             <img 
-              src="/images/ADS-10.jpg" 
+              src="/images/ads-education-program-01.jpg" 
               alt="Educational programs"
               className="w-full h-32 object-cover rounded-lg shadow-md"
             />
@@ -75,7 +75,7 @@ const OrganizationShowcase = () => {
           
           <div className="space-y-2">
             <img 
-              src="/images/ADS-12.jpg" 
+              src="/images/ads-health-program-01.jpg" 
               alt="Food security programs"
               className="w-full h-32 object-cover rounded-lg shadow-md"
             />

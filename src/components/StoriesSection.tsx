@@ -9,7 +9,7 @@ const StoriesSection = () => {
   {
     name: 'Abrehet Kahsay', // Representing a mother from Integrated Child Care
     location: language === 'en' ? 'Mekelle, Tigray' : 'መቐለ፣ ትግራይ',
-    image: '/images/ADS-CFS.jpg', // Used CFS image, often related to child support
+    image: '/images/ads-child-friendly-space-01.jpg', // Child-Friendly Space program
     quote: language === 'en' ?
       '"The support ADS provided for my child, including nutritious meals and a safe space to play and learn, has brought so much joy and stability back to our lives after the conflict."' :
       `"ኤድኤስ ንደቀይ ዝሃቦም ደገፍ፡ ማለት እቲ ምቁር መግቢን ውሑስ ናይ መጻወቲን መምሃሪ ቦታን፡ ድሕሪ እቲ ኩናት ብዙሕ ሓጎስን ምርግጋእን ኣብ ሂወትና ኣምጺኡ።"`,
@@ -21,7 +21,7 @@ const StoriesSection = () => {
   {
     name: 'Teacher Berhane Woldu', // Representing a teacher from ASSET program
     location: language === 'en' ? 'Atse-Yohannes Primary School, Mekelle' : 'ኣጼ ዮሃንስ ኣቡነት ቤት ትምህርቲ፣ መቐለ',
-    image: '/images/ADS-12.jpg', // Generic community/support image
+    image: '/images/ads-health-program-01.jpg', // Community health initiative
     quote: language === 'en' ?
       '"With our own families struggling and schools lacking resources, the ASSET program\'s daily meals and training keep us going. We can focus on educating the next generation despite the crisis."' :
       `"ናይ ገዛእ ርእስና ስድራቤት ብዝተቓለሰሉን ቤት ትምህርቲ ጸጋታት ብዝጎደለሉን እዋን፡ ናይ ኣሴት ፕሮግራም መዓልታዊ ምግቢን ስልጠናን ክንቅጽል ኣኽኢሉና። ቀውዒ እዚ ኣብ ዘሎ፡ ኣብ ምትምሃር ዝቕጽል ወለዶ ክንረኽብ ንኽእል።"`,
@@ -33,7 +33,7 @@ const StoriesSection = () => {
   {
     name: 'Fatima Ali', // Representing an IDP from Rapid Relief Support
     location: language === 'en' ? 'IDP Camp, Mekelle' : 'ናይ ተመዛበልቲ ካምፕ፣ መቐለ',
-    image: '/images/ADS-7.jpg', // Could represent relief distribution
+    image: '/images/ads-community-service-03.jpg', // Relief and community support
     quote: language === 'en' ?
       '"When we fled our village with nothing, ADS gave us dignity. The food items and non-food items helped us survive until we could rebuild. We are one of thousands displaced, but we felt seen."' :
       `"ካብ ዓድና ዋላ ሓንቲ ብዘይሒዝና ምስ ሃደምና፡ ኤድኤስ ክብረትና ሂቡና። እቶም ናይ መግቢን ዘይመግቢ ኣቅሑትን ክሳብ ንውድኣት ክንመልስ ክንቅይር ሓገዙና። ካብ ኣሽሓት ተመዛበልቲ ሓደ ኢና፡ ግን ዝተራእናዮ ስምዒት ነበረና።"`,
