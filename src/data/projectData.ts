@@ -1,13 +1,15 @@
 import { ProjectActivity, BudgetItem, ProjectTimeline, GrantInformation } from '../types/project';
 
 export const grantInformation: GrantInformation = {
-  grantor: 'European Union',
+  grantor: 'AU EU LAB',
   program: 'Youth Social Enterprise Initiative',
   amount: 30000,
   currency: 'EUR',
   duration: 12,
-  startDate: '2024-01-01',
-  endDate: '2024-12-31',
+  startDate: '2026-01-01',
+  endDate: '2026-12-31',
+  deadline: '2026-01-07',
+  status: 'applying',
   alignment: [
     'Youth Employment',
     'Clean Energy Access',

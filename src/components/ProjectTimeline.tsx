@@ -21,10 +21,10 @@ const ProjectTimelineComponent: React.FC<ProjectTimelineProps> = ({
         <Calendar className="text-youth-blue" size={32} />
         <div>
           <h2 className="text-2xl md:text-3xl font-bold text-tigray-dark">
-            Proposed 12-Month Project Timeline
+            12-Month Implementation Timeline
           </h2>
           <p className="text-tigray-dark/70">
-            Planned implementation starting January 2026
+            Planned implementation starting January 2026 (if AU EU LAB application is approved)
           </p>
         </div>
       </div>

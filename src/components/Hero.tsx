@@ -37,8 +37,8 @@ const Hero = () => {
 
             {/* Subtitle */}
             <p className="text-xl text-white/90 leading-relaxed">
-              Proposed project to empower 20-25 young people through solar energy entrepreneurship, 
-              bringing clean electricity to 500+ households in Mekelle, Tigray. Launching January 2026.
+              We're applying for AU EU LAB funding to empower 20-25 young people through solar energy entrepreneurship, 
+              bringing clean electricity to 500+ households in Mekelle, Tigray. Application deadline: January 7, 2026.
             </p>
 
             {/* Key Stats */}
@@ -82,13 +82,13 @@ const Hero = () => {
             </div>
 
             {/* Mission Badge */}
-            <div className="flex items-center gap-3 bg-youth-blue/20 border border-youth-blue/30 rounded-lg p-4">
-              <div className="bg-youth-blue p-2 rounded-lg">
+            <div className="flex items-center gap-3 bg-energy-green/20 border border-energy-green/30 rounded-lg p-4">
+              <div className="bg-energy-green p-2 rounded-lg">
                 <Sun className="text-white" size={24} />
               </div>
               <div>
-                <p className="text-white font-semibold">Proposed Youth-Led Social Enterprise</p>
-                <p className="text-white/80 text-sm">To create employment through clean energy solutions</p>
+                <p className="text-white font-semibold">AU EU LAB Application In Progress</p>
+                <p className="text-white/80 text-sm">Seeking funding to create youth employment through clean energy solutions</p>
               </div>
             </div>
           </div>

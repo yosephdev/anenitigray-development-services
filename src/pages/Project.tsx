@@ -19,8 +19,8 @@ const Project = () => {
   return (
     <div className="min-h-screen flex flex-col">
       <Helmet>
-        <title>Our Proposed Project - Youth-Led Solar Social Enterprise | ADS</title>
-        <meta name="description" content="Learn about our proposed youth-led solar social enterprise that aims to create employment and clean energy access in Tigray through sustainable business practices." />
+        <title>Dungo Energy - Youth-Led Solar Social Enterprise | ADS Application</title>
+        <meta name="description" content="Dungo Energy Solutions - A youth-led solar social enterprise creating employment and clean energy access in Tigray. Applying for AU EU LAB funding (deadline: January 7, 2026)." />
       </Helmet>
       
       <Navbar />
@@ -28,15 +28,15 @@ const Project = () => {
       {/* Hero Section */}
       <div className="bg-gradient-to-br from-youth-blue/20 via-solar-yellow/20 to-energy-green/20 py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="inline-block bg-youth-blue text-white px-4 py-2 rounded-full text-sm font-semibold mb-4">
-            Proposed Project • Seeking Funding
+          <div className="inline-block bg-energy-green text-white px-4 py-2 rounded-full text-sm font-semibold mb-4">
+            Application In Progress • Deadline: Jan 7, 2026
           </div>
           <h1 className="text-4xl md:text-5xl font-bold text-tigray-dark mb-6">
-            Youth-Led Solar Social Enterprise Project
+            Dungo Energy Solutions: Youth-Led Solar Social Enterprise
           </h1>
           <p className="text-xl text-tigray-dark/80 max-w-3xl">
-            Our vision for a comprehensive 12-month initiative to create sustainable youth employment through 
-            solar energy distribution in Mekelle, Tigray.
+            We're applying for AU EU LAB funding to launch a comprehensive 12-month initiative 
+            creating sustainable youth employment through solar energy distribution in Mekelle, Tigray.
           </p>
         </div>
       </div>
@@ -66,13 +66,17 @@ const Project = () => {
                   </p>
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold text-tigray-dark mb-4">Our Proposed Solution</h3>
+                  <h3 className="text-xl font-bold text-tigray-dark mb-4">Our Solution</h3>
                   <p className="text-tigray-dark/70 leading-relaxed">
-                    We aim to address both challenges simultaneously through a social enterprise 
+                    We address both challenges simultaneously through a social enterprise 
                     model: training and employing 20-25 young people in solar energy distribution, 
-                    while bringing clean, affordable electricity to 500+ households. This will create 
+                    while bringing clean, affordable electricity to 500+ households. This creates 
                     a sustainable cycle of employment, energy access, and community development.
                   </p>
+                  <p className="text-sm text-energy-green font-semibold mt-4">
+                    Currently applying to AU EU LAB with a deadline of January 7, 2026.
+                  </p>
+                </div>
                 </div>
               </div>
 

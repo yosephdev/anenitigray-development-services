@@ -83,14 +83,14 @@ const Index = () => {
                 Dungo Energy Solutions
               </h3>
               <p className="text-tigray-dark/70 text-center mb-6">
-                Proposed social enterprise to deliver clean solar energy while creating 
-                sustainable youth employment.
+                AU EU LAB application in progress with deadline January 7, 2026. Creating 
+                sustainable youth employment through solar energy solutions.
               </p>
               <ul className="space-y-2 text-sm text-tigray-dark/70 mb-6">
                 <li>→ Target: 20-25 youth to employ</li>
-                <li>→ Solar energy distribution</li>
-                <li>→ Professional training to provide</li>
-                <li>→ Profits to reinvest in ADS</li>
+                <li>→ Solar energy distribution to 500+ households</li>
+                <li>→ Professional training and certification</li>
+                <li>→ 100% of profits reinvested in ADS programs</li>
               </ul>
               <Link to="/dungo-energy" className="block">
                 <button className="w-full bg-gradient-to-r from-solar-yellow to-energy-green text-tigray-dark py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity">
@@ -108,14 +108,14 @@ const Index = () => {
                 </div>
               </div>
               <div className="bg-youth-blue/10 text-youth-blue text-sm font-semibold px-4 py-2 rounded-full inline-block mb-4">
-                Proposed Social Impact Project
+                AU EU LAB Application • Deadline: Jan 7, 2026
               </div>
               <h3 className="text-2xl font-bold text-tigray-dark mb-4 text-center">
                 Planned Project Impact
               </h3>
               <p className="text-tigray-dark/70 text-center mb-6">
-                Proposed 12-month solar social enterprise launching January 2026 to create 
-                lasting community impact and sustainability.
+                If approved, this 12-month solar social enterprise will launch January 2026, 
+                creating lasting community impact and sustainability.
               </p>
               <ul className="space-y-2 text-sm text-tigray-dark/70 mb-6">
                 <li>→ Target: 500+ households</li>
@@ -177,14 +177,14 @@ const Index = () => {
             <Link to="/dungo-energy" className="group">
               <div className="bg-gradient-to-br from-solar-yellow/20 to-energy-green/20 rounded-xl p-8 hover:shadow-xl transition-all border border-solar-yellow h-full">
                 <div className="bg-gradient-to-r from-solar-yellow to-energy-green text-tigray-dark text-sm font-semibold px-4 py-2 rounded-full inline-block mb-4">
-                  Social Enterprise • NEW
+                  Under Development • Seeking Funding
                 </div>
                 <h3 className="text-2xl font-bold text-tigray-dark mb-4">
                   Dungo Energy Solutions
                 </h3>
                 <p className="text-tigray-dark/70 mb-6">
-                  Proposed youth-led solar social enterprise to create sustainable employment while delivering 
-                  clean energy to communities. 100% profits to be reinvested in ADS programs.
+                  Youth-led solar social enterprise to create sustainable employment while delivering 
+                  clean energy to communities. Applying to AU EU LAB (deadline January 7, 2026).
                 </p>
                 <ul className="space-y-2 text-sm text-tigray-dark/70 mb-6">
                   <li>→ Target: 20-25 Youth to Employ</li>
@@ -263,7 +263,7 @@ const Index = () => {
               Expected Impact Overview
             </h2>
             <p className="text-xl text-tigray-dark/70">
-              Projected outcomes and targets for our proposed initiative
+              Projected outcomes and targets if AU EU LAB application is approved
             </p>
           </div>
           <ImpactMetricsDashboard showTrends={true} />
@@ -356,8 +356,9 @@ const Index = () => {
                 sustainable energy independence.
               </p>
               <p className="text-lg text-tigray-dark/70 mb-8 leading-relaxed">
-                Our proposed model will demonstrate that social enterprise can be both profitable and purposeful, 
-                creating lasting change that goes far beyond traditional charity approaches.
+                Our model demonstrates that social enterprise can be both profitable and purposeful, 
+                creating lasting change that goes far beyond traditional charity approaches. If approved, 
+                this initiative will launch January 2026 with full AU EU LAB support.
               </p>
               <Link to="/impact">
                 <button className="bg-energy-green text-white px-6 py-3 rounded-lg font-semibold hover:bg-energy-dark transition-colors">

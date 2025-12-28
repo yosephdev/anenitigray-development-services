@@ -185,11 +185,11 @@ const Programs = () => {
               <div className="bg-gradient-to-br from-solar-yellow/10 to-energy-green/10 rounded-2xl p-12">
                 <div className="text-center mb-12">
                   <div className="inline-block bg-gradient-to-r from-solar-yellow to-energy-green text-tigray-dark text-sm font-semibold px-6 py-2 rounded-full mb-4">
-                    Youth-Led Social Enterprise
+                    AU EU LAB Application • Deadline: Jan 7, 2026
                   </div>
                   <h2 className="text-4xl font-bold text-tigray-dark mb-4">Dungo Energy Solutions</h2>
                   <p className="text-xl text-tigray-dark/70 max-w-3xl mx-auto">
-                    Creating sustainable youth employment through clean solar energy distribution
+                    Youth-led solar enterprise to create sustainable employment while delivering clean energy to communities
                   </p>
                 </div>
 

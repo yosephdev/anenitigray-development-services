@@ -27,7 +27,8 @@ const DungoEnergy = () => {
           </h1>
           <p className="text-xl text-tigray-dark/80 max-w-3xl">
             A youth-led social enterprise bringing clean, affordable solar energy to households 
-            across Mekelle while creating sustainable employment for young people.
+            across Mekelle while creating sustainable employment for young people. Currently applying 
+            for AU EU LAB funding (deadline: January 7, 2026).
           </p>
         </div>
       </div>
@@ -35,6 +36,29 @@ const DungoEnergy = () => {
       {/* Main Content */}
       <div className="flex-1 py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          
+          {/* Funding Status Banner */}
+          <section className="mb-16">
+            <div className="bg-gradient-to-r from-energy-green/10 to-youth-blue/10 border border-energy-green/30 rounded-xl p-6 md:p-8">
+              <div className="flex items-start gap-4">
+                <div className="bg-energy-green/20 p-3 rounded-lg">
+                  <Sun className="text-energy-green" size={32} />
+                </div>
+                <div className="flex-1">
+                  <h3 className="text-xl font-bold text-tigray-dark mb-2">Applying for AU EU LAB Funding</h3>
+                  <p className="text-tigray-dark/80 mb-3">
+                    Dungo Energy is currently applying for AU EU LAB funding to accelerate our launch. 
+                    Application deadline: <span className="font-semibold">January 7, 2026</span>
+                  </p>
+                  <p className="text-sm text-tigray-dark/70">
+                    If approved, we will launch our full operations in January 2026, creating employment 
+                    for 20-25 young people and bringing solar energy to 500+ households. If not selected, 
+                    we will continue seeking funding from other sources to make this vision a reality.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
           
           {/* What is Dungo Energy */}
           <section className="mb-16">
