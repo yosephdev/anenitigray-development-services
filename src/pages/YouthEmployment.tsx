@@ -248,7 +248,7 @@ const YouthEmployment = () => {
               </div>
               <div className="rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
                 <img 
-                  src="/images/dungo-solar-installation-02.jpg" 
+                  src="/images/P1190002K.jpg" 
                   alt="Professional installation services"
                   className="w-full h-56 object-cover"
                 />

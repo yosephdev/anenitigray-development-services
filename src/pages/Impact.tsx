@@ -150,7 +150,7 @@ const Impact = () => {
                                     caption: "Healthcare and wellness programs"
                                 },
                                 {
-                                    src: "/images/dungo-solar-installation-01.jpg",
+                                    src: "/images/dungo-solar-panel-setup.jpg",
                                     alt: "Professional solar installation",
                                     caption: "Dungo Energy - Professional installations"
                                 },

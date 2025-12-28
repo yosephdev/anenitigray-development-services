@@ -26,7 +26,7 @@ const Project = () => {
 
       {/* Hero Section */}
       <div className="bg-gradient-to-br from-youth-blue/20 via-solar-yellow/20 to-energy-green/20 py-16 relative" style={{
-        backgroundImage: "url('/images/dungo-solar-installation-01.jpg')",
+        backgroundImage: "url('/images/dungo-solar-solutions-hero.jpeg')",
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundBlendMode: 'overlay'
