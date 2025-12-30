@@ -8,8 +8,6 @@ export const grantInformation: GrantInformation = {
   duration: 12,
   startDate: '2026-05-01',
   endDate: '2027-04-30',
-  deadline: '2025-12-30',
-  status: 'submitted',
   alignment: [
     'Youth Employment',
     'Clean Energy Access',

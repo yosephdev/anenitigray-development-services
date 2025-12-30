@@ -37,7 +37,7 @@ const GrantAlignmentBanner: React.FC<GrantAlignmentBannerProps> = ({
         </div>
         <div className="flex-1">
           <h3 className="text-2xl font-bold text-tigray-dark mb-2">
-            AU EU LAB Application
+            YAL Entrepreneurship Grant Application
           </h3>
           <p className="text-lg font-semibold text-energy-green mb-1">
             {grantInformation.program}
@@ -46,8 +46,30 @@ const GrantAlignmentBanner: React.FC<GrantAlignmentBannerProps> = ({
             Applying to {grantInformation.grantor} • {grantInformation.currency} {grantInformation.amount.toLocaleString()} requested • Deadline: January 7, 2026
           </p>
           <p className="text-sm text-tigray-dark/60 mt-2 italic">
-            If approved, project implementation begins January 2026. If not selected, we will continue seeking funding from other sources.
+            Application submitted December 30, 2025. If approved, project implementation runs May 2026 – April 2027.
           </p>
+        </div>
+      </div>
+
+      <div className="space-y-4 mb-6">
+        <p className="font-semibold text-tigray-dark">Key Dates:</p>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+          <div className="bg-white/50 rounded-lg p-3 border border-energy-green/20">
+            <p className="text-sm font-semibold text-tigray-dark">Call Launch</p>
+            <p className="text-xs text-tigray-dark/70">November 12, 2025</p>
+          </div>
+          <div className="bg-white/50 rounded-lg p-3 border border-energy-green/20">
+            <p className="text-sm font-semibold text-tigray-dark">Application Deadline</p>
+            <p className="text-xs text-tigray-dark/70">January 7, 2026</p>
+          </div>
+          <div className="bg-white/50 rounded-lg p-3 border border-energy-green/20">
+            <p className="text-sm font-semibold text-tigray-dark">Review & Due Diligence</p>
+            <p className="text-xs text-tigray-dark/70">January – April 2026</p>
+          </div>
+          <div className="bg-white/50 rounded-lg p-3 border border-energy-green/20">
+            <p className="text-sm font-semibold text-tigray-dark">Implementation Period</p>
+            <p className="text-xs text-tigray-dark/70">May 2026 – April 2027</p>
+          </div>
         </div>
       </div>
 

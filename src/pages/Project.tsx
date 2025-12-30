@@ -19,7 +19,7 @@ const Project = () => {
     <div className="min-h-screen flex flex-col">
       <Helmet>
         <title>Dungo Energy - Youth-Led Solar Social Enterprise | ADS Application</title>
-        <meta name="description" content="Dungo Energy Solutions - A youth-led solar social enterprise creating employment and clean energy access in Tigray. Applying for AU EU LAB funding (deadline: January 7, 2026)." />
+        <meta name="description" content="Dungo Energy Solutions - A youth-led solar social enterprise creating employment and clean energy access in Tigray. Applying for YAL Entrepreneurship Grant (deadline: January 7, 2026)." />
       </Helmet>
       
       <Navbar />
