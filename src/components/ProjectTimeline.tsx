@@ -24,7 +24,7 @@ const ProjectTimelineComponent: React.FC<ProjectTimelineProps> = ({
             12-Month Implementation Timeline
           </h2>
           <p className="text-tigray-dark/70">
-            Planned implementation starting January 2026 (if AU EU LAB application is approved)
+            Planned implementation starting May 2026 (if YAL Entrepreneurship grant application is approved)
           </p>
         </div>
       </div>
