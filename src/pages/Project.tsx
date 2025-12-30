@@ -34,14 +34,14 @@ const Project = () => {
         }}></div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="inline-block bg-white text-energy-green px-4 py-2 rounded-full text-sm font-semibold mb-4">
-            Application In Progress • Deadline: Jan 7, 2026
+            YAL Entrepreneurship Grant • Submitted: Dec 30, 2025
           </div>
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">
-            Dungo Energy Solutions: Youth-Led Solar Social Enterprise
+            Dungo Energy: Solar Power & Jobs in Tigray
           </h1>
           <p className="text-xl text-white/95 max-w-3xl">
-            We're applying for AU EU LAB funding to launch a comprehensive 12-month initiative 
-            creating sustainable youth employment through solar energy distribution in Mekelle, Tigray.
+            A youth-led solar social enterprise creating sustainable employment for 20-25 young people 
+            while delivering clean energy solutions to 500+ households in Mekelle, Tigray through the YAL Entrepreneurship Grant.
           </p>
         </div>
       </div>
@@ -61,25 +61,23 @@ const Project = () => {
             <div className="bg-white rounded-xl shadow-lg p-8 md:p-12 border border-gray-100">
               <div className="grid md:grid-cols-2 gap-8 mb-8">
                 <div>
-                  <h3 className="text-xl font-bold text-tigray-dark mb-4">Problem Statement</h3>
+                  <h3 className="text-xl font-bold text-tigray-dark mb-4">Context & Problem Statement</h3>
                   <p className="text-tigray-dark/70 leading-relaxed">
-                    Tigray faces two critical challenges: high youth unemployment (particularly 
-                    among 18-35 year-olds) and limited access to reliable electricity in rural 
-                    and peri-urban areas. Traditional job markets cannot absorb the growing 
-                    youth population, while energy poverty limits economic opportunities and 
-                    quality of life.
+                    Tigray faces acute youth unemployment (post-conflict, limited opportunities), 
+                    energy poverty (unreliable grid access), and psychosocial trauma affecting community recovery. 
+                    Over 11,741 individuals benefited from ADS programs in 2025, with 3,861 IDPs assisted. 
+                    Young people urgently need dignified employment and trauma-informed support within a 
+                    post-conflict context where energy access remains critical for household productivity.
                   </p>
                 </div>
                 <div>
                   <h3 className="text-xl font-bold text-tigray-dark mb-4">Our Solution</h3>
                   <p className="text-tigray-dark/70 leading-relaxed">
-                    We address both challenges simultaneously through a social enterprise 
-                    model: training and employing 20-25 young people in solar energy distribution, 
-                    while bringing clean, affordable electricity to 500+ households. This creates 
-                    a sustainable cycle of employment, energy access, and community development.
-                  </p>
-                  <p className="text-sm text-energy-green font-semibold mt-4">
-                    Currently applying to AU EU LAB with a deadline of January 7, 2026.
+                    Dungo Energy combines youth employment with community energy needs through a sustainable 
+                    solar enterprise model. By training and employing 20-25 young people in solar technology, 
+                    we create dignified livelihoods while extending clean energy access to 500+ households. 
+                    This approach rebuilds economic security and social cohesion—the most effective solution 
+                    addressing both livelihood creation and critical community infrastructure needs.
                   </p>
                 </div>
               </div>
@@ -95,11 +93,112 @@ const Project = () => {
                 </div>
                 <div className="text-center p-4 bg-energy-green/10 rounded-lg">
                   <p className="text-3xl font-bold text-energy-green mb-1">€30K</p>
-                  <p className="text-sm text-tigray-dark/70">Funding Needed</p>
+                  <p className="text-sm text-tigray-dark/70">Funding Requested</p>
                 </div>
                 <div className="text-center p-4 bg-tigray-terracotta/10 rounded-lg">
-                  <p className="text-3xl font-bold text-tigray-terracotta mb-1">12</p>
-                  <p className="text-sm text-tigray-dark/70">Months Planned</p>
+                  <p className="text-3xl font-bold text-tigray-terracotta mb-1">May-Apr</p>
+                  <p className="text-sm text-tigray-dark/70">2026-2027</p>
+                </div>
+              </div>
+
+              <div className="mt-8 pt-8 border-t border-gray-200">
+                <h3 className="text-lg font-bold text-tigray-dark mb-4">Target Beneficiaries</h3>
+                <p className="text-tigray-dark/70 mb-4">
+                  Dungo Energy specifically targets marginalized youth populations:
+                </p>
+                <ul className="grid md:grid-cols-2 gap-4 text-tigray-dark/70">
+                  <li>• IDP youth who lost livelihoods during conflict (40% employment target)</li>
+                  <li>• Out-of-school youth whose education was interrupted by conflict</li>
+                  <li>• War-affected youth experiencing trauma and psychosocial stress</li>
+                  <li>• Rural youth with no local employment opportunities</li>
+                  <li>• Female youth facing gender barriers in technical sectors (30% employment target)</li>
+                  <li>• Youth with disabilities facing employment discrimination</li>
+                </ul>
+              </div>
+            </div>
+          </section>
+
+          {/* Organization Information */}
+          <section>
+            <h2 className="text-3xl font-bold text-tigray-dark mb-8">About Anenitigray Development Services</h2>
+            <div className="grid md:grid-cols-2 gap-8">
+              <div className="bg-white rounded-xl shadow-lg p-8 border border-gray-100">
+                <h3 className="text-xl font-bold text-tigray-dark mb-4">Organization Profile</h3>
+                <ul className="space-y-3 text-tigray-dark/70">
+                  <li><strong className="text-tigray-dark">Name:</strong> Anenitigray Development Services</li>
+                  <li><strong className="text-tigray-dark">Registration Number:</strong> 15/2015</li>
+                  <li><strong className="text-tigray-dark">Country:</strong> Ethiopia, Tigray</li>
+                  <li><strong className="text-tigray-dark">Location:</strong> Hadnet Sub-City, Mekelle</li>
+                  <li><strong className="text-tigray-dark">Type:</strong> Youth-Led NGO</li>
+                  <li><strong className="text-tigray-dark">Established:</strong> June 21, 2020</li>
+                  <li><strong className="text-tigray-dark">Registered:</strong> February 28, 2023</li>
+                </ul>
+              </div>
+
+              <div className="bg-white rounded-xl shadow-lg p-8 border border-gray-100">
+                <h3 className="text-xl font-bold text-tigray-dark mb-4">Youth-Led Leadership</h3>
+                <p className="text-tigray-dark/70 mb-4">
+                  100% of ADS governance and staff are aged 18-35, ensuring authentic youth leadership 
+                  at all decision-making levels.
+                </p>
+                <div className="space-y-2 text-sm text-tigray-dark/70">
+                  <li><strong className="text-tigray-dark">Executive Director:</strong> Kbrom Weldegebreal (Age 28)</li>
+                  <li><strong className="text-tigray-dark">Deputy Director:</strong> Ruta Kahsay</li>
+                  <li><strong className="text-tigray-dark">Technical Lead:</strong> Yoseph Gebremedhin</li>
+                  <li><strong className="text-tigray-dark">Project Manager (Dungo):</strong> Age 28</li>
+                  <li><strong className="text-tigray-dark">Operations Coordinator:</strong> Age 24</li>
+                  <li><strong className="text-tigray-dark">Community Engagement Officer:</strong> Age 26</li>
+                </div>
+              </div>
+
+              <div className="bg-gradient-to-br from-energy-green/10 to-youth-blue/10 rounded-xl p-8 md:col-span-2">
+                <h3 className="text-xl font-bold text-tigray-dark mb-4">Vision, Mission & Values</h3>
+                <div className="grid md:grid-cols-3 gap-6">
+                  <div>
+                    <h4 className="font-bold text-tigray-dark mb-2">Vision</h4>
+                    <p className="text-tigray-dark/70 text-sm">
+                      A resilient and empowered society with equitable access to opportunities and resources.
+                    </p>
+                  </div>
+                  <div>
+                    <h4 className="font-bold text-tigray-dark mb-2">Mission</h4>
+                    <p className="text-tigray-dark/70 text-sm">
+                      Advance inclusive development and recovery programs that strengthen community resilience 
+                      and deliver sustainable impact.
+                    </p>
+                  </div>
+                  <div>
+                    <h4 className="font-bold text-tigray-dark mb-2">Core Values</h4>
+                    <p className="text-tigray-dark/70 text-sm">
+                      Knowledge-sharing, Innovation, Resilience, Inclusivity, Sustainability, Partnership
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-white rounded-xl shadow-lg p-8 border border-gray-100 md:col-span-2">
+                <h3 className="text-xl font-bold text-tigray-dark mb-4">2024-2025 Program Impact</h3>
+                <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
+                  <div className="text-center p-4 bg-solar-yellow/10 rounded-lg">
+                    <p className="text-2xl font-bold text-solar-dark mb-1">11,741</p>
+                    <p className="text-xs text-tigray-dark/70">Individuals Benefited</p>
+                  </div>
+                  <div className="text-center p-4 bg-youth-blue/10 rounded-lg">
+                    <p className="text-2xl font-bold text-youth-blue mb-1">3,861</p>
+                    <p className="text-xs text-tigray-dark/70">IDPs Assisted</p>
+                  </div>
+                  <div className="text-center p-4 bg-energy-green/10 rounded-lg">
+                    <p className="text-2xl font-bold text-energy-green mb-1">4,196</p>
+                    <p className="text-xs text-tigray-dark/70">Children Reached</p>
+                  </div>
+                  <div className="text-center p-4 bg-tigray-terracotta/10 rounded-lg">
+                    <p className="text-2xl font-bold text-tigray-terracotta mb-1">3,684</p>
+                    <p className="text-xs text-tigray-dark/70">Women Supported</p>
+                  </div>
+                  <div className="text-center p-4 bg-purple-100 rounded-lg">
+                    <p className="text-2xl font-bold text-purple-600 mb-1">20+</p>
+                    <p className="text-xs text-tigray-dark/70">AI Literacy Trained</p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -247,28 +346,149 @@ const Project = () => {
             <h2 className="text-3xl font-bold text-tigray-dark mb-8">Sustainability Strategy</h2>
             <div className="bg-white rounded-xl shadow-lg p-8 md:p-12 border border-gray-100">
               <p className="text-lg text-tigray-dark/80 mb-6 leading-relaxed">
-                This project is designed for long-term sustainability beyond the initial 12-month 
-                funding period. Dungo Energy Solutions will operate as a revenue-generating social 
-                enterprise, ensuring continued operations and impact after the grant period.
+                Dungo Energy Solutions is designed for long-term sustainability beyond the initial 12-month 
+                funding period. The enterprise will operate as a revenue-generating social enterprise, with 
+                100% profit reinvested back into ADS programs to expand impact.
               </p>
-              <div className="grid md:grid-cols-2 gap-6">
+              <div className="grid md:grid-cols-2 gap-6 mb-8">
                 <div className="bg-solar-yellow/10 rounded-lg p-6">
-                  <h4 className="font-bold text-tigray-dark mb-3">Revenue Streams</h4>
+                  <h4 className="font-bold text-tigray-dark mb-3">Revenue Generation Plan</h4>
                   <ul className="space-y-2 text-sm text-tigray-dark/70">
-                    <li>• Solar product sales</li>
-                    <li>• Installation services</li>
-                    <li>• Maintenance contracts</li>
-                    <li>• Training programs</li>
+                    <li>• Direct sales revenue from 500+ solar systems</li>
+                    <li>• Ongoing installation and maintenance services</li>
+                    <li>• Customer support contracts</li>
+                    <li>• Business certifications for new youth cohorts</li>
                   </ul>
                 </div>
                 <div className="bg-energy-green/10 rounded-lg p-6">
-                  <h4 className="font-bold text-tigray-dark mb-3">Reinvestment Model</h4>
+                  <h4 className="font-bold text-tigray-dark mb-3">Sustainability Metrics</h4>
                   <ul className="space-y-2 text-sm text-tigray-dark/70">
-                    <li>• Profits fund ADS programs</li>
-                    <li>• Continuous youth training</li>
-                    <li>• Business expansion</li>
-                    <li>• Community development</li>
+                    <li>• Month 8-10: Expected break-even point</li>
+                    <li>• Month 12: Target 80% cost recovery</li>
+                    <li>• Year 2: Full self-sustainability through sales revenue</li>
+                    <li>• Continuous youth employment & training</li>
                   </ul>
+                </div>
+              </div>
+
+              <div className="bg-blue-50 rounded-lg p-6 border border-blue-200">
+                <h4 className="font-bold text-tigray-dark mb-2">Reinvestment Commitment</h4>
+                <p className="text-tigray-dark/70">
+                  100% of Dungo Energy profits will be reinvested into ADS programs, including continuous 
+                  youth training, business expansion, and community development initiatives. This ensures 
+                  sustained impact beyond grant funding and strengthens the organization's financial independence.
+                </p>
+              </div>
+            </div>
+          </section>
+
+          {/* Risk Management */}
+          <section>
+            <h2 className="text-3xl font-bold text-tigray-dark mb-8">Risk Management Framework</h2>
+            <div className="space-y-6">
+              <div className="bg-white rounded-xl shadow-lg overflow-hidden border border-gray-100">
+                <div className="bg-red-50 border-l-4 border-red-400 p-6">
+                  <h3 className="text-lg font-bold text-tigray-dark mb-2">Risk 1: Security & Political Instability</h3>
+                  <p className="text-sm text-tigray-dark/70 mb-3">
+                    <strong>Likelihood:</strong> Medium | <strong>Impact:</strong> High
+                  </p>
+                  <p className="text-tigray-dark/70 mb-3">
+                    Conflict relapse or security instability could disrupt project implementation, 
+                    delay equipment delivery, and pose staff safety risks.
+                  </p>
+                  <div className="bg-white rounded p-4">
+                    <h4 className="font-semibold text-tigray-dark mb-2">Mitigation Measures:</h4>
+                    <ul className="space-y-1 text-sm text-tigray-dark/70">
+                      <li>• Maintain active security liaison with Tigray Interim Regional Administration (TIRA)</li>
+                      <li>• Develop flexible implementation schedule with contingency timelines</li>
+                      <li>• Establish community safety protocols and insurance for youth staff</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-white rounded-xl shadow-lg overflow-hidden border border-gray-100">
+                <div className="bg-orange-50 border-l-4 border-orange-400 p-6">
+                  <h3 className="text-lg font-bold text-tigray-dark mb-2">Risk 2: Economic & Supply Chain</h3>
+                  <p className="text-sm text-tigray-dark/70 mb-3">
+                    <strong>Likelihood:</strong> Medium | <strong>Impact:</strong> High
+                  </p>
+                  <p className="text-tigray-dark/70 mb-3">
+                    Inflation, foreign exchange volatility, or supply chain disruptions could limit 
+                    equipment availability and increase costs beyond budget.
+                  </p>
+                  <div className="bg-white rounded p-4">
+                    <h4 className="font-semibold text-tigray-dark mb-2">Mitigation Measures:</h4>
+                    <ul className="space-y-1 text-sm text-tigray-dark/70">
+                      <li>• Establish supplier relationships with multiple vendors</li>
+                      <li>• Lock in equipment prices early with advance contracts</li>
+                      <li>• Partner with private sector suppliers (Skylights Solar, DASS Venture) for cost negotiations</li>
+                      <li>• Source locally where possible to reduce foreign exchange exposure</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-white rounded-xl shadow-lg overflow-hidden border border-gray-100">
+                <div className="bg-yellow-50 border-l-4 border-yellow-400 p-6">
+                  <h3 className="text-lg font-bold text-tigray-dark mb-2">Risk 3: Community Adoption</h3>
+                  <p className="text-sm text-tigray-dark/70 mb-3">
+                    <strong>Likelihood:</strong> Medium | <strong>Impact:</strong> Medium
+                  </p>
+                  <p className="text-tigray-dark/70 mb-3">
+                    Community resistance to solar technology, youth-led implementation, or unequal 
+                    benefit distribution could create adoption barriers.
+                  </p>
+                  <div className="bg-white rounded p-4">
+                    <h4 className="font-semibold text-tigray-dark mb-2">Mitigation Measures:</h4>
+                    <ul className="space-y-1 text-sm text-tigray-dark/70">
+                      <li>• Conduct pre-implementation community engagement and awareness campaigns</li>
+                      <li>• Partner with trusted local organizations (TDA, ACSOT) to build credibility</li>
+                      <li>• Provide customer education and training on solar system operation</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-white rounded-xl shadow-lg overflow-hidden border border-gray-100">
+                <div className="bg-blue-50 border-l-4 border-blue-400 p-6">
+                  <h3 className="text-lg font-bold text-tigray-dark mb-2">Risk 4: Technical Capacity</h3>
+                  <p className="text-sm text-tigray-dark/70 mb-3">
+                    <strong>Likelihood:</strong> Low | <strong>Impact:</strong> High
+                  </p>
+                  <p className="text-tigray-dark/70 mb-3">
+                    Youth lack of technical expertise, equipment failures, or maintenance gaps 
+                    could threaten service quality and customer satisfaction.
+                  </p>
+                  <div className="bg-white rounded p-4">
+                    <h4 className="font-semibold text-tigray-dark mb-2">Mitigation Measures:</h4>
+                    <ul className="space-y-1 text-sm text-tigray-dark/70">
+                      <li>• Partner with experienced solar companies for intensive 3-month technical training</li>
+                      <li>• Hire 1-2 experienced supervisors (age 35+) to oversee youth technicians</li>
+                      <li>• Establish quality assurance protocols and regular inspection systems</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-white rounded-xl shadow-lg overflow-hidden border border-gray-100">
+                <div className="bg-purple-50 border-l-4 border-purple-400 p-6">
+                  <h3 className="text-lg font-bold text-tigray-dark mb-2">Risk 5: Regulatory & Legal</h3>
+                  <p className="text-sm text-tigray-dark/70 mb-3">
+                    <strong>Likelihood:</strong> Low | <strong>Impact:</strong> Medium
+                  </p>
+                  <p className="text-tigray-dark/70 mb-3">
+                    Unclear or changing energy sector regulations, licensing requirements, or 
+                    tax complications could delay operations.
+                  </p>
+                  <div className="bg-white rounded p-4">
+                    <h4 className="font-semibold text-tigray-dark mb-2">Mitigation Measures:</h4>
+                    <ul className="space-y-1 text-sm text-tigray-dark/70">
+                      <li>• Obtain legal advice on energy licensing and business registration requirements</li>
+                      <li>• Engage with Bureau of Labor and Social Affairs (BoLSA) and TIRA early for guidance</li>
+                      <li>• Maintain transparent records and tax compliance</li>
+                    </ul>
+                  </div>
                 </div>
               </div>
             </div>
